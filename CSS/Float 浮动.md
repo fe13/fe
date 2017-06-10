@@ -47,8 +47,20 @@
 .link.register { float: right; }
 ```
 
+### `.clearfix`
+将以下 `.clearfix` 类应用到需要清除浮动的父容器。
+```css
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+```
+
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats
 * https://www.w3.org/TR/CSS21/visuren.html#block-formatting
 * https://stackoverflow.com/questions/4910075/why-overflow-hidden-clears-a-float
 * https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
+* https://stackoverflow.com/questions/211383/what-methods-of-clearfix-can-i-use
+* https://css-tricks.com/snippets/css/clear-fix/
