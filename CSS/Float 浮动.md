@@ -138,14 +138,14 @@ h1, h2, article {
 ### `overflow: hidden`
 ```html
 <div class="links">
-  <a href="#" class="link forget">忘了密码？</a>
-  <a href="#" class="link register">注册新账号</a>
+  <a href="#" class="forget">忘了密码？</a>
+  <a href="#" class="register">注册新账号</a>
 </div>
 ```
 ```css
 .links { overflow: hidden; }
-.link.forget { float: left; }
-.link.register { float: right; }
+.links .forget { float: left; }
+.links .register { float: right; }
 ```
 
 ### `.clearfix`
