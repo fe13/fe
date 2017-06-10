@@ -4,7 +4,7 @@
 一个 BFC 是网页中某个独立的 CSS 渲染区域。  
 类似集团下一个独立运营的子公司；类似 JavaScript 的函数，拥有自己的作用域。
 
-## BFC 产生情况
+## BFC 何时产生 ？
 * 根元素或包含它的其他元素
 * 浮动元素
 * `position: absolute` 和 `position: fixed` 的元素
