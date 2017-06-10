@@ -15,6 +15,11 @@
 * `display: flow-root` 的元素
 * `column-span: all` 的元素
 
+## BFC 的特性
+### 令外边距不坍塌
+### 抑制浮动
+### 包含浮动
+
 ## 参考链接
 * http://lucybain.com/blog/2015/css-block-formatting-context/
 * http://tech.vg.no/2013/09/26/css-block-formatting-context/
