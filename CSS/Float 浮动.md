@@ -31,6 +31,7 @@
 ### 两列布局
 ```html
 <h1>苏轼</h1>
+
 <section class="left">
   <article>
     <h2>念奴娇·赤壁怀古</h2>
@@ -48,6 +49,7 @@
     </p>
   </article>
 </section>
+
 <section class="right">
   <article>
     <h2>水调歌头·明月几时有</h2>
@@ -87,6 +89,49 @@ h1, h2 {
 **运行结果** https://codepen.io/twhy/pen/eRZmzw
 
 ### 三列布局
+```html
+<h1>杜甫</h1>
+
+<section class="left">
+  <article>
+    <h2>春望</h2>
+    <p>国破山河在，城春草木深。</p>
+    <p>感时花溅泪，恨别鸟惊心。</p>
+    <p>烽火连三月，家书抵万金。</p>
+    <p>白头搔更短，浑欲不胜簪。</p>
+  </article>
+</section>
+
+<section class="middle">
+  <article>
+    <h2>泊秦淮</h2>
+    <p>烟笼寒水月笼沙，夜泊秦淮近酒家。</p>
+    <p>商女不知亡国恨，隔江犹唱后庭花。</p>
+  </article>
+</section>
+
+<section class="right">
+  <article>
+    <h2>望岳</h2>
+    <p>岱宗夫如何？齐鲁青未了。</p>
+    <p>造化钟神秀，阴阳割昏晓。</p>
+    <p>荡胸生层云，决眦入归鸟。</p>
+    <p>会当凌绝顶，一览众山小。</p>
+  </article>
+</section>
+```
+```css
+h1, h2, article {
+  text-align: center;
+}
+
+.left, .middle, .right {
+  width: 31%;
+  float: left;
+  margin: 0 1%;
+}
+```
+**运行结果** https://codepen.io/twhy/pen/YQqPEx
 
 ## 清除浮动
 浮动会造成父容器高度坍塌，因此要清理浮动。
