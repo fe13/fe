@@ -33,9 +33,19 @@
 ### 三列布局
 
 ## 清除浮动
-
-
-
+浮动会造成父容器高度坍塌，因此要清理浮动。
+### `overflow: hidden`
+```html
+<div class="links">
+  <a href="#" class="link forget">忘了密码？</a>
+  <a href="#" class="link register">注册新账号</a>
+</div>
+```
+```css
+.links { overflow: hidden; }
+.link.forget { float: left; }
+.link.register { float: right; }
+```
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats
