@@ -2,8 +2,7 @@
 
 ## 什么是 BFC ?
 一个 BFC 是网页中某个独立的 CSS 渲染区域。  
-类似集团下一个独立运营的子公司。  
-类似 JavaScript 的函数，拥有自己的作用域。
+类似集团下一个独立运营的子公司；类似 JavaScript 的函数，拥有自己的作用域。
 
 ## 参考链接
 * http://lucybain.com/blog/2015/css-block-formatting-context/
