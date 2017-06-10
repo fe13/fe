@@ -1,4 +1,16 @@
 # Position 定位
 
+## 静态定位
+`position: static;`
+
+## 相对定位
+`position: relative;`
+
+## 绝对定位
+`position: absolute;`
+
+## 固定定位
+`position: fixed;`
+
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
