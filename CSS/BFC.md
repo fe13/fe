@@ -9,7 +9,7 @@
 * 浮动元素
 * `position: absolute` 和 `position: fixed` 的元素
 * `display: inline-block` 的元素
-* 块状元素且 `overflow` 被设置成 `visible` 外的值
+* `overflow` 被设置成 `visible` 外的值的块状元素
 * `<td>` 和 `display: table-cell` 的元素
 * `<caption>` 和 `display: table-caption` 的元素
 * `display: flow-root` 的元素
