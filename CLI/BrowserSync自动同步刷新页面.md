@@ -1,6 +1,6 @@
 # BrowserSync 自动同步刷新页面.md
 
-[BrowserSync](https://www.browsersync.io/)
+[BrowserSync](https://www.browsersync.io/) 可以在多个设备的浏览器上实现同步刷新页面，可以显著地提高页面开发效率。
 
 ## 前置条件
 * 命令行工具
@@ -12,5 +12,29 @@
 ```bash
 $ npm install -g browser-sync
 ```
+
+## 启动 BrowserSync
+首先通过 `cd` 命令进入项目文件夹
+```bash
+$ cd Code/Github/var
+```
+执行命令 `browser-sync start --server --files .`
+```bash
+$ browser-sync start --server --files .
+[BS] Access URLs:
+ -------------------------------------
+       Local: http://localhost:3000
+    External: http://192.168.1.20:3000
+ -------------------------------------
+          UI: http://localhost:3001
+ UI External: http://192.168.1.20:3001
+ -------------------------------------
+[BS] Serving files from: ./
+[BS] Watching files...
+```
+运行命令后，BrowserSync 会自动打开一个浏览器页面访问 http://localhost:3000 。
+
+
+
 
 
