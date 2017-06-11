@@ -32,8 +32,11 @@ $ browser-sync start --server --files .
 [BS] Serving files from: ./
 [BS] Watching files...
 ```
-运行命令后，BrowserSync 会自动打开一个浏览器页面访问 http://localhost:3000 。
+运行命令后，BrowserSync 会自动打开一个浏览器页面访问 http://localhost:3000 。  
+移动设备（在同一网络下，如家里 WIFI）, 可以访问 `External: http://192.......:3000` 处提供的具体地址访问页面。
 
+## 关闭 BrowserSync
+使用完毕后，在命令行界面按 CTRL + C 关闭 BrowserSync。
 
 
 
