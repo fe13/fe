@@ -14,7 +14,10 @@ $ npm install -g browser-sync
 ```
 
 ## 启动 BrowserSync
-首先通过 `cd` 命令进入项目文件夹
+
+**注意** 此处假设你开发的是静态网页。
+
+首先执行 `cd` 命令进入项目文件夹，如 `Code/Github/var`
 ```bash
 $ cd Code/Github/var
 ```
