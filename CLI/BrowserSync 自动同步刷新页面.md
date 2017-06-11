@@ -1,4 +1,4 @@
-# BrowserSync 自动同步刷新页面.md
+# BrowserSync 自动同步刷新页面
 
 [BrowserSync](https://www.browsersync.io/) 可以在多个设备的浏览器上实现同步刷新页面，可以显著地提高页面开发效率。
 
