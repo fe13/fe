@@ -19,7 +19,7 @@
 </p>
 ```
 ```css
-.poem:first-letter {
+.poem::first-letter {
   float: left;
   font-size: 54px;
   margin-right: 12px;
