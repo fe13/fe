@@ -1,7 +1,9 @@
 # Position 定位
 
 ## 正常文档流 Normal Flow
-浏览器默认的文档布局方式。
+Normal Flow 即浏览器默认的文档布局方式。
+
+定位就是通过设置 `position` 属性的值来覆盖默认的布局方式。
 
 ## 静态定位
 `position: static;`
