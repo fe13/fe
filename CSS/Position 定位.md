@@ -26,8 +26,23 @@ Normal Flow 即浏览器默认的文档布局方式。
 
 假如你想设定某个绝对定位元素的定位上下文，则需要在这个元素的某个祖先元素上设置 `position: relative`。
 
+### z-index
+```css
+.feedback {
+  z-index: 1; 
+}
+```
+
 ## 固定定位
-`position: fixed;`
+`position: fixed` 相对浏览器窗口进行定位。
+```css
+.feedback {
+  right: 30px;
+  bottom: 30px;
+  position: fixed;
+}
+```
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
+* https://stackoverflow.com/questions/14391208/how-does-z-index-really-work
