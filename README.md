@@ -13,4 +13,5 @@ Octotree 会在你浏览 Github 的时候生成文件树，方便浏览文件。
 https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes/Backgrounds
 ```
 
-### 方法二：菜单切换
+### 方法二：语言菜单
+通过页面右上方 `LANGUAGES` 菜单进行切换
