@@ -46,7 +46,7 @@ Normal Flow 即浏览器默认的文档布局方式。
 ## 粘性定位
 `position: sticky`
 
-**问题** `position` 属性有哪些值，它们有什么不同？
+**问题** `position` 属性有哪些值，它们的表现有什么不同？
 
 ## 参考链接
 * https://developer.mozilla.org/zh-CN/docs/Web/CSS/position
