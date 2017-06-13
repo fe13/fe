@@ -1,5 +1,8 @@
 # Position 定位
 
+## 正常文档流 Normal Flow
+浏览器默认的文档布局方式。
+
 ## 静态定位
 `position: static;`
 
