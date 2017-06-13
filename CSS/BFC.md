@@ -1,7 +1,7 @@
 # BFC
 
 ## 什么是 BFC ?
-BFC 全称是 Block Formatting Context。
+BFC 全称 Block Formatting Context。
 
 一个 BFC 是网页中某个独立的 CSS 渲染区域。    
 
