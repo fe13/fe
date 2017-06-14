@@ -10,6 +10,15 @@
 ## transform
 
 ## animation
+`CSS3` [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
+* [animation-name](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
+* [animation-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration)
+* [animation-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)
+* [animation-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay)
+* [animation-iteration-count](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count)
+* [animation-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction)
+* [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
+* [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css/)
