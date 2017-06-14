@@ -7,10 +7,14 @@
 * [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 * [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay)
 
+## animation
+
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css/)
 
 ## 参考链接
 * https://css-tricks.com/almanac/properties/a/animation/
 * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+
