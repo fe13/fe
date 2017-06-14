@@ -19,7 +19,7 @@ BFC 全称 Block Formatting Context。
 * `column-span: all` 的元素
 
 ## BFC 的特性
-### 令外边距不坍塌
+### 阻止外边距坍塌
 ### 抑制浮动
 ### 包含浮动
 
