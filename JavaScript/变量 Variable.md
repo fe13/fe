@@ -6,15 +6,16 @@
 
 ## 更新变量
 
-## var
-
 ## let
 `ES6`
 
 ## const
 `ES6`
 
+## var
+
 ## 变量类型
+
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables
