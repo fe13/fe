@@ -149,7 +149,7 @@ h1, h2, article {
 ```
 
 ### `.clearfix`
-将以下 `.clearfix` 类应用到需要清除浮动的父容器。
+将以下 `.clearfix` 类应用到需要清除浮动的父元素。
 ```css
 .clearfix::after {
   content: '';
