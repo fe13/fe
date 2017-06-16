@@ -4,10 +4,10 @@
 
 ## transition
 [transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡动画，是以下四个属性的缩写。
-* [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property) 用于设置动画属性。
-* [transition-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration) 用于设置动画时长。
-* [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function) 用于设置动画时间函数。
-* [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay) 属性用设置动画延时。
+* [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property) 属性用于设置动画属性。
+* [transition-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration) 属性用于设置动画时长。
+* [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function) 属性用于设置动画时间函数。
+* [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay) 属性用于设置动画延时。
 
 ```css
 .😎 {
