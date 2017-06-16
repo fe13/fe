@@ -160,5 +160,6 @@ animation-play-state: paused, running, running;
 * https://css-tricks.com/almanac/properties/a/animation
 * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
 
