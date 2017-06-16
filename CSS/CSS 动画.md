@@ -95,6 +95,8 @@ animation-duration: 1.68s, 12.34s;
 animation-duration: 8s, 23s, 370ms;
 ```
 
+[animation-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function) 属性用于指定动画时间函数。
+
 [animation-iteration-count](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count) 属性用于指定动画播放次数。
 * `infinite` 无限循环播放
 * `<数字>` 动画播放次数
