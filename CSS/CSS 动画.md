@@ -22,7 +22,7 @@
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
 * `perspective()` 函数用于指定视觉距离。🌰 距离屏幕 500px `perspective(500px)`
-* `translate()` 函数用于指定**水平**和**垂直**位移。 🌰 `translate(20px, 30%)` `translate(-50%, -50%)`
+* `translate()` 函数用于指定**水平**和**垂直**位移。 🌰 `translate(-50%, -50%)`实现[垂直居中](https://codepen.io/twhy/pen/WOoqBr)
 * `translateX()` 函数用于指定**水平**位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定**垂直**位移。🌰 `translateY(20%)`
 * `translateZ()` 函数用于指定**垂直屏幕方向**位移 🌰 `transform: perspective(500px) translateZ(-300px)`
