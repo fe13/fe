@@ -54,7 +54,7 @@
 ## backface-visibility
 [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
 
-## @keyframes
+## animation
 [@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) 用于自定义动画帧。
 
 ```css
@@ -69,7 +69,6 @@
 }
 ```
 
-## animation
 [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
 * [animation-name](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
 * [animation-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration)
