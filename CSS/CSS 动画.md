@@ -9,6 +9,8 @@
 * [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 * [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay)
 
+**注意** 只有一部分 CSS 属性是可以 “动” 的，详见 MDN [CSS Animated Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)。
+
 ## transform
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
