@@ -2,6 +2,13 @@
 
 `CSS3` CSS 动画可能是 CSS 中最有趣的部分。
 
+## transition
+[transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡效果，是以下四个属性的缩写。
+* [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property)
+* [transition-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration)
+* [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
+* [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay)
+
 ## transform
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
@@ -31,13 +38,6 @@
 * `preserve-3d` 3D 空间
 
 [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
-
-## transition
-[transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡效果，是以下四个属性的缩写。
-* [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property)
-* [transition-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration)
-* [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
-* [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay)
 
 ## perspective
 [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
