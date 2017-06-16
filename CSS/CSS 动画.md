@@ -1,9 +1,9 @@
 # CSS 动画
 
-CSS 动画可能是 CSS 中最有趣的部分。
+`CSS3` CSS 动画可能是 CSS 中最有趣的部分。
 
 ## transform
-`CSS3` [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
+[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
 * `translate()`
 * `translateX()`
@@ -26,8 +26,12 @@ CSS 动画可能是 CSS 中最有趣的部分。
 * `matrix()`
 * `matrix3d()`
 
+[transform-style](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style)
+
+[transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+
 ## transition
-`CSS3` [transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡效果，是以下四个属性的缩写。
+[transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡效果，是以下四个属性的缩写。
 * [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property)
 * [transition-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration)
 * [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
@@ -36,7 +40,7 @@ CSS 动画可能是 CSS 中最有趣的部分。
 ## @keyframe
 
 ## animation
-`CSS3` [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
+[animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
 * [animation-name](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
 * [animation-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration)
 * [animation-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function)
