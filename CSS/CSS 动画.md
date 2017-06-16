@@ -18,8 +18,6 @@
 
 **注意** 只有一部分 CSS 属性是可以 “动” 的，详见 MDN [CSS Animated Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)。
 
-
-
 ## transform
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
@@ -57,7 +55,19 @@
 [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
 
 ## @keyframes
-[@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
+[@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) 用于自定义动画帧。
+
+```css
+@keyframes tooltip-appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+```
 
 ## animation
 [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
