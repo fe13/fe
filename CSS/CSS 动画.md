@@ -58,6 +58,8 @@ transition: left 3s, color 2s, opacity: 1s;
 
 ## backface-visibility
 [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
+* `visible` 元素背面可见
+* `hidden` 元素背面不可见
 
 ## animation
 [@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) 用于自定义动画帧。
