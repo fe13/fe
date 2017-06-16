@@ -47,6 +47,7 @@ CSS 动画可能是 CSS 中最有趣的部分。
 * [Animate.css](https://daneden.github.io/animate.css/)
 
 ## 参考链接
+* https://davidwalsh.name/css-flip
 * https://css-tricks.com/almanac/properties/a/animation/
 * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
