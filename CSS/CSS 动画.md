@@ -10,10 +10,14 @@
 * [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay) 属性用于设置动画延时。
 
 ```css
-.😎 {
-  /* (所有)属性 | 时长 | 函数 | 延时 */
-  transition: all 0.5s ease-out .2s;
-}
+/* (所有)属性 | 时长 | 函数 | 延时 */
+transition: all 0.5s ease-out .2s;
+
+/* 单个属性 */
+transition: width 2s ease-in-out;
+
+/* 多个属性 */
+transition: left 3s, color 2s, opacity: 1s;
 ```
 
 **注意** 只有一部分 CSS 属性是可以 “动” 的，详见 MDN [CSS Animated Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)。
