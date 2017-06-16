@@ -37,8 +37,8 @@ transition: left 3s, color 2s, opacity: 1s;
 * `translate()` 函数用于指定 **X 轴** 和 **Y 轴** 位移。 🌰 `translate(-50%, -50%)`实现[垂直居中](https://codepen.io/twhy/pen/WOoqBr)
 * `translateX()` 函数用于指定 **X 轴** 位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
-* `translateZ()` 函数用于指定 **Z 轴** 位移 🌰 `translateZ(-300px)`
-* `translate3d()`
+* `translateZ()` 函数用于指定 **Z 轴** 位移。 🌰 `translateZ(-300px)`
+* `translate3d()` 函数用于同时指定 **X 轴** **Y 轴** **Z 轴** 的位移。 🌰 `translate(50px, 20%, 300px)`
 * `skew()`
 * `skewX()`
 * `skewY()`
