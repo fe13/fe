@@ -37,6 +37,9 @@
 * [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
 * [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay)
 
+## perspective
+[perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
+
 ## @keyframe
 
 ## animation
