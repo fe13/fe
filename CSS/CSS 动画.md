@@ -21,7 +21,7 @@
 ## transform
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
-* `perspective()` 函数用于指定 
+* `perspective()` 函数用于指定视觉距离。🌰 距离屏幕 500px `perspective(500px)`
 * `translate()` 函数用于指定**水平**和**垂直**位移。 🌰 `translate(20px, 30%)` `translate(-50%, -50%)`
 * `translateX()` 函数用于指定**水平**位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定**垂直**位移。🌰 `translateY(20%)`
