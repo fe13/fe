@@ -80,6 +80,12 @@
 * [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 * [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 
+[animation-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction) 属性用于指定动画播放的方向。
+* `normal` `默认值` 从前往后播放
+* `reverse` 从后往前播放，动画函数
+* `alternate`
+* `alternate-reverse`
+
 [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state) 属性用于指定动画的状态是运行或暂停，可通过 JavaScript 设置该属性的值以控制动画的播放状态。
 * `paused` 暂停动画
 * `running` 运行动画
