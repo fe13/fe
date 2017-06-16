@@ -38,11 +38,11 @@ transition: left 3s, color 2s, opacity: 1s;
 * `translateX()` 函数用于指定 **X 轴** 位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
 * `translateZ()` 函数用于指定 **Z 轴** 位移。 🌰 `translateZ(-300px)`
-* `translate3d()` 函数用于同时指定 **X 轴** **Y 轴** **Z 轴** 的位移。 🌰 `translate(50px, 20%, 300px)`
+* `translate3d()` 函数用于同时指定 **X 轴** **Y 轴** **Z 轴** 的位移。 🌰 `translate3d(50px, 20%, 300px)`
 * `skew()`
 * `skewX()`
 * `skewY()`
-* `scale()`
+* `scale()` 函数用于指定缩放 
 * `scaleX()`
 * `scaleY()`
 * `scaleZ()`
@@ -56,6 +56,10 @@ transition: left 3s, color 2s, opacity: 1s;
 * `matrix3d()`
 
 ```css
+transform: scale(1.2);
+
+transform: translate3d(50px, 20%, 300px)
+
 transform: perspective(500px) translateZ(-300px) rotateX(45deg);
 ```
 
@@ -67,6 +71,8 @@ transform: perspective(500px) translateZ(-300px) rotateX(45deg);
 
 ## perspective
 [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
+
+[perspective-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin)
 
 ## backface-visibility
 [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) 属性用于设置元素背面是否可见。
@@ -144,14 +150,14 @@ animation-play-state: paused, running, running;
 ```
 
 ## 开源项目
-* [Animate.css](https://daneden.github.io/animate.css/)
+* [Animate.css](https://daneden.github.io/animate.css)
 
 ## 参考链接
 * https://davidwalsh.name/css-flip
 * https://davidwalsh.name/css-cube
-* https://desandro.github.io/3dtransforms/
-* https://css-tricks.com/creating-a-3d-cube-image-gallery/
-* https://css-tricks.com/almanac/properties/a/animation/
+* https://desandro.github.io/3dtransforms
+* https://css-tricks.com/creating-a-3d-cube-image-gallery
+* https://css-tricks.com/almanac/properties/a/animation
 * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
