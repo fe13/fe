@@ -3,6 +3,25 @@
 CSS 动画可能是 CSS 中最有趣的部分。
 
 ## transform
+`CSS3` [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
+* `none`
+* `translate()`
+* `translateX()`
+* `translateY()`
+* `translateZ()`
+* `translate3d()`
+* `scale()`
+* `scaleX()`
+* `scaleY()`
+* `scaleZ()`
+* `scale3d()`
+* `rotate()`
+* `rotateX()`
+* `rotateY()`
+* `rotateZ()`
+* `rotate3d()`
+* `matrix()`
+* `matrix3d()`
 
 ## transition
 `CSS3` [transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡效果，是以下四个属性的缩写。
