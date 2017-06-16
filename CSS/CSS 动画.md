@@ -11,7 +11,7 @@
 
 ```css
 /* (所有)属性 | 时长 | 函数 | 延时 */
-transition: all 0.5s ease-out .2s;
+transition: all 0.5s ease-out 0.2s;
 
 /* 单个属性 */
 transition: width 2s ease-in-out;
