@@ -37,7 +37,7 @@ transition: left 3s, color 2s, opacity: 1s;
 * `translate()` 函数用于指定 **X 轴** 和 **Y 轴** 位移。 🌰 `translate(-50%, -50%)`实现[垂直居中](https://codepen.io/twhy/pen/WOoqBr)
 * `translateX()` 函数用于指定 **X 轴** 位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
-* `translateZ()` 函数用于指定 **Z 轴** 位移 🌰 `transform: perspective(500px) translateZ(-300px)`
+* `translateZ()` 函数用于指定 **Z 轴** 位移 🌰 `translateZ(-300px)`
 * `translate3d()`
 * `skew()`
 * `skewX()`
@@ -47,13 +47,17 @@ transition: left 3s, color 2s, opacity: 1s;
 * `scaleY()`
 * `scaleZ()`
 * `scale3d()`
-* `rotate()` 函数用于设置元素沿 **Z 轴** 旋转的角度。因此 `rotate(90deg)` 等同于 `rotateZ(90deg)`。
-* `rotateX()`
-* `rotateY()`
-* `rotateZ()`
+* `rotate()` 函数用于指定元素沿 **Z 轴** 旋转的角度。因此 `rotate(90deg)` 等同于 `rotateZ(90deg)`。
+* `rotateX()` 函数用于指定元素沿 **X 轴** 旋转的角度。🌰 `rotateX(45deg)`
+* `rotateY()` 函数用于指定元素沿 **Y 轴** 旋转的角度。🌰 `rotateY(180deg)`
+* `rotateZ()` 函数用于指定元素沿 **Z 轴** 旋转的角度。🌰 `rotateZ(90deg)`
 * `rotate3d()`
 * `matrix()`
 * `matrix3d()`
+
+```css
+transform: perspective(500px) translateZ(-300px) rotateX(45deg);
+```
 
 [transform-style](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style) 用于设置元素的子元素(s)是处于 3D 空间还是平面空间。
 * `flat` 平面空间
