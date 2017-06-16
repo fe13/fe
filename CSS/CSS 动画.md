@@ -25,7 +25,7 @@ transition: all 0.5s ease-out 0.2s;
 transition: width 2s ease-in-out;
 
 /* 多个属性 */
-transition: left 3s, color 2s, opacity: 1s;
+transition: left 3s, color 2s, opacity 1s;
 ```
 
 **注意** 只有一部分 CSS 属性是可以 “动” 的，详见 MDN [CSS Animated Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)。
