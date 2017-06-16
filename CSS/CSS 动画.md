@@ -79,6 +79,16 @@
 * [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 * [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 
+[animation-iteration-count](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count) 属性用于指定动画播放的次数。
+* `infinite` 无限循环播放
+* <数字>
+```css
+animation-iteration-count: infinite;
+animation-iteration-count: 3;
+animation-iteration-count: 2.3;
+animation-iteration-count: 2, 0, infinite;
+```
+
 [animation-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction) 属性用于指定动画播放的方向。
 * `normal` `默认值` 从前往后播放
 * `reverse` 从后往前播放，动画函数
