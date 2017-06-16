@@ -57,7 +57,7 @@ transition: left 3s, color 2s, opacity: 1s;
 [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
 
 ## backface-visibility
-[backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
+[backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) 属性用于设置元素背面是否可见。
 * `visible` 元素背面可见
 * `hidden` 元素背面不可见
 
