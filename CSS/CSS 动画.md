@@ -26,7 +26,9 @@
 * `matrix()`
 * `matrix3d()`
 
-[transform-style](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style)
+[transform-style](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style) 用于设置元素的子元素(s)是处于 3D 空间还是平面空间。
+* `flat` 平面空间
+* `preserve-3d` 3D 空间
 
 [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
 
