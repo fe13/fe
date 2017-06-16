@@ -3,13 +3,22 @@
 `CSS3` CSS 动画可能是 CSS 中最有趣的部分。
 
 ## transition
-[transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡效果，是以下四个属性的缩写。
-* [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property)
-* [transition-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration)
-* [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
-* [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay)
+[transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡动画，是以下四个属性的缩写。
+* [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property) 用于设置动画属性。
+* [transition-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-duration) 用于设置动画时长。
+* [transition-timing-function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function) 用于设置动画时间函数。
+* [transition-delay](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay) 属性用设置动画延时。
+
+```css
+.😎 {
+  /* (所有)属性 | 时长 | 函数 | 延时 */
+  transition: all 0.5s ease-out .2s;
+}
+```
 
 **注意** 只有一部分 CSS 属性是可以 “动” 的，详见 MDN [CSS Animated Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)。
+
+
 
 ## transform
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
