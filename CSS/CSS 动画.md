@@ -38,7 +38,7 @@ transition: left 3s, color 2s, opacity 1s;
 * `translateX()` 函数用于指定 **X 轴** 位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
 * `translateZ()` 函数用于指定 **Z 轴** 位移。 🌰 `translateZ(-300px)`
-* `translate3d()` 函数用于同时指定 **X 轴** **Y 轴** **Z 轴** 的位移。 🌰 `translate3d(50px, 20%, 300px)`
+* `translate3d()` 函数用于同时指定 **X 轴** **Y 轴** **Z 轴** 的位移。 🌰 `translate3d(50px, 20%, 300px)` `GPU 硬件加速`
 * `skew()`
 * `skewX()`
 * `skewY()`
