@@ -5,7 +5,7 @@
 ## transform
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
-* `translate()`
+* `translate()` 🌰 `translate(20px, 30%);`
 * `translateX()`
 * `translateY()`
 * `translateZ()`
@@ -39,6 +39,9 @@
 
 ## perspective
 [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
+
+## backface-visibility
+[backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility)
 
 ## @keyframe
 
