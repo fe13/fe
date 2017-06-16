@@ -47,7 +47,7 @@ transition: left 3s, color 2s, opacity: 1s;
 * `scaleY()`
 * `scaleZ()`
 * `scale3d()`
-* `rotate()` 函数用于设置元素沿 **Z 轴** 旋转的角度。
+* `rotate()` 函数用于设置元素沿 **Z 轴** 旋转的角度。因此 `rotate(90deg)` 等同于 `rotateZ(90deg)`。
 * `rotateX()`
 * `rotateY()`
 * `rotateZ()`
