@@ -10,6 +10,9 @@ CSS 动画可能是 CSS 中最有趣的部分。
 * `translateY()`
 * `translateZ()`
 * `translate3d()`
+* `skew()`
+* `skewX()`
+* `skewY()`
 * `scale()`
 * `scaleX()`
 * `scaleY()`
