@@ -83,7 +83,18 @@
 * `none` 无动画，用于取消来自
 * `<动画名称>` 通过 `@keyframes` 定义的动画名称
 
-[animation-iteration-count](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count) 属性用于指定动画播放的次数。
+[animation-duration](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration) 属性用于指定动画时长。
+```css
+/* 单个动画 */
+animation-duration: 5s;
+animation-duration: 180ms;
+
+/* 多个动画 */
+animation-duration: 1.68s, 12.34s;
+animation-duration: 8s, 23s, 370ms;
+```
+
+[animation-iteration-count](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count) 属性用于指定动画播放次数。
 * `infinite` 无限循环播放
 * `<数字>` 动画播放次数
 ```css
@@ -93,7 +104,7 @@ animation-iteration-count: 2.3;
 animation-iteration-count: 2, 0, infinite;
 ```
 
-[animation-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction) 属性用于指定动画播放的方向。
+[animation-direction](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-direction) 属性用于指定动画的播放方向。
 * `normal` `默认值` 从前往后播放
 * `reverse` 从后往前播放，动画函数
 * `alternate`
