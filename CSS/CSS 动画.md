@@ -80,6 +80,10 @@
 * [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 * [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 
+[animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state) 属性用于指定动画的状态是运行还是暂停，可通过 JavaScript 指定该属性的值以控制动画的播放状态。
+* `paused` 暂停动画
+* `running` 运行动画
+
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css/)
 
