@@ -2,6 +2,14 @@
 
 `CSS3` CSS 动画可能是 CSS 中最有趣的部分。
 
+## 轴与方向
+| 轴 | 方向 |
+|----|--------|
+| X 轴 | 水平方向 |
+| Y 轴 | 垂直方向 |
+| Z 轴 | 垂直屏幕 |
+
+
 ## transition
 [transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition) 属性用于设置元素两种状态间的过渡动画，是以下四个属性的缩写。
 * [transition-property](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property) 属性用于设置动画属性。
@@ -26,10 +34,10 @@ transition: left 3s, color 2s, opacity: 1s;
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
 * `none`
 * `perspective()` 函数用于指定视觉距离。🌰 距离屏幕 500px `perspective(500px)`
-* `translate()` 函数用于指定**水平**和**垂直**位移。 🌰 `translate(-50%, -50%)`实现[垂直居中](https://codepen.io/twhy/pen/WOoqBr)
-* `translateX()` 函数用于指定**水平**位移。🌰 `translateX(5px)`
-* `translateY()` 函数用于指定**垂直**位移。🌰 `translateY(20%)`
-* `translateZ()` 函数用于指定**垂直屏幕方向**位移 🌰 `transform: perspective(500px) translateZ(-300px)`
+* `translate()` 函数用于指定 **X 轴** 和 **Y 轴** 位移。 🌰 `translate(-50%, -50%)`实现[垂直居中](https://codepen.io/twhy/pen/WOoqBr)
+* `translateX()` 函数用于指定 **X 轴** 位移。🌰 `translateX(5px)`
+* `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
+* `translateZ()` 函数用于指定 **Z 轴** 位移 🌰 `transform: perspective(500px) translateZ(-300px)`
 * `translate3d()`
 * `skew()`
 * `skewX()`
@@ -39,7 +47,7 @@ transition: left 3s, color 2s, opacity: 1s;
 * `scaleY()`
 * `scaleZ()`
 * `scale3d()`
-* `rotate()`
+* `rotate()` 函数用于设置元素沿 **Z 轴** 旋转的角度。
 * `rotateX()`
 * `rotateY()`
 * `rotateZ()`
