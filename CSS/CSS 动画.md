@@ -79,9 +79,13 @@
 * [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode)
 * [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state)
 
+[animation-name](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name) 属性用于指定应用到元素上的一个或多个动画。
+* `none` 无动画，用于取消来自
+* `<动画名称>` 通过 `@keyframes` 定义的动画名称
+
 [animation-iteration-count](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-iteration-count) 属性用于指定动画播放的次数。
 * `infinite` 无限循环播放
-* <数字>
+* `<数字>` 动画播放次数
 ```css
 animation-iteration-count: infinite;
 animation-iteration-count: 3;
