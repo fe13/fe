@@ -88,7 +88,7 @@ transform: perspective(500px) translateZ(-300px) rotateX(45deg);
 * `visible` 元素背面可见
 * `hidden` 元素背面不可见
 
-🌰 扑克 https://codepen.io/twhy/pen/mwRRdX
+🌰 扑克翻转动画 https://codepen.io/twhy/pen/mwRRdX
 
 ## animation
 [@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) 用于自定义动画帧。
