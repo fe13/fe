@@ -31,17 +31,17 @@ transition: left 3s, color 2s, opacity 1s;
 **注意** 只有一部分 CSS 属性是可以 “动” 的，详见 MDN [CSS Animated Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)。
 
 ## transform
-[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 用于
-* `none`
+[transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 属性用于修改元素 VFM(Visual Formatting Model) 的坐标空间，以实现元素的位移，旋转，缩放，和倾斜。
+* `none` 无变化 🙈
 * `perspective()` 函数用于指定视觉距离。🌰 距离屏幕 500px `perspective(500px)`
 * `translate()` 函数用于指定 **X 轴** 和 **Y 轴** 位移。 🌰 `translate(-50%, -50%)`实现[垂直居中](https://codepen.io/twhy/pen/WOoqBr)
 * `translateX()` 函数用于指定 **X 轴** 位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
 * `translateZ()` 函数用于指定 **Z 轴** 位移。 🌰 `translateZ(-300px)`
 * `translate3d()` 函数用于指定 **X 轴** **Y 轴** **Z 轴** 的位移。 🌰 `translate3d(50px, 20%, 300px)` `GPU 硬件加速`
-* `skew()` 函数用于指定 **X 轴方向** 和 **Y 轴方向** 歪斜角度。🌰 `skew(20deg, 30deg)`
-* `skewX()` 函数用于指定 **X 轴方向** 歪斜角度。🌰 `skewX(20deg)`
-* `skewY()` 函数用于指定 **Y 轴方向** 歪斜角度。🌰 `skewY(30deg)`
+* `skew()` 函数用于指定 **X 轴方向** 和 **Y 轴方向** 倾斜角度。🌰 `skew(20deg, 30deg)`
+* `skewX()` 函数用于指定 **X 轴方向** 倾斜角度。🌰 `skewX(20deg)`
+* `skewY()` 函数用于指定 **Y 轴方向** 倾斜角度。🌰 `skewY(30deg)`
 * `scale()` 函数用于指定 **X 轴方向** 和 **垂直方向** 缩放。🌰 `scale(2, 1.2)`
 * `scaleX()` 函数用于指定 **X 轴方向** 的缩放。🌰 `scaleX(2)`
 * `scaleY()` 函数用于指定 **Y 轴方向** 的缩放。🌰 `scaleY(0.8)`
