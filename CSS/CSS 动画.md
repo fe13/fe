@@ -95,7 +95,7 @@ transform: perspective(500px) translateZ(-300px) rotateX(45deg);
   }
 }
 ```
-🌰 鼠标悬浮 `:hover` 显示文字提示框 https://codepen.io/twhy/pen/wegooP
+🌰 `:hover` 显示文字提示框 https://codepen.io/twhy/pen/wegooP
 
 [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
 * [animation-name](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
@@ -157,7 +157,7 @@ animation-play-state: paused;
 /* 多个动画 */
 animation-play-state: paused, running, running;
 ```
-🌰 鼠标悬浮 `:hover` 在动画元素上时暂停动画 https://codepen.io/twhy/pen/zzNGKV
+🌰 `:hover` 在动画元素上时暂停动画 https://codepen.io/twhy/pen/zzNGKV
 
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css)
