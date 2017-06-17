@@ -111,7 +111,7 @@ transform: rotate(45deg);
   }
 }
 ```
-🌰 `:hover` 显示文字提示框 https://codepen.io/twhy/pen/wegooP
+🌰 `:hover` 提示 https://codepen.io/twhy/pen/wegooP
 
 [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
 * [animation-name](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
