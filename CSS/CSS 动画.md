@@ -150,6 +150,7 @@ animation-play-state: paused;
 /* 多个动画 */
 animation-play-state: paused, running, running;
 ```
+**案例** 结合 `:hover` 达到暂停动画的效果 https://codepen.io/twhy/pen/zzNGKV
 
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css)
