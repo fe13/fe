@@ -1,6 +1,6 @@
 # Flexbox
 
-## 游戏教程
+## 游戏教程 🎮
 * https://flexboxfroggy.com/
 
 ## 参考链接
