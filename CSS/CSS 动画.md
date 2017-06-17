@@ -136,7 +136,7 @@ animation-iteration-count: 2, 0, infinite;
 * `normal` `默认值` 从前往后播放。
 * `reverse` 从后往前播放，动画函数也会被翻转，如 `ease-in` 变成 `ease-out`。
 * `alternate` 先从前往后，再从后往前，如此交替。
-* `alternate-reverse` 先从前往后，再从后往前，如此交替。
+* `alternate-reverse` 先从后往前，再从前往后，如此交替。
 
 [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode) 属性用于指定在动画执行前后如何给元素应用样式。
 * `none` `默认值`
