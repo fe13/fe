@@ -178,7 +178,7 @@ animation-play-state: paused;
 /* 多个动画 */
 animation-play-state: paused, running, running;
 ```
-🌰 `:hover` 叫 🚕 https://codepen.io/twhy/pen/zzNGKV
+🌰 `:hover` 叫车 https://codepen.io/twhy/pen/zzNGKV
 
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css)
