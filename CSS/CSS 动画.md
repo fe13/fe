@@ -88,7 +88,7 @@ transform: rotate(45deg);
 }
 ```
 
-[perspective-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin)
+[perspective-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin) 属性用于指定观察者的位置。
 
 ## backface-visibility
 [backface-visibility](https://developer.mozilla.org/en-US/docs/Web/CSS/backface-visibility) 属性用于设置元素背面是否可见。
