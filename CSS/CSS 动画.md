@@ -139,6 +139,10 @@ animation-iteration-count: 2, 0, infinite;
 * `alternate-reverse`
 
 [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode) 属性用于指定在动画执行前后如何给元素应用样式。
+* `none` `默认值`
+* `forwards`
+* `backwards`
+* `both`
 
 [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state) 属性用于指定动画的状态是运行或暂停，可通过 JavaScript 设置该属性的值以控制动画的播放状态。
 * `paused` 暂停动画
