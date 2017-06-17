@@ -67,7 +67,14 @@ transform: perspective(500px) translateZ(-300px) rotateX(45deg);
 * `flat` 平面空间
 * `preserve-3d` 3D 空间
 
-[transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+[transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin) 用于设置元素变形的原点。
+
+绕元素左上角旋转 45°
+```css
+transfrom-origin: 0 0;
+transform: rotate(45deg);
+```
+🌰 迷之猴子 https://codepen.io/twhy/pen/Ngdpej
 
 ## perspective
 [perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) 属性用于指定观察者与 z=0 平面的距离，使具有 3D 变换的元素产生透视效果。
@@ -155,7 +162,7 @@ animation-iteration-count: 2, 0, infinite;
 
 [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode) 属性用于指定在动画执行前后如何给元素应用样式。
 * `none` `默认值`
-* `forwards`
+* `forwards` 动画元素保持动画最后一帧的样式，最后一帧取决于 `animation-direction` 和 `animation-iteration-count`
 * `backwards`
 * `both`
 
