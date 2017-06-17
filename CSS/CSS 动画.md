@@ -162,7 +162,7 @@ animation-iteration-count: 2, 0, infinite;
 
 [animation-fill-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode) 属性用于指定在动画执行前后如何给元素应用样式。
 * `none` `默认值`
-* `forwards` 保持动画最后一帧的样式，最后一帧取决于 `animation-direction` 和 `animation-iteration-count`
+* `forwards` 保持动画最后一帧的样式，最后一帧取决于 `animation-direction` 和 `animation-iteration-count`。
 * `backwards` 动画采用第一帧的样式，保持 `animation-delay`，第一帧取法由 `animation-direction` 决定。
 * `both` 动画执行 `forwards` 和 `backwards` 执行的动作。
 
