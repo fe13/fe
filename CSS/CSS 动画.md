@@ -45,7 +45,7 @@ transition: left 3s, color 2s, opacity 1s;
 * `scale()` 函数用于指定 **水平方向** 和 **垂直方向** 缩放。🌰 `scale(2, 1.2)`
 * `scaleX()` 函数用于指定 **水平方向** 的缩放。🌰 `scaleX(2)`
 * `scaleY()` 函数用于指定 **垂直方向** 的缩放。🌰 `scaleY(0.8)`
-* `scaleZ()`
+* `scaleZ()` 函数用于指定 **Z 轴方向** 的缩放。 🌰 `transform: perspective(500px) scaleZ(2) translateZ(100px)`
 * `scale3d()`
 * `rotate()` 函数用于指定元素沿 **Z 轴** 旋转的角度。因此 `rotate(90deg)` 等同于 `rotateZ(90deg)`。
 * `rotateX()` 函数用于指定元素沿 **X 轴** 旋转的角度。🌰 `rotateX(45deg)`
