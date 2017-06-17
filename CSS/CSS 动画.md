@@ -39,12 +39,12 @@ transition: left 3s, color 2s, opacity 1s;
 * `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
 * `translateZ()` 函数用于指定 **Z 轴** 位移。 🌰 `translateZ(-300px)`
 * `translate3d()` 函数用于同时指定 **X 轴** **Y 轴** **Z 轴** 的位移。 🌰 `translate3d(50px, 20%, 300px)` `GPU 硬件加速`
-* `skew()`
-* `skewX()`
-* `skewY()`
-* `scale()` 函数用于指定缩放 
-* `scaleX()`
-* `scaleY()`
+* `skew()` 函数用于指定 **水平方向** 和 **垂直方向** 歪斜角度。🌰 `skew(20deg, 30deg)`
+* `skewX()` 函数用于指定 **水平方向** 歪斜角度。🌰 `skewX(20deg)`
+* `skewY()` 函数用于指定 **垂直方向** 歪斜角度。🌰 `skewY(30deg)`
+* `scale()` 函数用于指定 **水平方向** 和 **垂直方向** 缩放。🌰 `scale(2, 1.2)`
+* `scaleX()` 函数用于指定 **水平方向** 的缩放。🌰 `scaleX(2)`
+* `scaleY()` 函数用于指定 **垂直方向** 的缩放。🌰 `scaleY(0.8)`
 * `scaleZ()`
 * `scale3d()`
 * `rotate()` 函数用于指定元素沿 **Z 轴** 旋转的角度。因此 `rotate(90deg)` 等同于 `rotateZ(90deg)`。
