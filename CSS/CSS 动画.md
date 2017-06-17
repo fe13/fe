@@ -95,7 +95,7 @@ transform: rotate(45deg);
 * `visible` 元素背面可见
 * `hidden` 元素背面不可见
 
-🌰 扑克翻转动画 https://codepen.io/twhy/pen/mwRRdX
+🌰 翻转扑克 https://codepen.io/twhy/pen/mwRRdX
 
 ## animation
 [@keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes) 用于自定义动画帧。
@@ -178,7 +178,7 @@ animation-play-state: paused;
 /* 多个动画 */
 animation-play-state: paused, running, running;
 ```
-🌰 `:hover` 在动画元素上时暂停动画 https://codepen.io/twhy/pen/zzNGKV
+🌰 `:hover` 叫 🚕 https://codepen.io/twhy/pen/zzNGKV
 
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css)
