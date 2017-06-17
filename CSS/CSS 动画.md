@@ -147,8 +147,9 @@ animation-iteration-count: 2, 0, infinite;
 * `both`
 
 [animation-play-state](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-play-state) 属性用于指定动画的状态是运行或暂停，可通过 JavaScript 设置该属性的值以控制动画的播放状态。
+* `running` `默认值` 运行动画
 * `paused` 暂停动画
-* `running` 运行动画
+
 ```css
 /* 单个动画 */
 animation-play-state: running;
