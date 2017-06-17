@@ -70,7 +70,16 @@ transform: perspective(500px) translateZ(-300px) rotateX(45deg);
 [transform-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
 
 ## perspective
-[perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective)
+[perspective](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective) 属性用于指定观察者与 z=0 平面的距离，使具有 3D 变换的元素产生透视效果。
+```css
+.container {
+  pespective: 1000px;
+}
+
+.scene {
+  transform: perspective(500px) translateZ(-300px);
+}
+```
 
 [perspective-origin](https://developer.mozilla.org/en-US/docs/Web/CSS/perspective-origin)
 
