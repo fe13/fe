@@ -217,7 +217,7 @@ animation-play-state: paused, running, running;
 
 以上三种常见动画共同点
 ```html
-<div class="viewport">
+<div class="scene">
   <div class="object">
     <div class="face"></div>
     <div class="face"></div>
@@ -227,7 +227,7 @@ animation-play-state: paused, running, running;
 </div>
 ```
 ```css
-.viewport {
+.scene {
   perspective: 1000px;
   ...
 }
