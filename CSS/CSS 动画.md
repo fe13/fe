@@ -34,7 +34,7 @@ transition: left 3s, color 2s, opacity 1s;
 [transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) 属性用于修改元素 VFM(Visual Formatting Model) 的坐标空间，以实现元素的位移，旋转，缩放，和倾斜。
 * `none` 无变化 🙈
 * `perspective()` 函数用于指定视觉距离。🌰 距离屏幕 500px `perspective(500px)`
-* `translate()` 函数用于指定 **X 轴** 和 **Y 轴** 位移。 🌰 `translate(-50%, -50%)`实现[垂直居中](https://codepen.io/twhy/pen/WOoqBr)
+* `translate()` 函数用于指定 **X 轴** 和 **Y 轴** 位移。 🌰 绝对定位 + `translate(-50%, -50%)`实现垂直居中 [Demo](https://codepen.io/twhy/pen/WOoqBr)
 * `translateX()` 函数用于指定 **X 轴** 位移。🌰 `translateX(5px)`
 * `translateY()` 函数用于指定 **Y 轴** 位移。🌰 `translateY(20%)`
 * `translateZ()` 函数用于指定 **Z 轴** 位移。 🌰 `translateZ(-300px)`
