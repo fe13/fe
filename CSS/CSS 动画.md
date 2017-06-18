@@ -214,11 +214,8 @@ animation-play-state: paused, running, running;
 * [Animate.css](https://daneden.github.io/animate.css)
 
 ## 常见动画
-### 正立方体
-* https://twhy.github.io/fruit-cube
-
-### 3D 轮播
-* https://twhy.github.io/warriors-champions-2017
+* 正立方体 https://twhy.github.io/fruit-cube
+* 3D 轮播 https://twhy.github.io/warriors-champions-2017
 
 ## 参考链接
 * http://kushagragour.in/about/
