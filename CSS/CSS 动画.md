@@ -210,12 +210,46 @@ animation-play-state: paused, running, running;
 ```
 🌰 `:hover` 叫车 https://codepen.io/twhy/pen/zzNGKV
 
-## 开源项目
-* [Animate.css](https://daneden.github.io/animate.css)
-
 ## 常见动画
+* 翻转扑克 https://codepen.io/twhy/pen/mwRRdX
 * 正立方体 https://twhy.github.io/fruit-cube
 * 3D 轮播 https://twhy.github.io/warriors-champions-2017
+
+以上三种常见动画共同点
+```html
+<div class="viewport">
+  <div class="object">
+    <div class="face"></div>
+    <div class="face"></div>
+    <div class="face"></div>
+    ...
+  </div>
+</div>
+```
+```css
+.viewport {
+  perspective: 1000px;
+  ...
+}
+
+.object {
+  position: relative;
+  transform-style: preserve-3d;
+  ... /* 设置宽高等属性 */
+}
+
+.face {
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  ... /* 每个子元素设置不同的 transform 值 */
+}
+```
+
+## 开源项目
+* [Animate.css](https://daneden.github.io/animate.css)
 
 ## 参考链接
 * http://kushagragour.in/about/
