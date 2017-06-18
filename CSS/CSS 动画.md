@@ -3,11 +3,11 @@
 `CSS3` CSS 动画可能是 CSS 中最有趣的部分。
 
 ## 轴与方向
-| 轴 | 方向 |
-|----|--------|
-| X 轴 | 水平方向 |
-| Y 轴 | 垂直方向 |
-| Z 轴 | 垂直屏幕 |
+| 轴    | 方向          |
+|------|---------------|
+| X 轴 | 元素平面水平方向 |
+| Y 轴 | 元素平面垂直方向 |
+| Z 轴 | 垂直元素所在平面 |
 
 
 ## transition
@@ -112,6 +112,36 @@ transform: rotate(45deg);
 }
 ```
 🌰 `:hover` 提示 https://codepen.io/twhy/pen/wegooP
+
+通过百分比可定义更复杂的动画。**提示** `from` 等价于 `0%`， `to` 等价于 `100%`
+```css
+/* 
+ *  code from Animate.css 
+ *  https://github.com/daneden/animate.css/blob/master/source/lightspeed/lightSpeedIn.css
+ */
+@keyframes lightSpeedIn {
+  from {
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: skewX(20deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: skewX(-5deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+```
+
 
 [animation](https://developer.mozilla.org/en-US/docs/Web/CSS/animation) 属性用于设置应用在元素上的动画，是以下属性的缩写。
 * [animation-name](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name)
