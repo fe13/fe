@@ -183,11 +183,15 @@ animation-play-state: paused, running, running;
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css)
 
+## 常见动画
+### 3D 轮播
+* https://twhy.github.io/warriors-champions-2017
+
 ## 参考链接
 * https://davidwalsh.name/css-flip
 * https://davidwalsh.name/css-cube
 * https://desandro.github.io/3dtransforms
-* https://taosang1992.github.io/my-works/WebDemo/app01/
+* https://taosang1992.github.io/my-works/WebDemo/app01
 * https://css-tricks.com/creating-a-3d-cube-image-gallery
 * https://css-tricks.com/almanac/properties/a/animation
 * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
