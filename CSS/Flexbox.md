@@ -54,10 +54,12 @@ section > article {
   padding: 0 10px 15px;
   border-radius: 4px;
   border: 1px solid #ddd;
-  box-shadow: 1px 1px 3px #ccc;
+  box-shadow: 1px 1px 3px #ddd;
 }
 ```
 **运行结果** https://codepen.io/twhy/pen/MopwzL
+
+### display: inline-flex
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com/
