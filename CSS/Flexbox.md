@@ -85,6 +85,12 @@ section > article {
 * `wrap`
 * `wrap-reverse`
 
+## order
+[order](https://developer.mozilla.org/en-US/docs/Web/CSS/order)
+* `0` `默认值`
+* <整数>
+
+
 ### justify-content
 [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 * `flex-start`
