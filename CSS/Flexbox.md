@@ -111,6 +111,9 @@ section > article {
   * `flex-wrap`
 * `order`
 * `justify-content` `主轴`
+* `align-self` `辅轴`
+* `align-items` `辅轴`
+* `align-content` `辅轴`
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
