@@ -67,6 +67,11 @@ section > article {
 * `space-between`
 * `space-around`
 
+## flex-flow
+[`flex-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow) 是以下两个属性的缩写。
+* [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
+* [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
+
 ### display: inline-flex
 
 ## 游戏教程 🎮
