@@ -71,14 +71,16 @@ section > article {
 
 ## flex-flow
 [`flex-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow) 是以下两个属性的缩写。
-* [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
+* [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) 属性用于指定 flex 布局的方向。
 * [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
 
 ### flex-direction
-* `row` `默认值`
-* `row-reverse`
-* `column`
-* `column-reverse`
+* `row` `默认值` 从左到右 👉 
+* `row-reverse` 从右到左 👈
+* `column` 从上到下 👇
+* `column-reverse` 从下到上 👆
+
+**注意** `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
 
 ### flex-wrap
 * `nowrap` `默认值`
