@@ -59,6 +59,14 @@ section > article {
 ```
 **运行结果** https://codepen.io/twhy/pen/MopwzL
 
+### justify-content
+[`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
+* `flex-start`
+* `flex-end`
+* `center`
+* `space-between`
+* `space-around`
+
 ### display: inline-flex
 
 ## 游戏教程 🎮
