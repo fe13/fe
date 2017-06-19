@@ -59,6 +59,10 @@ section > article {
 ```
 **运行结果** https://codepen.io/twhy/pen/MopwzL
 
+🌰中的 `section` 被称作 flex 容器(container)，`article` 被称作 flex 子项(items)。
+
+## display: inline-flex
+
 ### justify-content
 [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
 * `flex-start`
@@ -72,7 +76,7 @@ section > article {
 * [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
 * [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
 
-### display: inline-flex
+
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
