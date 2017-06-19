@@ -103,17 +103,17 @@ section > article {
 * `space-around`
 
 ## 属性列表
-* `display`
-  * `display: flex`
-  * `display: inline-flex`
+### flex 容器属性
 * `flex-flow`
   * `flex-direction`
   * `flex-wrap`
-* `order`
 * `justify-content` `主轴`
-* `align-self` `辅轴`
 * `align-items` `辅轴`
 * `align-content` `辅轴`
+
+### flex 子项属性
+* `order`
+* `align-self` `辅轴`
 * `flex`
   * `flex-grow`
   * `flex-shrink`
