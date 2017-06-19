@@ -253,6 +253,7 @@ animation-play-state: paused, running, running;
 
 ## 动画工具
 * http://cubic-bezier.com
+* http://isux.tencent.com/css3/tools.html
 
 ## 参考链接
 * http://kushagragour.in/about
