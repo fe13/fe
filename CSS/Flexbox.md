@@ -1,5 +1,7 @@
 # Flexbox
 
+Flexbox 为 CSS 提供了更简单更强大的布局方式。
+
 ## 游戏教程 🎮
 * https://flexboxfroggy.com/
 
