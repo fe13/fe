@@ -62,7 +62,7 @@ section > article {
 `display: inline-flex`
 
 ### Flex 术语
-| 中文      | 英文            | 含义                     |
+| 术语      | 英文            | 含义                     |
 |----------|-----------------|-------------------------|
 | flex 容器 |  flex container | `display: flex` 的父元素 |
 | flex 子项 |  flex items     | flex 容器中的子元素       |
