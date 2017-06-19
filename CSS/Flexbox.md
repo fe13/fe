@@ -87,12 +87,12 @@ section > article {
 
 ### 轴与方向
 
+## flex
 
 ## order
 [order](https://developer.mozilla.org/en-US/docs/Web/CSS/order)
 * `0` `默认值`
 * <整数>
-
 
 ### justify-content
 [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
@@ -109,6 +109,7 @@ section > article {
 * `flex-flow`
   * `flex-direction`
   * `flex-wrap`
+* `flex`
 * `order`
 * `justify-content` `主轴`
 * `align-self` `辅轴`
