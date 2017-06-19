@@ -59,9 +59,28 @@ section > article {
 ```
 **运行结果** https://codepen.io/twhy/pen/MopwzL
 
-🌰中的 `section` 被称作 flex 容器(container)，`article` 被称作 flex 子项(items)。
+`display: inline-flex`
 
-## display: inline-flex
+## Flex 术语
+| 术语 | 含义 | 英文 |
+|-----|------|-----|
+| flex 容器 | `display: flex` 的父元素 | flex container |
+| flex 子项 | flex 容器中的子元素       | flex items     |
+
+很明显，上述 🌰 中的 section 是 flex 容器，article 是 flex 子项。
+
+## flex-flow
+[`flex-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow) 是以下两个属性的缩写。
+* [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
+* [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
+
+### flex-direction
+* `row`
+* `row-reverse`
+* `column`
+* `column-reverse`
+
+### flex-wrap
 
 ### justify-content
 [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
@@ -70,12 +89,6 @@ section > article {
 * `center`
 * `space-between`
 * `space-around`
-
-## flex-flow
-[`flex-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow) 是以下两个属性的缩写。
-* [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction)
-* [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
-
 
 
 ## 游戏教程 🎮
