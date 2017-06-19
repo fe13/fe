@@ -75,9 +75,12 @@ section > article {
 ### display: inline-flex
 
 ## 游戏教程 🎮
-* https://flexboxfroggy.com/
+* https://flexboxfroggy.com
+
+## 开源项目
+* [Bootstrap 4](http://getbootstrap.com)
 
 ## 参考链接
 * https://davidwalsh.name/css-reverse
-* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
