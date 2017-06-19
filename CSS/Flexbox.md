@@ -62,10 +62,10 @@ section > article {
 `display: inline-flex`
 
 ## Flex 术语
-| 术语 | 含义 | 英文 |
-|-----|------|-----|
-| flex 容器 | `display: flex` 的父元素 | flex container |
-| flex 子项 | flex 容器中的子元素       | flex items     |
+| 中文      | 英文            | 含义                     |
+|----------|-----------------|-------------------------|
+| flex 容器 |  flex container | `display: flex` 的父元素 |
+| flex 子项 |  flex items     | flex 容器中的子元素       |
 
 很明显，上述 🌰 中的 section 是 flex 容器，article 是 flex 子项。
 
