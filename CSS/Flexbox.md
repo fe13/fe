@@ -102,6 +102,14 @@ section > article {
 * `space-between`
 * `space-around`
 
+## 属性列表
+* `display`
+  * `display: flex`
+  * `display: inline-flex`
+* `flex-flow`
+  * `flex-direction`
+  * `flex-wrap`
+* `order`
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
