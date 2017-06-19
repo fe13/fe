@@ -1,6 +1,6 @@
 # Flexbox
 
-Flexbox 为 CSS 提供了更简单更强大的布局方式。
+Flexbox 为 CSS 提供了更强大的布局方式。
 
 ## display: flex
 ```html
@@ -82,11 +82,13 @@ section > article {
 
 **注意** `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
 
-### 轴与方向
-| 轴名 | 英文       |
-|-----|------------|
-| 主轴 | Main Axis  |
-| 侧轴 | Cross Axis |
+### 主轴与侧轴
+`flex-direction` 决定主轴(Main Axis)的方向。侧轴(Cross Axis)垂直于主轴。
+
+| 轴名 |  `row`  | `row-reverse` | `column` | `column-reverse`|
+|-----|:-------:|:-------------:|:--------:|:----------------:|
+| 主轴 | 从左往右 |  从右往左       |  从上往下 |     从下往上      |
+
 
 ### flex-wrap
 * `nowrap` `默认值` 不换行，即 flex 子项都在同一行。
@@ -112,12 +114,12 @@ section > article {
   * `flex-direction`
   * `flex-wrap`
 * `justify-content` `主轴`
-* `align-items` `辅轴`
-* `align-content` `辅轴`
+* `align-items` `侧轴`
+* `align-content` `侧轴`
 
 ### flex 子项属性
 * `order`
-* `align-self` `辅轴`
+* `align-self` `侧轴`
 * `flex`
   * `flex-grow`
   * `flex-shrink`
