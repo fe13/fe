@@ -251,8 +251,11 @@ animation-play-state: paused, running, running;
 ## 开源项目
 * [Animate.css](https://daneden.github.io/animate.css)
 
+## 动画工具
+* http://cubic-bezier.com
+
 ## 参考链接
-* http://kushagragour.in/about/
+* http://kushagragour.in/about
 * https://davidwalsh.name/css-flip
 * https://davidwalsh.name/css-cube
 * https://desandro.github.io/3dtransforms
