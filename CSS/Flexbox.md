@@ -61,7 +61,7 @@ section > article {
 
 `display: inline-flex`
 
-## Flex 术语
+### Flex 术语
 | 中文      | 英文            | 含义                     |
 |----------|-----------------|-------------------------|
 | flex 容器 |  flex container | `display: flex` 的父元素 |
@@ -84,6 +84,9 @@ section > article {
 * `nowrap` `默认值`
 * `wrap`
 * `wrap-reverse`
+
+### 轴与方向
+
 
 ## order
 [order](https://developer.mozilla.org/en-US/docs/Web/CSS/order)
