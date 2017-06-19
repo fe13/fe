@@ -72,27 +72,29 @@ section > article {
 ## flex-flow
 [`flex-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow) 是以下两个属性的缩写。
 * [`flex-direction`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction) 属性用于指定 flex 布局的方向。
-* [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
+* [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap) 属性用于指定 flex 布局是否换行。
 
 ### flex-direction
-* `row` `默认值` 从左到右 👉 
-* `row-reverse` 从右到左 👈
-* `column` 从上到下 👇
-* `column-reverse` 从下到上 👆
+* `row` `默认值` 从左往右 👉 
+* `row-reverse` 从右往左 👈
+* `column` 从上往下 👇
+* `column-reverse` 从下往上 👆
 
 **注意** `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
 
-### flex-wrap
-* `nowrap` `默认值`
-* `wrap`
-* `wrap-reverse`
-
 ### 轴与方向
+| 轴名 | 英文       |
+|-----|------------|
+| 主轴 | Main Axis  |
+| 侧轴 | Cross Axis |
 
-## flex
+### flex-wrap
+* `nowrap` `默认值` 不换行，即 flex 子项都在同一行。
+* `wrap` 换行(当空间不足时)
+* `wrap-reverse` 
 
 ## order
-[order](https://developer.mozilla.org/en-US/docs/Web/CSS/order)
+[order](https://developer.mozilla.org/en-US/docs/Web/CSS/order) 属性用于指定 flex 子项的顺序。
 * `0` `默认值`
 * <整数>
 
