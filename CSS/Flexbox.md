@@ -100,13 +100,16 @@ section > article {
 * `0` `默认值`
 * <整数>
 
-### justify-content
-[`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
+## justify-content
+[`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) 属性用于指定**主轴**上 flex 子项之间及其周围的空间。
 * `flex-start`
 * `flex-end`
 * `center`
 * `space-between`
 * `space-around`
+
+以下是 `flex-direction: row` 情况下，`justify-content` 各个值的效果示意图。  
+![](https://css-tricks.com/wp-content/uploads/2013/04/justify-content.svg)
 
 ## 属性列表
 ### flex 容器属性
