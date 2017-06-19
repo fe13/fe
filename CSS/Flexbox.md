@@ -110,6 +110,7 @@ section > article {
   * `flex-direction`
   * `flex-wrap`
 * `order`
+* `justify-content` `主轴`
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
