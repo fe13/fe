@@ -75,12 +75,15 @@ section > article {
 * [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap)
 
 ### flex-direction
-* `row`
+* `row` `默认值`
 * `row-reverse`
 * `column`
 * `column-reverse`
 
 ### flex-wrap
+* `nowrap` `默认值`
+* `wrap`
+* `wrap-reverse`
 
 ### justify-content
 [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content)
