@@ -102,7 +102,7 @@ section > article {
 
 ## justify-content
 [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) 属性用于指定**主轴**上 flex 子项之间及其周围的空间。
-* `flex-start`
+* `flex-start` `默认值`
 * `flex-end`
 * `center`
 * `space-between`
