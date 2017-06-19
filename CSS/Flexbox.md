@@ -109,12 +109,15 @@ section > article {
 * `flex-flow`
   * `flex-direction`
   * `flex-wrap`
-* `flex`
 * `order`
 * `justify-content` `主轴`
 * `align-self` `辅轴`
 * `align-items` `辅轴`
 * `align-content` `辅轴`
+* `flex`
+  * `flex-grow`
+  * `flex-shrink`
+  * `flex-basis`
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
