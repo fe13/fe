@@ -118,7 +118,7 @@ section > article {
 
 ## align-items
 [`align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)
-* `stretch`
+* `stretch` `默认值`
 
 ![](https://css-tricks.com/wp-content/uploads/2014/05/align-items.svg)
 
