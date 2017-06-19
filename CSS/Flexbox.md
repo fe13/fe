@@ -111,9 +111,15 @@ section > article {
 以下是 `flex-direction: row` 情况下，`justify-content` 各个值的效果示意图。  
 ![](https://css-tricks.com/wp-content/uploads/2013/04/justify-content.svg)
 
-## align-items
-
 ## align-content
+[`align-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content)
+
+![](https://css-tricks.com/wp-content/uploads/2013/04/align-content.svg)
+
+## align-items
+[`align-item`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)
+
+![](https://css-tricks.com/wp-content/uploads/2014/05/align-items.svg)
 
 ## 属性列表
 ### flex 容器属性
