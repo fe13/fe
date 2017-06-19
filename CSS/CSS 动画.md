@@ -228,13 +228,13 @@ animation-play-state: paused, running, running;
 ```
 ```css
 .scene {
-  perspective: 1000px;
+  perspective: 1000px;  /* 设置视觉距离 */
   ...
 }
 
 .object {
   position: relative;
-  transform-style: preserve-3d;
+  transform-style: preserve-3d;  /* 保持子元素 3D 变换效果 */
   ... /* 设置宽高等属性 */
 }
 
