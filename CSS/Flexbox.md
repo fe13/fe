@@ -80,7 +80,7 @@ section > article {
 * `column` 从上往下 👇
 * `column-reverse` 从下往上 👆
 
-**注意** `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
+⚠️ `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
 
 ### 主轴与侧轴
 `flex-direction` 与主轴(Main Axis)的方向一致。侧轴(Cross Axis)垂直于主轴。
@@ -108,6 +108,8 @@ section > article {
 
 ## align-content
 [`align-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content)
+
+⚠️ `align-content`
 
 ![](https://css-tricks.com/wp-content/uploads/2013/04/align-content.svg)
 
