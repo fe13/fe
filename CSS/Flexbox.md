@@ -146,9 +146,9 @@ section > article {
 * [Bootstrap 4](http://getbootstrap.com)
 
 ## 参考链接
-* https://davidwalsh.name/css-reverse
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Advanced_layouts_with_flexbox
+* https://stackoverflow.com/questions/31250174/css-flexbox-difference-between-align-items-and-align-content
