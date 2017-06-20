@@ -57,7 +57,7 @@ section > article {
   box-shadow: 1px 1px 3px #ddd;
 }
 ```
-**运行结果** https://codepen.io/twhy/pen/MopwzL
+🚀 https://codepen.io/twhy/pen/MopwzL
 
 💡 如果希望 flex 容器表现的像行内元素，可以设置 `display: inline-flex`。
 
