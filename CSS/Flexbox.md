@@ -83,10 +83,10 @@ section > article {
 * [`flex-wrap`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-wrap) 属性用于指定 flex 布局是否换行。
 
 ### flex-direction
-* `row` `默认值` 从左往右 👉 
-* `row-reverse` 从右往左 👈
-* `column` 从上往下 👇
-* `column-reverse` 从下往上 👆
+* `row` `默认值` 从左往右 ➡️
+* `row-reverse` 从右往左 ⬅️
+* `column` 从上往下 ⬇️
+* `column-reverse` 从下往上 ⬆️
 
 ⚠️ `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
 
