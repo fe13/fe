@@ -42,7 +42,7 @@ transition: left 3s, color 2s, opacity 1s;
 * `skew()` 函数用于指定 **X 轴方向** 和 **Y 轴方向** 倾斜角度。🌰 `skew(20deg, 30deg)`
 * `skewX()` 函数用于指定 **X 轴方向** 倾斜角度。🌰 `skewX(20deg)`
 * `skewY()` 函数用于指定 **Y 轴方向** 倾斜角度。🌰 `skewY(30deg)`
-* `scale()` 函数用于指定 **X 轴方向** 和 **垂直方向** 缩放。🌰 `scale(2, 1.2)`
+* `scale()` 函数用于指定 **X 轴方向** 和 **垂直方向** 缩放。🌰 `scale(2, 1.2)` 😜 `scale(-2)`
 * `scaleX()` 函数用于指定 **X 轴方向** 的缩放。🌰 `scaleX(2)`
 * `scaleY()` 函数用于指定 **Y 轴方向** 的缩放。🌰 `scaleY(0.8)`
 * `scaleZ()` 函数用于指定 **Z 轴方向** 的缩放。 🌰 `transform: perspective(500px) scaleZ(2) translateZ(100px)`
