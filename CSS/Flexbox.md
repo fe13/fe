@@ -62,7 +62,7 @@ section > article {
 💡 如果希望 flex 容器表现的像行内元素，可以设置 `display: inline-flex`。
 
 ### 常用术语
-| 术语      | 英文            | 含义/解析                                         |
+| 术语      | 英文            | 解析                                              |
 |----------|-----------------|--------------------------------------------------|
 | flex 容器 |  flex container | `display: flex` 或 `display: inline-flex` 的元素  |
 | flex 子项 |  flex items     | flex 容器中的子元素                                |
