@@ -122,10 +122,18 @@ section > article {
 ![](https://css-tricks.com/wp-content/uploads/2013/04/align-content.svg)
 
 ## align-items
-[`align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items)
-* `stretch` `默认值`
+[`align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) 属性用于指定**辅轴方向**上**当前行 flex 子项**之间及其周围的空间(当有多余空间时)。
+* `stretch` `默认值` 伸展以占满高度。
+* `flex-start`
+* `flex-end`
+* `center`
+* `baseline`
 
+`align-items` 各个值的效果示意图(默认情况 `flex-direction: row`)  
 ![](https://css-tricks.com/wp-content/uploads/2014/05/align-items.svg)
+
+## align-self
+[align-self](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
 
 ## margin: auto
 
