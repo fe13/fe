@@ -141,9 +141,15 @@ section > article {
 
 ## flex
 [flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) 属性是以下三个属性的缩写。
-* [flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)
-* [flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink)
-* [flex-basis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
+* [flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow) 属性用于指定 flex 子项在**主轴**方向上的**拉伸因子**。
+* [flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink) 属性用于指定 flex 子项在**主轴**方向上**收缩因子**。
+* [flex-basis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis) 属性用于指定 flex 子项在**主轴**方向上的**初始大小**。
+
+### flex-grow
+
+### flex-shrink
+
+### flex-basis
  
 ## margin
 
