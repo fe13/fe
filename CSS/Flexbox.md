@@ -146,10 +146,17 @@ section > article {
 * [flex-basis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis) 属性用于指定 flex 子项在**主轴**方向上的**初始大小**。
 
 ### flex-grow
+* `0` `默认值` 不拉伸
+* `<数字>` 负数无效
 
 ### flex-shrink
+* `1` `默认值` flex 容器宽度不足时**收缩**。
+* `0` flex 容器宽度不足时**不收缩**。
+* `<数字>` 负数无效
 
 ### flex-basis
+* `<长度>` 如 `300px`，负数无效。
+* `content` 基于 flex 子项自动调整。
  
 ## margin
 
