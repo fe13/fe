@@ -95,7 +95,7 @@ section > article {
 ### flex-wrap
 * `nowrap` `默认值` 不换行，即 flex 子项都在同一行。
 * `wrap` 换行(当空间不足时)。
-* `wrap-reverse` 换行，但辅轴的开始和结束位置互换。
+* `wrap-reverse` 反向换行，即辅轴的开始和结束位置互换。
 
 ## order
 [order](https://developer.mozilla.org/en-US/docs/Web/CSS/order) 属性用于指定 flex 子项的顺序。
