@@ -70,7 +70,7 @@ section > article {
 显然，上述 🌰 中的 section 是 flex 容器，article 是 flex 子项。
 
 ### 默认行为
-* flex 子项登高。
+* flex 子项等高。
 * flex 子项撑满 flex 容器高度。
 * flex 容器中的 flex 子项呈单行排布，不换行。
 * flex 容器的布局方向是从左往右(对于阅读方向是从左往右的语言，如中文)。
