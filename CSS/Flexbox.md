@@ -61,11 +61,13 @@ section > article {
 
 💡 如果希望 flex 容器表现的像行内元素，可以设置 `display: inline-flex`。
 
-### Flex 术语
-| 术语      | 英文            | 含义                                             |
-|----------|-----------------|-------------------------------------------------|
-| flex 容器 |  flex container | `display: flex` 或 `display: inline-flex` 的元素 |
-| flex 子项 |  flex items     | flex 容器中的子元素                               |
+### 常用术语
+| 术语      | 英文            | 含义/解析                                         |
+|----------|-----------------|--------------------------------------------------|
+| flex 容器 |  flex container | `display: flex` 或 `display: inline-flex` 的元素  |
+| flex 子项 |  flex items     | flex 容器中的子元素                                |
+| 主轴      |  Main Axis      | 主轴及其方向由 `flex-direction` 的值决定。           |
+| 辅轴      |  Cross Axis     | 辅轴垂直于主轴。⚠️ MDN 将 Cross Axis 译作**侧轴**。   |
 
 显然，上述 🌰 中的 section 是 flex 容器，article 是 flex 子项。
 
@@ -90,13 +92,10 @@ section > article {
 
 ⚠️ `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
 
-### 主轴与侧轴
-`flex-direction` 与主轴(Main Axis)的方向一致。侧轴(Cross Axis)垂直于主轴。
-
 ### flex-wrap
 * `nowrap` `默认值` 不换行，即 flex 子项都在同一行。
-* `wrap` 换行(当空间不足时)
-* `wrap-reverse` 
+* `wrap` 换行(当空间不足时)。
+* `wrap-reverse` 换行，但辅轴的开始和结束位置互换。
 
 ## order
 [order](https://developer.mozilla.org/en-US/docs/Web/CSS/order) 属性用于指定 flex 子项的顺序。
@@ -135,12 +134,12 @@ section > article {
   * `flex-direction`
   * `flex-wrap`
 * `justify-content` `主轴`
-* `align-items` `侧轴`
-* `align-content` `侧轴`
+* `align-items` `辅轴`
+* `align-content` `辅轴`
 
 ### flex 子项属性
 * `order`
-* `align-self` `侧轴`
+* `align-self` `辅轴`
 * `flex`
   * `flex-grow`
   * `flex-shrink`
