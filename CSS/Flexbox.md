@@ -110,7 +110,7 @@ section > article {
 * `space-between`
 * `space-around`
 
-以下是 `flex-direction: row` 情况下，`justify-content` 各个值的效果示意图。  
+默认情况下(`flex-direction: row`)，`justify-content` 各个值的效果示意图。  
 ![](https://css-tricks.com/wp-content/uploads/2013/04/justify-content.svg)
 
 ## align-content
