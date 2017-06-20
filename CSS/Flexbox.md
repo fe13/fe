@@ -114,10 +114,11 @@ section > article {
 ![](https://css-tricks.com/wp-content/uploads/2013/04/justify-content.svg)
 
 ## align-content
-[`align-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content) 属性用于指定**辅轴方向**上 flex 子项之间及其周围的空间(当有多余空间时)。
+[`align-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content) 属性用于指定**辅轴方向**上**每一行**之间及其周围的空间(当有多余空间时)。
 
 ⚠️ `align-content` 仅在具有**多行** flex 子项的情况下生效，单行无效。
 
+`align-content` 各个值的效果示意图(默认情况 `flex-direction: row`)  
 ![](https://css-tricks.com/wp-content/uploads/2013/04/align-content.svg)
 
 ## align-items
