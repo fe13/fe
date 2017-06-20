@@ -153,6 +153,7 @@ section > article {
 * [Bootstrap 4](http://getbootstrap.com)
 
 ## 参考链接
+* https://www.w3.org/TR/css-flexbox-1
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout
