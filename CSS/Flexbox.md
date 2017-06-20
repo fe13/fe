@@ -122,6 +122,8 @@ section > article {
 
 ![](https://css-tricks.com/wp-content/uploads/2014/05/align-items.svg)
 
+## margin: auto
+
 ## 属性列表
 ### flex 容器属性
 * `flex-flow`
