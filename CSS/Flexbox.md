@@ -103,7 +103,7 @@ section > article {
 * <整数>
 
 ## justify-content
-[`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) 属性用于指定**主轴方向**上 flex 子项之间及其周围的空间。
+[`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) 属性用于指定**主轴方向**上 flex 子项之间及其周围的空间(当有多余空间时)。
 * `flex-start` `默认值`
 * `flex-end`
 * `center`
@@ -114,9 +114,9 @@ section > article {
 ![](https://css-tricks.com/wp-content/uploads/2013/04/justify-content.svg)
 
 ## align-content
-[`align-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content)
+[`align-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-content) 属性用于指定**辅轴方向**上 flex 子项之间及其周围的空间(当有多余空间时)。
 
-⚠️ `align-content`
+⚠️ `align-content` 仅在具有**多行** flex 子项的情况下生效，单行无效。
 
 ![](https://css-tricks.com/wp-content/uploads/2013/04/align-content.svg)
 
