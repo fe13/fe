@@ -69,12 +69,13 @@ section > article {
 
 显然，上述 🌰 中的 section 是 flex 容器，article 是 flex 子项。
 
-### display: flex 默认行为
+### 默认行为
 * flex 子项登高。
 * flex 子项撑满 flex 容器高度。
 * flex 容器中的 flex 子项呈单行排布，不换行。
 * flex 容器的布局方向是从左往右(对于阅读方向是从左往右的语言，如中文)。
-💡 在 flex 容器上设置属性 `dir="rtl"`
+
+💡 在 flex 容器上设置属性 `dir="rtl"` 可以使默认布局方向变成从右往左，不过这不是推荐的做法。
 
 ## flex-flow
 [`flex-flow`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-flow) 是以下两个属性的缩写。
