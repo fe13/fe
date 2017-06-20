@@ -145,6 +145,15 @@ section > article {
 * [flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink) 属性用于指定 flex 子项在**主轴**方向上**收缩因子**。
 * [flex-basis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis) 属性用于指定 flex 子项在**主轴**方向上的**初始大小**。
 
+```css
+flex: 1;
+/* 
+ * flex-grow: 1; 
+ * flex-shrink: 1;
+ * flex-basis: 0%;
+ */
+```
+
 ### flex-grow
 * `0` `默认值` 不拉伸
 * `<数字>` 负数无效
