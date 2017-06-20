@@ -139,6 +139,12 @@ section > article {
 
 ⚠️ 给 flex 子项设置 `float` `clear` `vertical-align` 无效。
 
+## flex
+[flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) 属性是以下三个属性的缩写。
+* [flex-grow](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)
+* [flex-shrink](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink)
+* [flex-basis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis)
+ 
 ## margin
 
 ## 属性列表
