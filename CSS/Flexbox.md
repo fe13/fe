@@ -83,12 +83,7 @@ section > article {
 **注意** `row` 和 `row-reverse` 的实际方向受 `dir` 属性影响。此处假设文本方向为**从左到右**。
 
 ### 主轴与侧轴
-`flex-direction` 决定主轴(Main Axis)的方向。侧轴(Cross Axis)垂直于主轴。
-
-| 轴名 |  `row`  | `row-reverse` | `column` | `column-reverse`|
-|-----|:-------:|:-------------:|:--------:|:----------------:|
-| 主轴 | 从左往右 |  从右往左       |  从上往下 |     从下往上      |
-
+`flex-direction` 与主轴(Main Axis)的方向一致。侧轴(Cross Axis)垂直于主轴。
 
 ### flex-wrap
 * `nowrap` `默认值` 不换行，即 flex 子项都在同一行。
