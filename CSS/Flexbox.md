@@ -1,6 +1,6 @@
 # Flexbox
 
-Flexbox 为 CSS 提供了更强大的布局方式。
+Flexbox 为 CSS 提供了强大的弹性布局方式。
 
 ## display: flex
 ```html
