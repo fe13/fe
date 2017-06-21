@@ -201,6 +201,9 @@ flex: 1;
   * `flex-grow`
   * `flex-shrink`
   * `flex-basis`
+  
+## 典型应用
+* [响应式导航栏](https://twhy.github.io/flexbox-everything/sc.html)
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
