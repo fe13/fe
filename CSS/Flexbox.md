@@ -59,6 +59,10 @@ section > article {
 ```
 🚀 https://codepen.io/twhy/pen/MopwzL
 
+同样的原理可以应用到导航栏上，让每个导航项均等排布。
+
+🚀 [十二生肖排行](https://twhy.github.io/flexbox-everything/zodiacs.html)
+
 💡 如果希望 flex 容器表现的像行内元素，可以设置 `display: inline-flex`。
 
 ### 常用术语
