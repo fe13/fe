@@ -147,7 +147,7 @@ flex-flow: column wrap;
 ![](https://css-tricks.com/wp-content/uploads/2014/05/align-items.svg)
 
 ## align-self
-[align-self](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self) 属性用于单独指定 **flex 子项**在**辅轴方向**上的对齐方式，可覆盖 `align-items` 的值。若 flex 子项在辅轴方向 `margin` 值设置为 `auto`，则 `align-self` 会被忽略。
+[align-self](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self) 属性用于单独指定 **flex 子项**在**辅轴方向**上的对齐方式，可覆盖 flex 容器上 `align-items` 的值。若 flex 子项在辅轴方向 `margin` 值设置为 `auto`，则 `align-self` 会被忽略。
 
 ```css
 align-self: auto | flex-start | flex-end | center | baseline | stretch;
@@ -186,6 +186,7 @@ flex: 1;
 * `content` 基于 flex 子项自动调整。
  
 ## margin
+💡 别忘了 `margin: auto` `margin-right: auto` 等依然有效。
 
 ## 属性列表
 ### flex 容器属性
