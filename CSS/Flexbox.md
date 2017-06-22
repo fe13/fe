@@ -1,6 +1,6 @@
 # Flexbox
 
-Flexbox 为 CSS 提供了强大的弹性布局方式。💡 Flexbox 更适合用于局部布局(如导航栏)。
+Flexbox 为 CSS 提供了强大的弹性布局方式。
 
 ## display: flex
 ```html
