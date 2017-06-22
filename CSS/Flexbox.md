@@ -137,7 +137,7 @@ flex-flow: column wrap;
 
 ## align-items
 [`align-items`](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) 属性用于指定**当前行 flex 子项**在**辅轴方向**上的对齐方式。
-* `stretch` `默认值` 伸展以占满高度。
+* `stretch` `默认值` 拉伸
 * `flex-start`
 * `flex-end`
 * `center`
