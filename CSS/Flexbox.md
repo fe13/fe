@@ -114,6 +114,8 @@ flex-flow: column wrap;
 * `0` `默认值`
 * <整数>
 
+🌰 [移动端重排列表顺序](https://twhy.github.io/flexbox-everything/wl.html)
+
 ## justify-content
 [`justify-content`](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content) 属性用于指定**主轴方向**上 flex 子项之间及其周围的空间(当有多余空间时)。
 * `flex-start` `默认值`
