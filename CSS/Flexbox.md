@@ -207,6 +207,7 @@ flex: 1;
   
 ## 典型应用
 * [响应式导航栏](https://twhy.github.io/flexbox-everything/sc.html)
+* [移动端重排列表顺序](https://twhy.github.io/flexbox-everything/wl.html)
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
