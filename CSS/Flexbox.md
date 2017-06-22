@@ -209,6 +209,7 @@ flex: 1;
 * 元素居中 https://codepen.io/twhy/pen/xrrbGg
 * 响应式导航栏 https://twhy.github.io/flexbox-everything/sc.html
 * 移动端重排列表顺序 https://twhy.github.io/flexbox-everything/wl.html
+* 移动应用界面 https://twhy.github.io/flexbox-everything
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
