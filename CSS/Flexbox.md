@@ -61,7 +61,7 @@ section > article {
 
 同样的原理可以应用到导航栏上，让每个导航项均等排布。
 
-🚀 [十二生肖菜单栏](https://codepen.io/twhy/pen/vZxGpK)
+🚀 十二生肖菜单栏 https://codepen.io/twhy/pen/vZxGpK
 
 💡 如果希望 flex 容器表现的像行内元素，可以设置 `display: inline-flex`。
 
@@ -206,8 +206,9 @@ flex: 1;
   * `flex-basis`
   
 ## 典型应用
-* [响应式导航栏](https://twhy.github.io/flexbox-everything/sc.html)
-* [移动端重排列表顺序](https://twhy.github.io/flexbox-everything/wl.html)
+* 元素居中 https://codepen.io/twhy/pen/xrrbGg
+* 响应式导航栏 https://twhy.github.io/flexbox-everything/sc.html
+* 移动端重排列表顺序 https://twhy.github.io/flexbox-everything/wl.html
 
 ## 游戏教程 🎮
 * https://flexboxfroggy.com
