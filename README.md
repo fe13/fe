@@ -4,7 +4,7 @@
 Octotree 会在你浏览 Github 的时候生成文件树，方便浏览文件。
 * [Github下载地址](https://github.com/buunguyen/octotree/raw/master/dist/chrome.crx) 下载完成后，进入 chrome://extensions 页面，将插件拖入该页面进行安装。
 * [Chrome Store 下载地址（需翻墙）](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=zh-CN])
-<img src="https://lh3.googleusercontent.com/mhU96i_fm1grjKQRkKQKm8G1MUX6Bw1YllQ_RvvXdCUVE51-6ZPQu-Em68cdlGVIIcNOGF61xLk=s1280-h800-e365-rw" width="600">
+<img src="HTML/images/octotree.png" width="600">
 
 ## MDN 切换中文
 ### 方法一：修改 URL
