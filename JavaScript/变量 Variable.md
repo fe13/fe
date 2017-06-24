@@ -2,6 +2,18 @@
 
 ## 什么是变量 ？
 
+## 变量名
+```javascript
+var hero name       // ❌ 变量名不能包含空格
+var 2b              // ❌ 变量名不能以数字开头
+var product_price   // 🆗
+var $container      // ✅ 
+var _counter = 0    // ✅
+var observable$     // ✅ 
+var firstName       // ✅ 💯
+var isMobileSafari  // ✅ 💯
+```
+
 ## var
 
 ## let
