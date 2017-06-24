@@ -41,6 +41,7 @@ $ browser-sync start --server --files .
 ## 关闭 BrowserSync
 使用完毕后，在命令行界面按 CTRL + C 关闭 BrowserSync。
 
-
+## 参考链接
+* https://www.browsersync.io
 
 
