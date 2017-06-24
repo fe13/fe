@@ -5,4 +5,5 @@
 * `Mac` Command + Shift + P
 
 ## 参考链接
+* https://developers.google.com/web/tools/chrome-devtools
 * https://developers.google.com/web/tools/chrome-devtools/shortcuts
