@@ -1,5 +1,7 @@
 # 字符串 String
 
+## 字符串拼接
+
 ## 字符串长度 length
 ```javascript
 > "Are you OK?".length
