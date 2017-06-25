@@ -3,13 +3,20 @@
 ## 正常/文档流 Normal Flow
 Normal Flow 即浏览器默认的文档布局方式。
 
-定位就是通过设置 `position` 属性的值来覆盖默认的布局方式。
+定位就是通过设置 [`position`](https://developer.mozilla.org/en-US/docs/Web/CSS/position) 属性的值来覆盖默认的布局方式。
+
+* [top](https://developer.mozilla.org/en-US/docs/Web/CSS/top)
+* [left](https://developer.mozilla.org/en-US/docs/Web/CSS/left)
+* [right](https://developer.mozilla.org/en-US/docs/Web/CSS/right)
+* [bottom](https://developer.mozilla.org/en-US/docs/Web/CSS/bottom)
 
 ## 静态定位
 `position: static` `默认值` 默认的布局方式。
 
 ## 相对定位
 `position: relative` 相对默认的布局位置进行定位。
+
+💡 相对定位就是“相对自己定位”。
 ```css
 .avatar {
   top: 3px;
@@ -34,7 +41,7 @@ Normal Flow 即浏览器默认的文档布局方式。
 ```
 
 ## 固定定位
-`position: fixed` 相对浏览器窗口进行定位。
+`position: fixed` 相对浏览器窗口进行定位。因此当滚动产生时，固定定位元素依然处于窗口的某个固定位置。
 ```css
 .feedback {
   right: 30px;
