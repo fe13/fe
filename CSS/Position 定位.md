@@ -51,7 +51,7 @@ Normal Flow 即浏览器默认的文档布局方式。
 ```
 
 ## 粘性定位
-`position: sticky`
+`position: sticky` 是相对定位和固定定位的结合。默认情况下表现为相对定位，当浏览器窗口顶端与元素的距离等于 `top` 属性的值时，转变为固定定位。
 
 🌰 [Macbook Pro 产品导航栏](https://www.apple.com/macbook-pro)
 
