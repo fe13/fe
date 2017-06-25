@@ -51,6 +51,7 @@ Normal Flow 即浏览器默认的文档布局方式。
 🤔 `position` 属性有哪些值，它们的表现有什么不同？
 
 ## 参考链接
+* https://css-tricks.com/almanac/properties/p/position
 * https://developer.mozilla.org/zh-CN/docs/Web/CSS/position
 * https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
 * https://stackoverflow.com/questions/14391208/how-does-z-index-really-work
