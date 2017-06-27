@@ -25,7 +25,7 @@
 ## 函数指令
 * @function
 * @return
-```
+```sass
 @function px2rem(val, per: 125%) {
   @return (val / (16px * per))rem;
 }
