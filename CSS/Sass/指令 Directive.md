@@ -26,8 +26,13 @@
 * @function
 * @return
 ```sass
-@function px2rem(val, per: 125%) {
-  @return (val / (16px * per))rem;
+@function px2rem($val, $per: .625) {
+  @return #{$val / (16 * $per)}rem;
+}
+
+.container {
+  max-width: px2rem(1000);
 }
 ```
+
 
