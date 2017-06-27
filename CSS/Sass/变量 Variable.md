@@ -2,11 +2,10 @@
 
 ## 插值 Interpolation
 ```sass
-$side: top;
+$side: bottom;
 
-.moon {
-  #{side}: 10px;
-  position: absolute;
+.header {
+  border-#{$side}: 1px solid #ccc;
 }
 ```
 
