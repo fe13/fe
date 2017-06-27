@@ -1,6 +1,6 @@
 # npm
 
-如果你在中国大陆，建议给 npm 设置淘宝下载源。
+如果你在中国大陆，建议先运行以下命令。
 ```bash
 $ npm config set registry https://registry.npm.taobao.org
 ```
