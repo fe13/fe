@@ -52,6 +52,15 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 * `.col-md-offset-1`
 * `.col-sm-offset-0`
 
+## 文本
+* `.lead` 突出段落文字
+* `.text-center` 文字居中
+* `.text-left` 文字左对齐
+* `.text-right` 文字右对齐
+* `.list-unstyled` 去除列表默认样式
+* `.list-inline` 行内列表
+* `<i class="glyphicon glyphicon-globe"></i>` 字体图标
+
 ## 参考链接
 * [Bootstrap 优站精选](http://expo.bootcss.com)
 * http://getbootstrap.com
