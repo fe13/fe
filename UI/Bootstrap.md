@@ -2,7 +2,7 @@
 
 Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件，插件丰富，特别适合快速开发网站，内部系统等。
 
-## 导入 Bootstrap
+## 导入
 可通过 CDN 导入 Bootstrap，也可以下载后在本地引用。
 ```html
 <!DOCTYPE html>
