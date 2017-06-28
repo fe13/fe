@@ -29,7 +29,7 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 | 📱 Phone `<768px` | Pad `>=768px`    | 💻 Laptop `>=992px` | 🖥 Desktop `>=1200px` |
 |:-----------------:|:----------------:|:------------------:|:---------------------:|
 |      `col-xs-`    |   `col-sm-`      |     `col-md-`      |     `col-lg-`         |
-|  `col-xs-offset`  | `col-sm-offset-` |  `col-md-offset-`  |   `col-lg-offset-`    |
+|  `col-xs-offset-` | `col-sm-offset-` |  `col-md-offset-`  |   `col-lg-offset-`    |
 |     `hidden-xs`   |    `hidden-sm`   |     `hidden-md`    |      `hidden-lg`      |
 |    `visible-xs`   |   `visible-sm`   |    `visible-md`    |      `visible-lg`     |
 
