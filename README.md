@@ -1,5 +1,7 @@
 # 前端学习指南
 
+💡 如果觉得这里的内容对你有帮助，请点击页面右上角 ★ Star 按钮点赞。
+
 ## 安装 Octotree Chrome 插件
 Octotree 会在你浏览 Github 的时候生成文件树，方便浏览文件。
 * [Github下载地址](https://github.com/buunguyen/octotree/raw/master/dist/chrome.crx) 下载完成后，进入 chrome://extensions 页面，将插件拖入该页面进行安装。
