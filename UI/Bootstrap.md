@@ -26,14 +26,17 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 * `.container-fluid`
 
 ## 网格
-| 📱 Phone `<768px` | Pad `>=768px` | 💻 Laptop `>=992px` | 🖥 Desktop `>=1200px` |
-|:-----------------:|:--------------:|:-----------------:|:---------------------:|
-|      `col-xs-`    |   `col-sm-`    |     `col-md-`     |     `col-lg-`         |
+| 📱 Phone `<768px` | Pad `>=768px`    | 💻 Laptop `>=992px` | 🖥 Desktop `>=1200px` |
+|:-----------------:|:----------------:|:------------------:|:---------------------:|
+|      `col-xs-`    |   `col-sm-`      |     `col-md-`      |     `col-lg-`         |
+|  `col-xs-offset`  | `col-sm-offset-` |  `col-md-offset-`  |   `col-lg-offset-`    |
+
 * `.row`
 * `.col-md-12`
 * `.col-md-8`
 * `.col-md-3`
 * `.col-md-offset-1`
+* `.col-sm-offset-0`
 
 ## 参考链接
 * [Bootstrap 优站精选](http://expo.bootcss.com)
