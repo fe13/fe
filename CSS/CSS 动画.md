@@ -249,6 +249,7 @@ animation-play-state: paused, running, running;
 ```
 
 ## 开源项目
+* [Anime](http://animejs.com)
 * [Animate.css](https://daneden.github.io/animate.css)
 
 ## 动画工具
