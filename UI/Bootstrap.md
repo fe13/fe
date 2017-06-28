@@ -2,6 +2,26 @@
 
 Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件，插件丰富，特别适合快速开发网站，内部系统等。
 
+## 导入 Bootstrap
+可通过 CDN 导入 Bootstrap，也可以下载后在本地引用。
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <title>Bootstrap</title>
+</head>
+<body>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
+
 ## 参考链接
 * http://getbootstrap.com
 * 🇨🇳 http://www.bootcss.com
