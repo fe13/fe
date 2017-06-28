@@ -22,8 +22,20 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 ```
 
 ## 容器
-* `.container`
-* `.container-fluid`
+`.container` `响应式`
+```html
+ <header>
+   <div class="container">
+     <h1>响应式设计</h1>
+   </div>
+ </header>
+```
+`.container-fluid` `非响应式`
+```html
+<div class="container-fluid">
+  <p>在我的后园，可以看见墙外有两株树，一株是枣树，还有一株也是枣树。</p>
+</div>
+```
 
 ## 网格
 | 📱 Phone `<768px` | Pad `>=768px`    | 💻 Laptop `>=992px` | 🖥 Desktop `>=1200px` |
