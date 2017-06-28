@@ -21,6 +21,16 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 </html>
 ```
 
+## 容器
+* `.container`
+* `.container-fluid`
+
+## 网格
+* `.row`
+* `.col-md-12`
+* `.col-md-8`
+* `.col-md-3`
+* `.col-md-offset-1`
 
 ## 参考链接
 * http://getbootstrap.com
