@@ -61,6 +61,16 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 * `.list-inline` 行内列表
 * `<i class="glyphicon glyphicon-globe"></i>` 字体图标
 
+## 按钮
+```html
+<button type="button" class="btn btn-default">默认按钮</button>
+<button type="button" class="btn btn-primary">首选按钮</button>
+<button type="button" class="btn btn-success">成功按钮</button>
+<button type="button" class="btn btn-info">提示按钮</button>
+<button type="button" class="btn btn-warning">警告按钮</button>
+<button type="button" class="btn btn-danger">危险按钮</button>
+```
+
 ## 导航
 
 ## 参考链接
