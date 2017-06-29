@@ -37,21 +37,6 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 </div>
 ```
 
-## 栅格
-| 📱 Phone `<768px` | Pad `>=768px`    | 💻 Laptop `>=992px` | 🖥 Desktop `>=1200px` |
-|:-----------------:|:----------------:|:------------------:|:---------------------:|
-|      `col-xs-`    |   `col-sm-`      |     `col-md-`      |     `col-lg-`         |
-|  `col-xs-offset-` | `col-sm-offset-` |  `col-md-offset-`  |   `col-lg-offset-`    |
-|     `hidden-xs`   |    `hidden-sm`   |     `hidden-md`    |      `hidden-lg`      |
-|    `visible-xs`   |   `visible-sm`   |    `visible-md`    |      `visible-lg`     |
-
-* `.row`
-* `.col-md-12`
-* `.col-md-8`
-* `.col-md-3`
-* `.col-md-offset-1`
-* `.col-sm-offset-0`
-
 ## 文本
 * `.lead` 突出段落文字
 * `.text-center` 文字居中
@@ -90,6 +75,55 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
     </div>
   </div>
 </nav>
+```
+
+## 栅格
+| 📱 Phone `<768px` | Pad `>=768px`    | 💻 Laptop `>=992px` | 🖥 Desktop `>=1200px` |
+|:-----------------:|:----------------:|:------------------:|:---------------------:|
+|      `col-xs-`    |   `col-sm-`      |     `col-md-`      |     `col-lg-`         |
+|  `col-xs-offset-` | `col-sm-offset-` |  `col-md-offset-`  |   `col-lg-offset-`    |
+|     `hidden-xs`   |    `hidden-sm`   |     `hidden-md`    |      `hidden-lg`      |
+|    `visible-xs`   |   `visible-sm`   |    `visible-md`    |      `visible-lg`     |
+
+```html
+<div class="players">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="player lc">
+          <p class="name">流川枫</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="player ym">
+          <p class="name">樱木花道</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="player cm">
+          <p class="name">赤木刚宪</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <div class="player sj">
+          <p class="name">三井寿</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="player gc">
+          <p class="name">宫城良田</p>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="player mm">
+          <p class="name">木暮公延</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 ```
 
 ## 参考链接
