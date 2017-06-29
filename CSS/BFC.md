@@ -19,6 +19,8 @@ BFC 全称 Block Formatting Context。
 * `column-span: all` 的元素
 
 ## BFC 的特性
+> In a block formatting context, each box's left outer edge touches the left edge of the containing block (for right-to-left formatting, right edges touch). This is true even in the presence of floats (although a box's line boxes may shrink due to the floats), unless the box establishes a new block formatting context (in which case the box itself may become narrower due to the floats).
+
 ### 阻止外边距坍塌
 ### 抑制浮动
 ### 包含浮动
