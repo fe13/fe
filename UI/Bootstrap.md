@@ -72,10 +72,24 @@ Bootstrap 是一套开源的前端 UI 框架，包含众多通用的 UI 组件�
 ```
 
 ## 导航
-* `.nav`
-* `.nav .nav-tabs`
-* `.nav .nav-pills`
-* `.nav .navbar-nav`
+* `<ul class="nav">` 局部导航基础类
+* `<ul class="nav nav-tabs">` 标签页导航
+* `<ul class="nav nav-pills">` 按钮式导航
+* `<ul class="nav navbar-nav">` 
+* `<ul class="nav navbar-nav navbar-right">`
+* `<nav class="navbar navbar-default">` 整体导航栏容器
+* `<nav class="navbar navbar-default navbar-static-top">` 整体导航栏容器(页面上方，静态定位)
+* `<nav class="navbar navbar-inverse">` 整体导航栏容器(深色)
+* `<nav class="navbar navbar-inverse navbar-fixed-bottom">` 整体导航栏容器(页面下方，固定定位)
+
+```html
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container-fluid">
+    
+  </div>
+</nav>
+```
+
 ## 参考链接
 * [Bootstrap 优站精选](http://expo.bootcss.com)
 * http://getbootstrap.com
