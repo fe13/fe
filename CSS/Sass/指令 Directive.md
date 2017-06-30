@@ -35,18 +35,6 @@ $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
 }
 ```
 
-## @mixin
-```sass
-// Bootstrap 源码
-@mixin text-truncate() {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-```
-## @include
-
-
 ## @content
 
 
