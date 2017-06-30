@@ -34,6 +34,17 @@ $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
   background-image: url(../images/react.jpg);
 }
 ```
+`SCSS`
+```sass
+$warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
+@each $name in $warriors {
+  $i: index($warriors, $name) - 1;
+  .warrior.#{$name} {
+    background-image: url(../images/#{$name}.jpeg);
+    transform: rotateY(360deg / length($warriors) * $i) translateZ(380px);
+  }
+}
+```
 
 ## @content
 
