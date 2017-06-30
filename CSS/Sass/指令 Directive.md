@@ -7,6 +7,34 @@
 
 ### @while
 
+### @each
+
+#### 遍历键值对
+`SCSS`
+```sass
+$frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
+
+@each $framework, $icon in $frameworks {
+  .framework.#{$framework} {
+    background-image: url(../images/#{$icon});
+  }
+}
+```
+`CSS`
+```css
+.framework.vue {
+  background-image: url(../images/vue.png);
+}
+
+.framework.angular {
+  background-image: url(../images/angular.svg);
+}
+
+.framework.react {
+  background-image: url(../images/react.jpg);
+}
+```
+
 ## @mixin
 ```sass
 // Bootstrap 源码
