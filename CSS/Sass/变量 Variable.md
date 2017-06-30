@@ -40,17 +40,33 @@ $content: '🍎' !default;
 ```
 
 ## 数据类型
-### 列表 List
 `SCSS`
 ```sass
+// 数字
+$font-size: 2rem;
+$line-height: 1.5;
+
+// 颜色
+$base: darkorange;
+$link-color: #0070e9;
+$overlay-bg-color: rgba(255, 255, 255, .5);
+
+// 空值
+$animate: null;
+
+// 字符串
+$greeting: How are you;
+$response: "Fine, thank you, and you?";
+$content: 吾生也有涯，而知也无涯。;
+
+// 布尔值
+$hd: true;
+$use-dark-theme: false;
+
+// 列表 List
 $padding: 20px 10px 30px 40px;
+$font-family: Helvetica, Arial, sans-serif;
 $warriors: curry, klay, durant, green, zaza;
-```
-
-### 键值对 Map
-`SCSS`
-```
-
 ```
 
 ## 插值 Interpolation
