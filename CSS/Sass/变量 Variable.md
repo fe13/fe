@@ -1,6 +1,6 @@
 # 变量 Variable
 
-## 变量 $
+## 声明变量 $
 在 Sass 中通过 `$` 声明变量。
 
 `SCSS`
@@ -18,8 +18,9 @@ html {
   font-size: 10px;
 }
 ```
+💡 由于历史原因，变量名分隔符 `-` 和 `_` 是等价的。比如，`$root-font-size` 可通过 `$root_font_size` 引用到。 
 
-## 默认值 !default
+### 默认值 !default
 通过 `!default` 可以给变量设置默认值。
 
 `SCSS`
@@ -36,6 +37,28 @@ $content: '🍎' !default;
 @charset "UTF-8";
 .apple-icon::after {
   content: "🍏";
+}
+```
+
+### 全局值 !global
+变量仅在它定义的选择器嵌套层级范围内可用，要使变量在全局范围内可用，可用 `!global` 进行修饰。
+```sass
+#header {
+  $width: 100em !global;
+  width: $width;
+}
+
+#content {
+  width: $width;
+}
+```
+```css
+#header {
+  width: 100em;
+}
+
+#content {
+  width: 100em;
 }
 ```
 
