@@ -61,6 +61,31 @@ CSS 属性也可以嵌套，只是不太常用。
 ```
 
 ## & 引用
+Sass 提供了 `&` 用于引用父选择器。
+
+`SCSS`
+```sass
+.btn {
+  &.btn-default { background: #ffffff; }
+  &.btn-primary { background: #337ab7; }
+  &.btn-success { background: #5cb85c; }
+}
+```
+`CSS`
+```css
+.btn.btn-default {
+  background: #ffffff;
+}
+.btn.btn-primary {
+  background: #337ab7;
+}
+.btn.btn-success {
+  background: #5cb85c;
+}
+```
+
+在 `&` 前面添加选择器也是可以的。
+
 `SCSS`
 ```sass
 .flex-item {
@@ -75,6 +100,8 @@ CSS 属性也可以嵌套，只是不太常用。
   float: left;
 }
 ```
+
+多重嵌套中使用 `&` 要特别注意，以下 🌰 中 `&` 代表 `.container > .navbar`。
 
 `SCSS`
 ```sass
