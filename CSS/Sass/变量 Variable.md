@@ -19,14 +19,39 @@ html {
 }
 ```
 
-## 列表 List
+## 默认值 !default
+通过 `!default` 可以给变量设置默认值。
+
+`SCSS`
+```sass
+$content: '🍏';
+$content: '🍎' !default;
+
+.apple-icon::after {
+  content: $content;
+}
+```
+`CSS`
+```css
+@charset "UTF-8";
+.apple-icon::after {
+  content: "🍏";
+}
+```
+
+## 数据类型
+### 列表 List
 `SCSS`
 ```sass
 $padding: 20px 10px 30px 40px;
 $warriors: curry, klay, durant, green, zaza;
 ```
 
-## 键值对 Map
+### 键值对 Map
+`SCSS`
+```
+
+```
 
 ## 插值 Interpolation
 `SCSS`
