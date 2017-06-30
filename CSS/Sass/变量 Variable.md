@@ -79,7 +79,7 @@ $animate: null;
 
 // 字符串
 $greeting: How are you;
-$response: "Fine, thank you, and you?";
+$response: "I'm fine, thank you, and you?";
 $content: 吾生也有涯，而知也无涯。;
 
 // 布尔值
