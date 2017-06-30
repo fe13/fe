@@ -96,6 +96,8 @@ $warriors: curry, klay, durant, green, zaza;
 ```
 
 ## 插值 Interpolation
+结合 `#{}` 插值语法和变量可输出特定的属性名和选择器。
+
 `SCSS`
 ```sass
 $side: bottom;
