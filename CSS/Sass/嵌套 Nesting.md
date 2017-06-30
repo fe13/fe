@@ -84,7 +84,7 @@ Sass 提供了 `&` 用于引用父选择器。
 }
 ```
 
-在 `&` 前面添加选择器也是可以的。
+在 `&` 前面添加选择器是 🆗 的。
 
 `SCSS`
 ```sass
@@ -98,6 +98,30 @@ Sass 提供了 `&` 用于引用父选择器。
 ```css
 .no-flexbox .flex-item {
   float: left;
+}
+```
+
+在 `&` 后面添加后缀也是 🆗 的。
+
+`SCSS`
+```sass
+.product {
+  &-title {
+    font-size: 3rem;
+  }
+  &-price {
+    font-size: 2rem;
+  }
+}
+```
+
+`CSS`
+```css
+.product-title {
+  font-size: 3rem;
+}
+.product-price {
+  font-size: 2rem;
 }
 ```
 
