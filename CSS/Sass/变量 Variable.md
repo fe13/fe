@@ -19,6 +19,15 @@ html {
 }
 ```
 
+## 列表 List
+`SCSS`
+```sass
+$padding: 20px 10px 30px 40px;
+$warriors: curry, klay, durant, green, zaza;
+```
+
+## 键值对 Map
+
 ## 插值 Interpolation
 `SCSS`
 ```sass
