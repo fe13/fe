@@ -264,6 +264,7 @@ animation-play-state: paused, running, running;
 * https://taosang1992.github.io/my-works/WebDemo/app01
 * https://css-tricks.com/creating-a-3d-cube-image-gallery
 * https://css-tricks.com/almanac/properties/a/animation
+* https://tympanus.net/codrops/css_reference/perspective
 * https://www.smashingmagazine.com/2014/04/understanding-css-timing-functions
 * https://developer.mozilla.org/en-US/docs/Web/CSS/transition
 * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
