@@ -66,14 +66,11 @@ $use-dark-theme: false;
 // 键值对 Map
 $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
 
-// 列表 List
+// 列表 List，以空格或逗号分隔。
 $padding: 20px 10px 30px 40px;
 $font-family: Helvetica, Arial, sans-serif;
 $warriors: curry, klay, durant, green, zaza;
 ```
-
-
-
 
 ## 插值 Interpolation
 `SCSS`
