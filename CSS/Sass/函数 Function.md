@@ -2,6 +2,7 @@
 
 ## @function
 
+## 内置函数
 
 ## 参考链接
 * http://sass-lang.com/documentation/Sass/Script/Functions.html
