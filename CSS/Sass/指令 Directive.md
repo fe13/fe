@@ -9,7 +9,7 @@
 
 ### @each
 
-#### 遍历键值对
+#### @each 遍历键值对
 `SCSS`
 ```sass
 $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
