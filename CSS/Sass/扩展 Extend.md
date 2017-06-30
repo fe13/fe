@@ -5,3 +5,6 @@
 ## @extend
 
 ## %foo
+
+## 参考链接
+* https://css-tricks.com/the-extend-concept
