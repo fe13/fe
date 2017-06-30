@@ -37,26 +37,24 @@ Sass 允许嵌套规则，便于维护样式代码。
 ```
 
 ## 嵌套属性
-CSS 属性也可以嵌套，只是不太常用。
+CSS 属性也是可以嵌套的。
 
 `SCSS`
 ```sass
-.footer {
-  border: {
-    top: 1px dotted #aaa;
-    left: 2px dashed #bbb; 
-    right: 3px solid #ccc;
-    bottom: 4px double #ddd;
-  };
+.fancy {
+  font: {
+    size: 12rem;
+    weight: bold;
+    family: fantasy;
+  }
 }
 ```
 `CSS`
 ```css
-.footer {
-  border-top: 1px dotted #aaa;
-  border-left: 2px dashed #bbb;
-  border-right: 3px solid #ccc;
-  border-bottom: 4px double #ddd;
+.fancy {
+  font-size: 12rem;
+  font-weight: bold;
+  font-family: fantasy;
 }
 ```
 
