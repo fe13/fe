@@ -64,17 +64,40 @@ $warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
 ```
 
 ## 函数指令
-* @function
-* @return
+### 定义函数
+`@function` 定义函数，
+
+`SCSS`
 ```sass
-@function px2rem($val, $per: .625) {
-  @return #{$val / (16 * $per)}rem;
+$font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
+
+@function px2rem($px, $base: $font-size-base) {
+  @return #{($px / $base)}rem;
 }
 
 .container {
-  max-width: px2rem(1000);
+  width: px2rem(1000px);
 }
 ```
 
+### 内置函数
+`SCSS`
+```
+// length()
+
+// index()
+
+// rgba()
+
+// darken()
+
+// lighten()
+
+// saturate()
+
+// desaturate()
+```
+
 ## 参考链接
+* http://sass-lang.com/documentation/Sass/Script/Functions.html
 * https://hugogiraudel.com/2013/08/08/advanced-sass-list-functions
