@@ -1,5 +1,60 @@
 # 指令 Directive
 
+## 函数指令
+### 定义函数
+`@function` 定义函数，
+
+`SCSS`
+```sass
+$font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
+
+@function px2rem($px, $base: $font-size-base) {
+  @return #{($px / $base)}rem;
+}
+
+.container {
+  width: px2rem(1000px);
+}
+```
+
+`CSS`
+```css
+.container {
+  width: 83.33333333rem;
+}
+```
+
+### 内置函数
+`SCSS`
+```sass
+// rgba()
+$bgcolor: #ccc;
+
+.overlay {
+  background-color: rgba($bgcolor, .8);
+}
+
+// lighten($color, $amount) darken($color, $amount)
+$link-color: #0070e9;
+
+a {
+  color: $link-color;
+  &:hover { color: lighten($link-color, 10%); };
+  &:active { color: darken($link-color, 10%); };
+}
+
+// length($list) 获取列表长度
+$fruits: apple banana orange pear stawberry cherry kiwi;
+$len: length($fruits);   // 7
+
+// nth($list, $n) 获取列表第 n 个元素
+$cherry: nth($fruits, 6);
+
+// index($list, $item) 获取列表元素下标
+$iorange: index($fruits, orange);  // 3
+```
+💡 [内置函数列表](http://sass-lang.com/documentation/Sass/Script/Functions.html)
+
 ## 控制指令
 ### @if
 `@if` 结合 `@mixin` 和变量实现全局控制是否出现圆角。
@@ -61,41 +116,6 @@ $warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
     transform: rotateY(360deg / length($warriors) * $i) translateZ(380px);
   }
 }
-```
-
-## 函数指令
-### 定义函数
-`@function` 定义函数，
-
-`SCSS`
-```sass
-$font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
-
-@function px2rem($px, $base: $font-size-base) {
-  @return #{($px / $base)}rem;
-}
-
-.container {
-  width: px2rem(1000px);
-}
-```
-
-### 内置函数
-`SCSS`
-```
-// length()
-
-// index()
-
-// rgba()
-
-// darken()
-
-// lighten()
-
-// saturate()
-
-// desaturate()
 ```
 
 ## 参考链接
