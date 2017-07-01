@@ -59,9 +59,6 @@ $warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
 }
 ```
 
-## @content
-
-
 ## 函数指令
 * @function
 * @return
