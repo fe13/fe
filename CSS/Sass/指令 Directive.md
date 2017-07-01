@@ -2,6 +2,19 @@
 
 ## 控制指令
 ### @if
+`@if` 结合 `@mixin` 和变量控制是否出现圆角。
+
+`SCSS`
+```sass
+// from Bootstrap
+$enable-rounded: true;
+
+@mixin border-radius($radius: $border-radius) {
+  @if $enable-rounded {
+    border-radius: $radius;
+  }
+}
+```
 
 ### @for
 
