@@ -27,7 +27,6 @@ $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 ### 内置函数
 Sass 提供了一系列的内置函数对颜色，列表等进行操作。
 
-### 内置函数
 `SCSS`
 ```sass
 // rgba()
