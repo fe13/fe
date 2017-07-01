@@ -4,7 +4,7 @@
 ### 定义函数
 Sass 提供了 `@function` 用于定义函数，`@return` 用于返回值。
 
-`SCSS` 一个像素转 rem 的函数。
+`SCSS` 像素转 rem 的函数。
 ```sass
 $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 
