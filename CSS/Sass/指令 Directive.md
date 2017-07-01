@@ -142,7 +142,7 @@ $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
 }
 ```
 
-## @while
+### @while
 
 ## 参考链接
 * http://sass-lang.com/documentation/Sass/Script/Functions.html
