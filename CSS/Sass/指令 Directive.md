@@ -8,8 +8,8 @@
 ```sass
 $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 
-@function px2rem($px, $base: $font-size-base) {
-  @return #{($px / $base)}rem;
+@function px2rem($px) {
+  @return #{($px / $font-size-base)}rem;
 }
 
 .container {
