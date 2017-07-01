@@ -2,7 +2,7 @@
 
 ## 函数指令
 ### 定义函数
-`@function` 定义函数，
+Sass 提供了 `@function` 用于定义函数，`@return` 用于返回值。
 
 `SCSS`
 ```sass
@@ -76,6 +76,30 @@ $enable-rounded: true;
 ```
 
 ### @for
+`SCSS`
+```sass
+$font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
+
+@function px2rem($values) {
+  $result: "";
+  @for $i from 1 through length($values) {
+    $value: nth($values, $i);
+    @if $value == auto { $result: #{$result} auto; }
+    @else { $result: #{$result} #{($value / $font-size-base)}rem; }
+  }
+  @return #{$result};
+}
+
+.container {
+  margin: px2rem(100px auto 80px);
+}
+```
+`CSS`
+```css
+.container {
+  margin:  8.33333rem auto 6.66667rem;
+}
+```
 
 ### @while
 
