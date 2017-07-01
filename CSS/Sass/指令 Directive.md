@@ -2,7 +2,7 @@
 
 ## 控制指令
 ### @if
-`@if` 结合 `@mixin` 和变量控制是否出现圆角。
+`@if` 结合 `@mixin` 和变量实现全局控制是否出现圆角。
 
 `SCSS`
 ```sass
@@ -13,6 +13,10 @@ $enable-rounded: true;
   @if $enable-rounded {
     border-radius: $radius;
   }
+}
+
+.btn {
+  @include border-radius(4px);
 }
 ```
 
