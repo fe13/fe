@@ -106,6 +106,18 @@ $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 
 `SCSS`
 ```sass
+$warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
+@each $name in $warriors {
+  $i: index($warriors, $name) - 1;
+  .warrior.#{$name} {
+    background-image: url(../images/#{$name}.jpeg);
+    transform: rotateY(360deg / length($warriors) * $i) translateZ(380px);
+  }
+}
+```
+
+`SCSS`
+```sass
 $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
 
 @each $framework, $icon in $frameworks {
@@ -126,17 +138,6 @@ $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
 
 .framework.react {
   background-image: url(../images/react.jpg);
-}
-```
-`SCSS`
-```sass
-$warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
-@each $name in $warriors {
-  $i: index($warriors, $name) - 1;
-  .warrior.#{$name} {
-    background-image: url(../images/#{$name}.jpeg);
-    transform: rotateY(360deg / length($warriors) * $i) translateZ(380px);
-  }
 }
 ```
 
