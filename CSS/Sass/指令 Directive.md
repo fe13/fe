@@ -4,7 +4,7 @@
 ### 定义函数
 Sass 提供了 `@function` 用于定义函数，`@return` 用于返回值。
 
-`SCSS`
+`SCSS` 一个像素转 rem 的函数。
 ```sass
 $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 
@@ -23,6 +23,9 @@ $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
   width: 83.33333333rem;
 }
 ```
+
+### 内置函数
+Sass 提供了一系列的内置函数对颜色，列表等进行操作。
 
 ### 内置函数
 `SCSS`
@@ -57,9 +60,7 @@ $iorange: index($fruits, orange);  // 3
 
 ## 控制指令
 ### @if
-`@if` 结合 `@mixin` 和变量实现全局控制是否出现圆角。
-
-`SCSS`
+`SCSS` `@if` 结合 `@mixin` 和变量实现全局控制是否出现圆角。
 ```sass
 // from Bootstrap
 $enable-rounded: true;
@@ -76,7 +77,7 @@ $enable-rounded: true;
 ```
 
 ### @for
-`SCSS`
+`SCSS` 像素转 rem 函数升级版
 ```sass
 $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 
@@ -104,7 +105,7 @@ $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 ### @each
 `@each` 用于遍历列表和键值对。  
 
-`SCSS`
+`SCSS` 遍历列表
 ```sass
 $warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
 @each $name in $warriors {
@@ -116,7 +117,7 @@ $warriors: sc, kd, ai, lv, dw, klay, zaza, green, clark, mcgee;
 }
 ```
 
-`SCSS`
+`SCSS` 遍历键值对
 ```sass
 $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
 
