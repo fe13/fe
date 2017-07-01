@@ -101,11 +101,9 @@ $font-size-base: 12px;  // 中文版 Chrome 限制最小字体大小为 12px
 }
 ```
 
-### @while
-
 ### @each
+`@each` 用于遍历列表和键值对。  
 
-#### @each 遍历键值对
 `SCSS`
 ```sass
 $frameworks: (vue: 'vue.png', angular: 'angular.svg', react: 'react.jpg');
