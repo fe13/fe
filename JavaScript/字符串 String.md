@@ -1,5 +1,7 @@
 # 字符串 String
 
+JavaScript 通过字符串存储文本。字符串的内部格式是 [UTF-16](https://en.wikipedia.org/wiki/UTF-16)，与文档格式无关。
+
 ## 声明字符串
 字符串可以用一对双引号 `"` 或者单引号 `'` 括起来。
 ```javascript
