@@ -1,8 +1,12 @@
 # 字符串 String
 
 ## 声明字符串
+字符串可以用一对双引号 `"` 或者单引号 `'` 括起来。
+```javascript
+"但愿人长久，千里共婵娟。"
 
-
+'其实我是一个演员。'
+```
 
 ## 拼接字符串
 可以通过 `+` 拼接字符串，如
@@ -23,4 +27,5 @@
 ```
 
 ## 参考链接
+* https://javascript.info/string
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings
