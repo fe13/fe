@@ -14,6 +14,12 @@ var age = 16;
 var sc;  // → undefined
 sc = 'Stephen Curry';
 ```
+```javascript
+var name, age, position;
+name = '樱木花道';
+age = 16;
+position = '大前锋';
+```
 
 更改变量的值
 ```javascript
@@ -28,8 +34,15 @@ price += 200          // price is 2000
 price = price * 0.5   // price is 1000
 
 price *= 1.5          // price is 1500
+```
 
-var = "目前的价格是人民币 " + price + " 元整。";
+基于变量 `price` 声明其他变量
+```javascript
+var currentPriceTitle = '目前的价格是人民币 ' + price + ' 元';
+
+price *= 0.85;
+
+var discountPriceTitle = `打折后的价格是人民币 ${price} 元`;
 ```
 
 
