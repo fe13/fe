@@ -5,20 +5,20 @@
 ## 声明变量
 声明变量同时赋值
 ```javascript
-var name = '樱木花道';
-var age = 16;
+var name = '斯蒂芬·库里';
+var number = 30;
 ```
 
 先声明变量再赋值
 ```javascript
-var sc;  // → undefined
-sc = 'Stephen Curry';
+var name;  // → undefined
+name = '斯蒂芬·库里';
 ```
 ```javascript
-var name, age, position;
-name = '樱木花道';
-age = 16;
-position = '大前锋';
+var name, number, position;
+name = '斯蒂芬·库里';
+number = 30;
+position = '控球后卫';
 ```
 
 更改变量的值
