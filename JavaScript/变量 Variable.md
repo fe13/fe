@@ -21,7 +21,9 @@ number = 30;
 position = '控球后卫';
 ```
 
-更改变量的值
+<hr>
+
+变量的值可以被更改
 ```javascript
 var price = 1000;
 
