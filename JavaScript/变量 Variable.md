@@ -18,9 +18,19 @@ sc = 'Stephen Curry';
 更改变量的值
 ```javascript
 var price = 1000;
-price = 1500;
-```
 
+price = 1500;         // price is 1500
+
+price = price + 300;  // price is 1800
+
+price += 200          // price is 2000
+
+price = price * 0.5   // price is 1000
+
+price *= 1.5          // price is 1500
+
+var = "目前的价格是人民币 " + price + " 元整。";
+```
 
 
 ## 变量名
