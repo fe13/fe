@@ -58,14 +58,15 @@ var firstName       // ✅ 💯
 var isMobileSafari  // ✅ 💯
 ```
 
+## 变量类型
+
 ## let
 `ES6`
 
 ## const
 `ES6`
 
-## 变量类型
-
+## 变量提升
 
 ## 参考链接
 * 🇨🇳 http://javascript.ruanyifeng.com/grammar/basic.html
