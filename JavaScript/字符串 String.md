@@ -58,12 +58,13 @@ let poem = "\n      月下独酌    \n花间一壶酒，独酌无相亲。\n举�
 ```
 假如你要声明一个很长的字符串，可以把字符串拆分成多个部分并通过 `+` 拼接。
 ```javascript
+// let html = "<nav class="navbar navbar-default"><div class="navbar-header"><h1>JavaScript 字符串</h1></div></nav>";
+
 let html = '<nav class="navbar navbar-default">' +
   '<div class="navbar-header">' +
     '<h1>JavaScript 字符串</h1>' +
   '</div>' +
 '</nav>'
-// "<nav class="navbar navbar-default"><div class="navbar-header"><h1>JavaScript 字符串</h1></div></nav>"
 ```
 
 ## 对比字符串
