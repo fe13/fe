@@ -11,8 +11,14 @@ var age = 16;
 
 先声明变量再赋值
 ```javascript
-var sc;
+var sc;  // → undefined
 sc = 'Stephen Curry';
+```
+
+更改变量的值
+```javascript
+var price = 1000;
+price = 1500;
 ```
 
 
