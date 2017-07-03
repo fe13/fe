@@ -45,6 +45,14 @@ price = price * 0.5   // price is 1000
 price *= 1.5          // price is 1500
 ```
 
+通过 `++` 可以让变量自增 1，`--` 可以让变量自减 1。
+```javascript
+var count = 5;
+
+count++;   // count is 6
+
+count--;   // count is 5
+```
 
 ## 变量名
 ```javascript
