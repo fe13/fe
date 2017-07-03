@@ -97,10 +97,19 @@ var poem = "\n      月下独酌    \n花间一壶酒，独酌无相亲。\n举�
 → 3
 ```
 
-## 特殊字符
+## 转义字符
+| 字符  |  描述       |
+|:----:|:-----------:|
+| `\0` |  空字符      |
+| `\'` |  单引号      |
+| `\"` |  双引号      |
+| `\n` |  换行符      |
+| `\\` |  反斜杠      |
+| `\t` |  水平制表符   |
 
-
+更多转义字符请参阅 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ## 参考链接
-* https://javascript.info/string
-* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings
+* 🇺🇸 https://javascript.info/string
+* 🇨🇳 http://javascript.ruanyifeng.com/grammar/string.html
+* 🇺🇸 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings
