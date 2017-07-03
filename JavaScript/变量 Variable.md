@@ -1,6 +1,12 @@
 # 变量 Variable
 
+变量是一块用于存储值的内存空间，变量的特别之处在于它的值可以被改变。
+
 ## 声明变量
+```javascript
+var name = '樱木花道';
+var age = 16;
+```
 
 ## 变量名
 ```javascript
