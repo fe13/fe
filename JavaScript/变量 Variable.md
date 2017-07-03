@@ -30,6 +30,12 @@ var totalThreePointers = 324;  // 2016-2017 三分命中总数;
 var totalThreePointersInText = `2016-2017 赛季命中三分球 ${totalThreePointers} 个。`;
 ```
 
+通过 `.` 可以访问变量的属性，如 `length`
+```javascript
+var team = '金州勇士队';
+team.length       // 5
+```
+
 ## 更改变量
 ```javascript
 var price = 1000;
