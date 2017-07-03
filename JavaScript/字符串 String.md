@@ -42,20 +42,28 @@ JavaScript 通过字符串存储文本。字符串的内部格式是 [UTF-16](ht
 ## 对比字符串
 通过 `==` 或 `===` 可以确定两个字符串是否**相等**。
 ```javascript
+> "Are you OK?" ==  "Are you OK?"
+→ true
 > "Are you OK?" === "Are you OK?"
 → true
-> "Are you OK?" == "Are you OK?"
-→ true
 
-> "Are you OK?" === "Are you ok?"
+> "Are you OK?" ==  "Are you ok?"
 → false
-> "Are you OK?" == "Are you ok?"
+> "Are you OK?" === "Are you ok?"
 → false
 ```
 
 通过 `!=` 或 `!==` 可以确定两个字符串是否**不等**。
 ```javascript
-> 
+> "我有一只小毛驴" !=  "我从来也不骑"
+→ true
+> "我有一只小毛驴" !== "我从来也不骑"
+→ true
+
+> "两只老虎" !=  "两只老虎"
+→ false
+> "两只老虎" !== "两只老虎"
+→ false
 ```
 
 ## 字符串长度
