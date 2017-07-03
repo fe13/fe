@@ -33,7 +33,7 @@ var totalThreePointersInText = `2016-2017 赛季命中三分球 ${totalThreePoin
 通过 `.` 可以访问变量的属性，如 `length`
 ```javascript
 var team = '金州勇士队';
-team.length       // 5
+team.length    // 5
 ```
 
 ## 更改变量
