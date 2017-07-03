@@ -21,9 +21,16 @@ number = 30;
 position = '控球后卫';
 ```
 
-<hr>
+基于变量声明其他变量
+```javascript
+var pointsPerGame = 25.3;  // 2016-2017 场均得分
+var pointsPerGameInText = '2016-2017 赛季场均得分为 ' + pointsPerGame + ' 分。';
 
-变量的值可以被更改
+var totalThreePointers = 324;  // 2016-2017 三分命中总数;
+var totalThreePointersInText = `2016-2017 赛季命中三分球 ${totalThreePointers} 个。`;
+```
+
+## 更改变量
 ```javascript
 var price = 1000;
 
@@ -36,15 +43,6 @@ price += 200          // price is 2000
 price = price * 0.5   // price is 1000
 
 price *= 1.5          // price is 1500
-```
-
-基于变量 `price` 声明其他变量
-```javascript
-var currentPriceTitle = '目前的价格是人民币 ' + price + ' 元';
-
-price *= 0.85;
-
-var discountPriceTitle = `打折后的价格是人民币 ${price} 元`;
 ```
 
 
