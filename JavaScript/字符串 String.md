@@ -66,6 +66,14 @@ let html = '<nav class="navbar navbar-default">' +
   '</div>' +
 '</nav>'
 ```
+相同的效果通过在行末添加 `\` 也可以达到。
+```javascript
+let html = '<nav class="navbar navbar-default">\
+<div class="navbar-header">\
+<h1>JavaScript 字符串</h1>\
+</div>\
+</nav>';
+```
 
 ## 对比字符串
 通过 `==` 或 `===` 可以确定两个字符串是否**相等**。
