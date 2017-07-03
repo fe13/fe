@@ -33,14 +33,14 @@ Backtick 字符串可以通过 `${}` 内嵌任意表达式。
 
 Backtick 字符串还可以用于声明多行字符串。
 ```javascript
-var poem = `
+let poem = `
       月下独酌
 花间一壶酒，独酌无相亲。  
 举杯邀明月，对影成三人。`;
 ```
 同样的内容如果用 `""` 或 `''` 来声明需要引入特殊字符 `\n` 表示换行。
 ```javascript
-var poem = "\n      月下独酌    \n花间一壶酒，独酌无相亲。\n举杯邀明月，对影成三人。";
+let poem = "\n      月下独酌    \n花间一壶酒，独酌无相亲。\n举杯邀明月，对影成三人。";
 ```
 💡 Chrome, Safari,  Firefox, Edge 的最新版本都支持这种特性，IE 全系不支持，但是我们可以通过工具转换。
 
@@ -55,6 +55,15 @@ var poem = "\n      月下独酌    \n花间一壶酒，独酌无相亲。\n举�
 
 > "1 + 2 的结果是 " + (1 + 2)
 → "1 + 2 的结果是 3"
+```
+假如你要声明一个很长的字符串，可以把字符串拆分成多个部分并通过 `+` 拼接。
+```javascript
+let html = '<nav class="navbar navbar-default">' +
+  '<div class="navbar-header">' +
+    '<h1>JavaScript 字符串</h1>' +
+  '</div>' +
+'</nav>'
+// "<nav class="navbar navbar-default"><div class="navbar-header"><h1>JavaScript 字符串</h1></div></nav>"
 ```
 
 ## 对比字符串
@@ -98,14 +107,14 @@ var poem = "\n      月下独酌    \n花间一壶酒，独酌无相亲。\n举�
 ```
 
 ## 转义字符
-| 字符  |  描述       |
-|:----:|:-----------:|
-| `\0` |  空字符      |
-| `\'` |  单引号      |
-| `\"` |  双引号      |
-| `\n` |  换行符      |
-| `\\` |  反斜杠      |
-| `\t` |  水平制表符   |
+| 字符  |  描述     |
+|:----:|:---------:|
+| `\0` |  空字符    |
+| `\'` |  单引号    |
+| `\"` |  双引号    |
+| `\n` |  换行符    |
+| `\t` |  制表符    |
+| `\\` |  反斜杠    |
 
 更多转义字符请参阅 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String)
 
