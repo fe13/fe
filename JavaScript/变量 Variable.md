@@ -1,6 +1,6 @@
 # 变量 Variable
 
-## 什么是变量 ？
+## 声明变量
 
 ## 变量名
 ```javascript
