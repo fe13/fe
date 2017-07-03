@@ -39,6 +39,13 @@ JavaScript 通过字符串存储文本。字符串的内部格式是 [UTF-16](ht
 → "1 + 2 的结果是 3"
 ```
 
+## 对比字符串
+```javascript
+> "Are you OK?" === "Are you OK?"
+→ true
+> "Are you OK?" == "Are you ok?"
+→ false
+```
 
 ## 字符串长度
 通过访问字符串的 `length` 属性可获取字符串长度。
@@ -49,7 +56,13 @@ JavaScript 通过字符串存储文本。字符串的内部格式是 [UTF-16](ht
 → 12
 > "好好Study，天天Happy。".length
 → 16
+> "   ".length
+→ 3
 ```
+
+## 特殊字符
+
+
 
 ## 参考链接
 * https://javascript.info/string
