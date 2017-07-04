@@ -40,6 +40,31 @@ if (width <= 320) {
 
 ## switch
 ```javascript
+switch(province) {
+   case '江苏省':
+   case '浙江省':
+   case '上海市':
+     console.log('江浙沪包邮!');
+     break;
+   case '广东省':
+   case '福建省':
+     console.log('邮费：20元');
+     break;
+   case '西藏自治区':
+   case '新疆自治区':
+   case '内蒙古自治区':
+     console.log('邮费: 30元');
+     break;
+   case '香港特别行政区':
+   case '澳门特别行政区':
+     console.log('邮费: 60元');
+     break;
+   default:
+     console.log('邮费: 18元')
+}
+```
+
+```javascript
 var width = window.innerWidth;
 
 switch(true) {
