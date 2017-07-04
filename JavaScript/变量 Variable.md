@@ -78,7 +78,14 @@ var firstName       // ✅ 💯
 var isMobileSafari  // ✅ 💯
 ```
 
-## 变量类型
+## 数据类型
+* 数字 Number
+* 字符串 String
+* 布尔 Boolean
+* 对象 Object
+* Null
+* Undefined
+* Symbol `ES6`
 
 ## let
 `ES6`
