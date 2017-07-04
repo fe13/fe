@@ -141,7 +141,7 @@ let html = '<nav class="navbar navbar-default">\
 ```
 
 当要获取字符串最后一个字符时，需要声明一个变量。
-```
+```javascript
 > var s = "众里寻他千百度";
 → undefined
 
