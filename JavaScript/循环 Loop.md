@@ -3,7 +3,7 @@
 ## while
 `while` 在条件表达式为**真**的情况下循环执行一段代码，条件表达式会在代码块被执行前求值。
 ```javascript
-//
+// 输出从 1 到 10
 var n = 1;
 while (n <= 10) {
   console.log(n);
