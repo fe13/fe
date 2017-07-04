@@ -4,10 +4,21 @@
 
 ## if
 ```javascript
-// 通过 document.body.scrollTop 获取页面滚动距离
+// document.body.scrollTop 为页面滚动距离
 if (document.body.scrollTop > 0) {
   document.body.scrollTop = 0;
 }
+```
+
+```javascript
+var price = 1000, discount = 0.8;
+var isMember = true;
+
+if (isMember) {
+  price *= discount;
+}
+
+console.log(`价格：人民币 ${price} 元`);
 ```
 
 ## if...else
@@ -84,6 +95,10 @@ switch(true) {
 ```
 
 ## ?:
+```javascript
+var discount = 0.8;
+var price = isMember ? 1000 * discount : 1000;
+```
 
 
 ## 参考链接
