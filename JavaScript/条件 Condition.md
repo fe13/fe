@@ -6,5 +6,9 @@
 
 ## if...else
 
+## switch
+
+
 ## 参考链接
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
