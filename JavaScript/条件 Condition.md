@@ -39,7 +39,23 @@ if (width <= 320) {
 🤔 给定一个整数，当它可以被 3 整除或被 5 整除或同时能被 3 和 5 整除时，输出相应提示信息。
 
 ## switch
+```javascript
+var width = window.innerWidth;
 
+switch(true) {
+  case width < 320:
+    console.log('窗口宽度 <= 320px');
+    break;
+  case width > 320 && width < 768:
+    console.log('320px < 窗口宽度 < 768px');
+    break;
+  case width >= 768 && width <= 1024:
+    console.log('768px <= 窗口宽度 <= 1024px');
+    break;
+  default:
+    console.log('窗口宽度 > 1024px');
+}
+```
 
 ## ?:
 
