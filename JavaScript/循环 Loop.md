@@ -31,6 +31,13 @@ for (var i = 1; i <= 10; i++) {
 }
 ```
 
+```javascript
+// 输出从 10 到 11
+for (var i = 10; i > 0; i--) {
+  console.log(i);
+}
+```
+
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
