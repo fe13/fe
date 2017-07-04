@@ -4,8 +4,9 @@
 
 ## if
 ```javascript
-if () {
-  
+// 通过 document.body.scrollTop 获取页面滚动距离
+if (document.body.scrollTop > 0) {
+  document.body.scrollTop = 0;
 }
 ```
 
