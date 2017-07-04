@@ -97,5 +97,6 @@ var isMobileSafari  // ✅ 💯
 
 ## 参考链接
 * 🇨🇳 http://javascript.ruanyifeng.com/grammar/basic.html
+* http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types
