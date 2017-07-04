@@ -26,6 +26,7 @@ console.log(`价格：人民币 ${price} 元`);
 // Math.random() 用于生成一个 0 - 1 之间的随机数。
 var a = Math.random();
 var b = Math.random();
+
 if (a > b) {
   console.log('随机数 a 大于 b');
 } else {
