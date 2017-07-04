@@ -34,12 +34,18 @@ var curry = `${name}，${position}，球衣号码 ${number}。`;
 
 通过 `.` 可以访问变量的属性，如 `length`
 ```javascript
-var team = '金州勇士队';
-team.length
+> var curry = '斯蒂芬·库里（Stephen Curry），1988年3月14日出生于美国俄亥俄州阿克伦（Akron, Ohio），美国职业篮球运动员，司职控球后卫，效力于NBA金州勇士队。';
+→ undefined
+
+> curry.length
+→ 87
 
 // 获取字符串最后一个字符
-team[team.length - 1]
-team.charAt(team.length - 1)
+> curry[curry.length - 1]
+→ "。"
+
+> curry.charAt(curry.length - 1)
+→ "。"
 ```
 
 ## 更改变量
