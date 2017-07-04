@@ -27,13 +27,13 @@ if (a > b) {
 var width = window.innerWidth;  // 获取当前窗口宽度
 
 if (width <= 320) {
-  // ...
+  console.log('窗口宽度 <= 320px');
 } else if (width > 320 && width < 768) {
-  // ...
+  console.log('320px < 窗口宽度 < 768px');
 } else if (width >= 768 && width <= 1024) {
-  // ...
+  console.log('768px <= 窗口宽度 <= 1024px');
 } else {
-  // ...
+  console.log('窗口宽度 > 1024px');
 }
 ```
 🤔 给定一个整数，当它可以被 3 整除或被 5 整除或同时能被 3 和 5 整除时，输出相应提示信息。
