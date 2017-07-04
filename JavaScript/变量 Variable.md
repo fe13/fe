@@ -23,10 +23,10 @@ position = '控球后卫';
 
 基于变量声明其他变量
 ```javascript
-var pointsPerGame = 25.3;  // 2016-2017 场均得分
+var pointsPerGame = 25.3;  // 2016-2017 赛季场均得分
 var pointsPerGameInText = '2016-2017 赛季场均得分为 ' + pointsPerGame + ' 分';
 
-var totalThreePointers = 324;  // 2016-2017 三分命中总数;
+var totalThreePointers = 324;  // 2016-2017 赛季三分命中总数
 var totalThreePointersInText = `2016-2017 赛季命中三分球 ${totalThreePointers} 个`;
 
 var curry = `${name}，${position}，球衣号码 ${number}。`;
