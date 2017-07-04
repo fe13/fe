@@ -64,7 +64,7 @@ switch(province) {
 }
 ```
 
-// 使用 `switch`  替代多个 `if`
+使用 `switch` 替代多个 `if`
 ```javascript
 var width = window.innerWidth;
 
