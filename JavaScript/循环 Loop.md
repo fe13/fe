@@ -32,7 +32,7 @@ for (var i = 1; i <= 10; i++) {
 ```
 
 ```javascript
-// 输出从 10 到 11
+// 输出从 10 到 1
 for (var i = 10; i > 0; i--) {
   console.log(i);
 }
