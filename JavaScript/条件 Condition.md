@@ -11,6 +11,16 @@ if (document.body.scrollTop > 0) {
 ```
 
 ## if...else
+```javascript
+// Math.random() 用于生成一个 0 - 1 之间的随机数。
+var a = Math.random();
+var b = Math.random();
+if (a > b) {
+  console.log('随机数 a 大于 b');
+} else {
+  console.log('随机数 a 小于或等于 b');
+}
+```
 
 ## else if
 ```javascript
