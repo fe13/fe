@@ -96,8 +96,7 @@ switch(true) {
 
 ## ?:
 ```javascript
-var discount = 0.8;
-var price = isMember ? 1000 * discount : 1000;
+var status = navigator.onLine ? '在线' : '离线';
 ```
 
 
