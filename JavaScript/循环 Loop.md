@@ -10,6 +10,18 @@ while (n < 10) {
 }
 ```
 
+```javascript
+while (true) {
+  // 一直不断被执行的代码
+}
+```
+
+```javascript
+while (false) {
+  // 永远不会被执行的代码
+}
+```
+
 ## for
 
 
