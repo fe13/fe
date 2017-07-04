@@ -94,7 +94,7 @@ switch(true) {
 }
 ```
 
-## ?:
+## ? :
 ```javascript
 var status = navigator.onLine ? '在线' : '离线';
 ```
