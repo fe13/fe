@@ -1,6 +1,9 @@
 # 函数 Function
 
-
+## 内置函数
+* `alert()`
+* `confirm()`
+* `prompt()` `var guess = prompt('猜一个数字');`
 
 ## 箭头函数 Arrow Function
 `ES6`
