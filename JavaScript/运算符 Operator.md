@@ -37,6 +37,21 @@
 → 19
 ```
 
+## 赋值运算符
+```javascript
+var x = 7;
+var y = 8;
+var z = x * y;   // z is 56
+
+y += 2;          // y is 10
+
+z *= y;          // z is 560
+
+z /= x;          // z is 80
+
+x -= 2;          // x is 5
+```
+
 ## 比较运算符
 ```javascript
 > 8 > 6
