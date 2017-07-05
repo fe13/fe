@@ -5,6 +5,10 @@
 * `confirm()`
 * `prompt()` `var guess = prompt('猜一个数字');`
 
+## 定义函数
+
+## 匿名函数
+
 ## 箭头函数 Arrow Function
 `ES6`
 
