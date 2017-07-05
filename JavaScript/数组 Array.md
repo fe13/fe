@@ -2,6 +2,12 @@
 
 ```javascript
 var skills = ['卖萌', '碎觉', '瞪眼', '三分球', '各种语言的 Hello World'];
+
+var matrix = [
+  [8, 1, 6],
+  [3, 5, 7],
+  [4, 9, 2]
+];
 ```
 
 ## 常用 API
