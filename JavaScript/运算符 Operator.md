@@ -53,6 +53,17 @@ x -= 2;          // x is 5
 ```
 
 ## 比较运算符
+| 运算符 | 操作     |
+|:-----:|:--------:|
+| `===` | 严格相等   |
+| `!==` | 严格不相等 |
+|  `<`  | 小于      |
+|  `>`  | 大于      |
+|  `<=` | 小于等于   |
+|  `>=` | 大于等于   |
+
+💡 `==` 和 `!=` 也是比较运算符，但会先进行类型转换再比较。使用 `===` `!==` 能降低程序出现错误的概率，推荐使用。
+
 ```javascript
 > 8 > 6
 → true
@@ -60,10 +71,13 @@ x -= 2;          // x is 5
 > 5 < -2
 → false
 
-> 6 == 7
+> 6 == '6'
+→ true
+
+> 6 === 7
 → false
 
-> 99 != 100
+> 99 !== 100
 → true
 
 > 99.99 >= 99.99
@@ -75,4 +89,4 @@ x -= 2;          // x is 5
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash
-* 🇨🇳 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
