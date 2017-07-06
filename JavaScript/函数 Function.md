@@ -46,7 +46,15 @@ IIFE 全称 Immediately-Invoked Function Expression，译作**立即执行の函
 
 ## 课后练习
 ```javascript
-
+/**
+ * 计算在某段文本 content 中出现某个子字符串 search 的次数。
+ * @param {string} content - 一段文本
+ * @param {string} search - 子字符串
+ * @return {number} search 在 content 中出现的次数，没有则返回 0
+ */
+function appearance(content, search) {
+  
+} 
 ```
 
 ## 参考链接
