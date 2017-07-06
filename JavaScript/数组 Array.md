@@ -28,6 +28,10 @@ var matrix = [,
 → 5
 
 > wishes.length
+→ 6
+
+> matrix.length
+→ 4
 ```
 
 ## 数组元素
