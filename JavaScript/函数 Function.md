@@ -25,6 +25,14 @@ function xc(a, b) {
 
 ## 匿名函数
 
+## IIFE
+IIFE 全称 Immediately-Invoked Function Expression，译作**立即执行の函数表达式**。
+```javascript
+(function() {
+  console.log('立即执行🚀');
+})();
+```
+
 ## 函数 vs 方法
 
 ## 内置函数
@@ -33,13 +41,7 @@ function xc(a, b) {
 * `prompt()` `var guess = prompt('猜一个数字');`
 * `console.log()`
 
-## IIFE
-IIFE 全称 Immediately-Invoked Function Expression，译作**立即执行の函数表达式**。
-```javascript
-(function() {
-  console.log('立即执行🚀');
-})();
-```
+## 作用域
 
 ## 箭头函数 Arrow Function
 `ES6`
