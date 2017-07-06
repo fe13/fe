@@ -14,6 +14,8 @@ var matrix = [
 ];
 ```
 
+## 数组元素
+
 ## 常用方法
 `Array.prototype.push()` 方法将一个或多个元素添加到数组末尾，并返回数组的最新长度。
 ```javascript
