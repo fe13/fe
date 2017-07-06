@@ -42,6 +42,9 @@ IIFE 全称 Immediately-Invoked Function Expression，译作**立即执行の函
 * `console.log()`
 
 ## 作用域
+### 全局作用域
+
+### 局部作用域
 
 ## 箭头函数 Arrow Function
 `ES6`
