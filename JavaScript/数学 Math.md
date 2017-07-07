@@ -5,7 +5,7 @@ Math 是 JavaScript 中一个内置对象，包含数学计算常用的常量的
 ## 常量
 
 ## 函数
-### Math.abs 函数返回指定数字的绝对值
+`Math.abs()` 函数返回指定数字的绝对值。
 ```javascript
 > Math.abs(9)
 → 9
