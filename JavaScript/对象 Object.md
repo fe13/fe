@@ -8,14 +8,19 @@
 ```javascript
 let jay = {
   name: '周杰伦',
-  birthday: new Date('1979-01-18'),
-  songs: [],
+  birthday: new Date('1979-01-18'),
+  songs: ['双节棍', '七里香'],
   aiyo() {
     console.log('哎哟，不错哦！');
   },
   sing: function() {
   
   }
+}
+
+let hannah = {
+  name: '昆凌',
+  birthday: new Date('1993-08-12')
 }
 ```
 
