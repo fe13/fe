@@ -11,7 +11,7 @@ let jay = {
   birthday: new Date('1979-01-18'),
   songs: [],
   aiyo() {
-    console.log('哎哟不错哦');
+    console.log('哎哟，不错哦！');
   },
   sing: function() {
   
@@ -20,6 +20,17 @@ let jay = {
 ```
 
 ## 访问对象
+`.`
+```javascript
+> jay.name
+→ "周杰伦"
+
+> jay.aiyo()
+  哎哟，不错哦！
+→ undefined
+```
+
+`[]`
 
 ## 修改对象
 
