@@ -4,6 +4,7 @@
 
 💡 在某些场合特指恋爱的对方。
 
+## 声明对象
 ```javascript
 const zxc = {
   name: "周星驰",
