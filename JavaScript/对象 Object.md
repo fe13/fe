@@ -23,7 +23,7 @@ let jay = {
 
 ## 修改对象
 
-## delete
+### delete
 
 ## 遍历对象
 
