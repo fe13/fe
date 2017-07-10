@@ -1,4 +1,4 @@
-# Number 数字
+# 数字 Number 
 
 ## 常用方法
 `Number.prototype.toPrecision()`
