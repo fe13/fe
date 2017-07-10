@@ -1,5 +1,7 @@
 # 对象 Object
 
+对象是一些相互关联的数据和功能的集合。
+
 ```javascript
 var player = {};
 ```
