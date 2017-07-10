@@ -13,15 +13,21 @@ let jay = {
   aiyo() {
     console.log('哎哟，不错哦！');
   },
-  sing: function() {
-  
-  }
-}
+  sing: function(song) {
+    
+  },
+  intro: function() {
+    console.log(`大家好，我是${this.name}。`);
+  }
+};
 
 let hannah = {
   name: '昆凌',
-  birthday: new Date('1993-08-12')
-}
+  birthday: new Date('1993-08-12'),
+  catwalk: function() {
+    console.log('👠👠👠👠👠👠👠👠👠');
+  }
+};
 ```
 
 ## 访问对象
@@ -33,11 +39,28 @@ let hannah = {
 > jay.aiyo()
   哎哟，不错哦！
 → undefined
+
+> hannah.catwalk()
+  👠👠👠👠👠👠👠👠👠
+→ undefined
 ```
 
 `[]`
 
 ## 修改对象
+```javascript
+> jay.wife = hannah;
+→ Object {name: "昆凌", birthday: Thu Aug 12 1993 ... (CST), catwalk: ... }
+
+> jay.wife.name
+→ "昆凌"
+
+> hannah.husband = jay;
+→ Object {name: "周杰伦", birthday: Thu Jan 18 1979 ... (CST), songs: ... aiyo: ...}
+
+> hannah.husband.name
+→ "周杰伦"
+```
 
 ### delete
 
