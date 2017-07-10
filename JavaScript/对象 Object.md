@@ -9,12 +9,12 @@
 let jay = {
   name: '周杰伦',
   birthday: new Date('1979-01-18'),
-  songs: ['双节棍', '七里香'],
+  songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   aiyo() {
     console.log('哎哟，不错哦！');
   },
   sing: function(song) {
-    
+    console.log(this.songs.indexOf(song) > -1 ? `接下来的是 ${song}` : '暂不支持播放');
   },
   intro: function() {
     console.log(`大家好，我是${this.name}。`);
