@@ -6,19 +6,28 @@
 
 ## 声明对象
 ```javascript
-const zxc = {
-  name: "周星驰",
-  birthday: new Date('1962-06-22'),
-  occupation: "演员, 导演, 编剧, 监制，制作人",
-  movies: [
-    { title: '喜剧之王', genres: ['剧情', '喜剧', '爱情'], releaseDate: new Date('1999-02-13') },
-    { title: '少林足球', genres: ['动作', '喜剧', '运动'], releaseDate: new Date('2001-07-12') },
-    { title: '功夫', genres: ['动作', '喜剧', '玄幻'], releaseDate: new Date('2004-12-23') }
-  ]
-};
+let jay = {
+  name: '周杰伦',
+  birthday: new Date('1979-01-18'),
+  songs: [],
+  aiyo() {
+    console.log('哎哟不错哦');
+  },
+  sing: function() {
+  
+  }
+}
 ```
 
+## 访问对象
+
+## 修改对象
+
+## delete
+
 ## 遍历对象
+
+
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
