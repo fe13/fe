@@ -26,7 +26,7 @@ let jay = {
 ### delete
 
 ## 遍历对象
-
+`for...in`
 
 
 ## 参考链接
