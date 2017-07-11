@@ -58,6 +58,20 @@ function xq() {
 ### 块级作用域 Block Scope
 `ES6` 为 JavaScript 新增了块级作用域。
 
+使用 `{}` 替代 IIFE。⚠️ 以下代码仅作演示用途，为保证代码的可运行性，请使用 IIFE。
+```javascript
+{
+  let keyframes = [
+    { opacity: 1, transform: 'translateY(-180px)' }, 
+    { opacity: 1, transform: 'translateY(0)' }
+  ];
+  let options = {
+    duration: 600,
+    easing: 'cubic-bezier(0.565,1.65,0.765,0.88)',
+  };
+  document.body.animate(keyframes, options);
+}
+```
 
 ## 变量提升
 
@@ -68,6 +82,7 @@ function xq() {
 ⚠️ 函数表达式不会被提升。
 
 ## 参考链接
+* http://es6.ruanyifeng.com
 * https://zhuanlan.zhihu.com/p/27558914
 * https://github.com/getify/You-Dont-Know-JS/issues/767
 * https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
