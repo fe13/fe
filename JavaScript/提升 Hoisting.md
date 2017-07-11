@@ -6,7 +6,7 @@ JavaScript 中的提升(Hoisting)特指使用 `var` 声明的变量和函数声�
 ### 全局作用域 Global Scope
 所有函数外的顶层环境被称为全局作用域，定义在全局作用域的值可以在任何地方被访问。
 ```javascript
-var lyrics = '哟哟！';
+var lyrics = '哟哟！';  // 全局变量
 
 function qkn() {
   lyrics += '切';
