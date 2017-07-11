@@ -3,7 +3,7 @@
 JavaScript 中的提升(Hoisting)特指使用 `var` 声明的变量和函数声明被提升到所在作用域的顶端。
 
 ## 变量提升
-使用 `var` 声明的变量被提升到所在作用域的顶端，因此以下函数 `met()`
+使用 `var` 声明的变量会被提升到所在作用域的顶端，因此以下函数 `met()`
 ```javascript
 function met() {
   lyrics = '听见 冬天的离开';
