@@ -59,6 +59,7 @@ function xq() {
 `ES6` 为 JavaScript 新增了块级作用域。
 
 `ES6` 之前没有块级作用域，没有 `let` 或 `const`，只有全局作用域和函数作用域以及 `var`。
+
 ```javascript
 (function() {
   // 按照 tasks 的顺序和等待时间 wait 执行任务，程序报错。
@@ -75,7 +76,7 @@ function xq() {
   console.log(i)  // i 在整个函数作用域内有效
 })();
 ```
-
+利用 IIFE 新建函数作用域解决问题。
 ```javascript
 (function() {
   // 按照 tasks 的顺序和等待时间 wait 执行任务，正确运行。
@@ -85,18 +86,35 @@ function xq() {
     { name: '放大 😎', wait: 5 }
   ];
   for (var i = 0; i < tasks.length; i++) {
-    (function(index) {
+    (function(i) {
        setTimeout(function() {
-         console.log('执行任务 ' + tasks[index].name);
-       }, tasks[index].wait * 1000);
+         console.log('执行任务 ' + tasks[i].name);
+       }, tasks[i].wait * 1000);
     })(i);
   }
   console.log(i)  // i 在整个函数作用域内有效
 })();
 ```
+使用 `let` 简化进一步代码
+```javascript
+(function() {
+  // 按照 tasks 的顺序和等待时间 wait 执行任务，正确运行。
+  var tasks = [
+    { name: '出场 😀', wait: 2 },
+    { name: '隐身 🤡', wait: 3 },
+    { name: '放大 😎', wait: 5 }
+  ];
+  for (let i = 0; i < tasks.length; i++) {
+    setTimeout(function() {
+      console.log('执行任务 ' + tasks[i].name);
+    }, tasks[i].wait * 1000);
+  }
+  // console.log(i) 会报错，i 仅在代码块内有效。
+})();
+```
 
-
-使用 `{}` 替代 IIFE。⚠️ 以下代码仅作演示用途，为保证代码的可运行性，请使用 IIFE。
+#### `{}` 替代 IIFE
+⚠️ 以下代码仅作演示用途，为保证代码的可运行性，请使用 IIFE。
 ```javascript
 {
   let keyframes = [
