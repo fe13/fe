@@ -10,6 +10,7 @@ let jay = {
   name: '周杰伦',
   birthday: new Date('1979-01-18'),
   songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
+  company: { name: '杰威尔音乐有限公司', location: '台北' },
   aiyo() {
     console.log('哎哟，不错哦！');
   },
@@ -35,6 +36,9 @@ let hannah = {
 ```javascript
 > jay.name
 → "周杰伦"
+
+> jay.company.name
+→ "杰威尔音乐有限公司"
 
 > jay.aiyo()
   哎哟，不错哦！
