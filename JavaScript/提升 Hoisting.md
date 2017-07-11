@@ -55,7 +55,7 @@ function xq() {
 → "哟哟！切克闹！"
 ```
 
-### 块作用域 Block Scope
+### 块级作用域 Block Scope
 `ES6`
 
 ## 变量提升
