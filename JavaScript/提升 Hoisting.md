@@ -26,7 +26,7 @@ function met() {
 💡 值得注意的是，**被提升的是声明，而不是赋值**。因此以下函数 `nodiff()`
 ```javascript
 function nodiff() {
-  console.log(lyrics);
+  console.log(lyrics);  // 输出 undefined
   
   var lyrics = '因为我们没有什么不同';
 }
