@@ -73,6 +73,7 @@ function xq() {
 * http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html
 * https://rainsoft.io/variables-lifecycle-and-why-let-is-not-hoisted
 * http://adripofjavascript.com/blog/drips/variable-and-function-hoisting
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
 * https://stackoverflow.com/questions/31219420/are-variables-declared-with-let-or-const-not-hoisted-in-es6
 * https://medium.freecodecamp.org/what-is-variable-hoisting-differentiating-between-var-let-and-const-in-es6-f1a70bb43d
 
