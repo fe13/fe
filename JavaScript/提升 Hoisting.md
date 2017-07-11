@@ -56,7 +56,8 @@ function xq() {
 ```
 
 ### 块级作用域 Block Scope
-`ES6`
+`ES6` 为 JavaScript 新增了块级作用域。
+
 
 ## 变量提升
 
