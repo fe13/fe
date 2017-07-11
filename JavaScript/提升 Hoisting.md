@@ -3,6 +3,44 @@
 JavaScript 中的提升(Hoisting)特指使用 `var` 声明的变量和函数声明被提升到所在作用域的顶端。
 
 ## 变量提升
+使用 `var` 声明的变量被提升到所在作用域的顶端，因此以下函数 `met()`
+```javascript
+function met() {
+  lyrics = '听见 冬天的离开';
+ 
+  console.log(lyrics);
+ 
+  var lyrics;  // lyrics 被提升到作用域顶端
+}
+```
+等同于
+```javascript
+function met() {
+  var lyrics;
+  
+  lyrics = '听见 冬天的离开';
+ 
+  console.log(lyrics);
+}
+```
+💡 值得注意的是，**被提升的是声明，而不是赋值**。因此以下函数 `nodiff()`
+```javascript
+function nodiff() {
+  console.log(lyrics);
+  
+  var lyrics = '因为我们没有什么不同';
+}
+```
+等同于
+```javascript
+function nodiff() {
+  var lyrics;  // 未赋值的变量值是 undefined
+  
+  console.log(lyrics);  // 输出 undefined
+  
+  lyrics = '因为我们没有什么不同';
+}
+```
 
 ⚠️ `let` 不存在变量提升。
 
