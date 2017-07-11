@@ -1,5 +1,7 @@
 # 提升 Hoisting
 
+JavaScript 中的提升(Hoisting)特指使用 `var` 声明的变量和函数声明被提升到所在作用域的顶端。
+
 ## 变量提升
 
 ## 函数提升
