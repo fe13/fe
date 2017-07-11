@@ -60,6 +60,7 @@ function xq() {
 
 `ES6` 之前没有块级作用域，没有 `let` 或 `const`，只有全局作用域和函数作用域以及 `var`。
 
+为什么以下程序不能正确运行？
 ```javascript
 (function() {
   // 按照 tasks 的顺序和等待时间 wait 执行任务，程序报错。
