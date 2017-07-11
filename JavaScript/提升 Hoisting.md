@@ -7,8 +7,31 @@ JavaScript 中的提升(Hoisting)特指使用 `var` 声明的变量和函数声�
 ⚠️ `let` 不存在变量提升。
 
 ## 函数提升
+函数声明会被提升到所在作用域的顶端，因此调用语句可以放在函数声明之前。
+```javascript
+(function() {
 
-⚠️ 函数表达式不会被提升。
+  sing();
+  
+  function sing() {
+    console.log('少林功夫好耶 真好耶🎸');
+  }
+  
+})();
+```
+⚠️ 函数表达式不会被提升，因此调用前要先声明，否则会报错。
+```javascript
+(function() {
+  
+  var moon = function() { console.log('床前明月光，疑是地上霜。'); }
+  
+  moon();  // 正常
+  home();  // 报错 Uncaught TypeError: home is not a function
+  
+  var home = function() { console.log('举头望明月，低头思故乡。'); }
+
+})();
+```
 
 ## 参考链接
 * http://es6.ruanyifeng.com
