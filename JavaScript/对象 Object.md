@@ -59,7 +59,7 @@ let hannah = {
 > jay.wife.name
 → "昆凌"
 
-> hannah.husband = jay;
+> hannah['husband'] = jay;
 → Object {name: "周杰伦", birthday: Thu Jan 18 1979 ... (CST), songs: ... aiyo: ...}
 
 > hannah.husband.name
