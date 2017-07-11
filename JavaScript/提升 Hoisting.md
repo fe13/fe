@@ -2,12 +2,12 @@
 
 JavaScript 中的提升(Hoisting)特指使用 `var` 声明的变量和函数声明被提升到所在作用域的顶端。
 
-## 作用域
-### 全局作用域
+## 作用域 Scope
+### 全局作用域 Global Scope
 
-### 函数作用域
+### 函数作用域 Function Scope
 
-### 块作用域
+### 块作用域 Block Scope
 
 ## 变量提升
 
