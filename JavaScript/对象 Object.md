@@ -29,6 +29,9 @@ let hannah = {
   birthday: new Date('1993-08-12'),
   catwalk: function() {
     console.log('👠👠👠👠👠👠👠👠👠');
+  },
+  intro: function() {
+    console.log(`大家好，我是${this.name}。`);
   }
 };
 ```
@@ -67,6 +70,7 @@ let hannah = {
 ```
 
 ## 修改对象
+使用 `=` 修改对象。
 ```javascript
 > jay.height = 175
 → 175
@@ -83,6 +87,18 @@ let hannah = {
 > hannah.husband.name
 → "周杰伦"
 ```
+
+## this
+`this` 指当前对象，在以下例子中 `this` 就是 `jay`。
+```javascript
+let jay = {
+  // ...
+  intro: function() {
+    console.log(`大家好，我是${this.name}。`);
+  }
+};  
+```
+
 
 ### delete
 
