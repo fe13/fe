@@ -48,6 +48,9 @@ let hannah = {
   哎哟，不错哦！
 → undefined
 
+> hannah.height
+→ 165
+
 > hannah.catwalk()
   👠👠👠👠👠👠👠👠👠
 → undefined
