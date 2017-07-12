@@ -92,13 +92,31 @@ let hannah = {
 `this` 指当前对象，在以下例子中 `this` 就是 `jay`。
 ```javascript
 let jay = {
+  name: '周杰伦',
   // ...
   intro: function() {
     console.log(`大家好，我是${this.name}。`);
   }
 };  
 ```
+而以下例子中的 `this` 就是 `hannah`。
+```javascript
+let hannah = {
+  name: '昆凌',
+  // ...
+  intro: function() {
+    console.log(`大家好，我是${this.name}。`);
+  }
+};
+```
+让他们分别自我介绍吧。
+```javascript
+> jay.intro()
+→ 大家好，我是周杰伦。
 
+> hannah.intro()
+→ 大家好，我是昆凌。
+```
 
 ### delete
 
