@@ -32,7 +32,7 @@ let hannah = {
 ```
 
 ## 访问对象
-`.`
+通过 `.` 访问
 ```javascript
 > jay.name
 → "周杰伦"
@@ -52,7 +52,14 @@ let hannah = {
 → undefined
 ```
 
-`[]`
+通过 `[]` 访问
+```javascript
+> jay['name']
+→ "周杰伦"
+
+> jay['intro']()
+  大家好，我是周杰伦。
+```
 
 ## 修改对象
 ```javascript
