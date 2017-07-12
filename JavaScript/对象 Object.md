@@ -24,6 +24,7 @@ let jay = {
 
 let hannah = {
   name: '昆凌',
+  height: 165,
   birthday: new Date('1993-08-12'),
   catwalk: function() {
     console.log('👠👠👠👠👠👠👠👠👠');
