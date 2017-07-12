@@ -40,6 +40,9 @@ let hannah = {
 > jay.company.name
 → "杰威尔音乐有限公司"
 
+> jay.songs
+→ ["星晴", "双节棍", "七里香", "简单爱", "青花瓷", "告白气球"]
+
 > jay.aiyo()
   哎哟，不错哦！
 → undefined
