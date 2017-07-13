@@ -7,9 +7,13 @@
 ## 声明对象
 最常见的声明对象的方式是对象字面量，即使用 `{}` 声明。
 ```javascript
+let babies = [
+  { name: 'Mei Mei', birthday: new Date('2015-07-10') }
+];
+
 let jay = {
   name: '周杰伦',
-  birthday: new Date('1979-01-18'),
+  children: babies,
   songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   company: { name: '杰威尔音乐有限公司', location: '台北' },
   aiyo() {
@@ -26,7 +30,7 @@ let jay = {
 let hannah = {
   name: '昆凌',
   height: 165,
-  birthday: new Date('1993-08-12'),
+  children: babies,
   catwalk: function() {
     console.log('👠👠👠👠👠👠👠👠👠');
   },
@@ -86,6 +90,7 @@ let hannah = {
 
 > hannah.husband.name
 → "周杰伦"
+
 ```
 
 ## this
