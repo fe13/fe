@@ -80,7 +80,6 @@ let hannah = {
 ```
 
 ## 修改对象
-使用 `=` 修改对象。
 ```javascript
 > jay.height = 177
 → 177
