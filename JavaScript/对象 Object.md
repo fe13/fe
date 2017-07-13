@@ -125,8 +125,14 @@ hannah.birth('周杰棍', '男');
 
 > jay.songs
 → undefined
-```
 
+> delete hannah.catwalk
+→ true
+
+> hannah.catwalk
+→ undefined
+```
+💡 `delete` 操作总是返回 `true`，无论属性或方法是否存在。
 
 ## this
 `this` 指当前对象，在以下例子中 `this` 就是 `jay`。
