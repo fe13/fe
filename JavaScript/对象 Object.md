@@ -8,7 +8,7 @@
 最常见的声明对象的方式是对象字面量，即使用 `{}` 声明。
 ```javascript
 let babies = [
-  { name: 'Hathaway' }
+  { name: 'Hathaway' }
 ];
 
 let jay = {
@@ -38,7 +38,7 @@ let hannah = {
     console.log(`大家好，我是${this.name}。`);
   },
   birth: function(name) {
-    this.children.push({ name: name });
+    if (!this.children.find(child => child.name === name)) this.children.push({ name: name });
   }
 };
 ```
@@ -93,6 +93,20 @@ let hannah = {
 
 > hannah.husband.name
 → "周杰伦"
+```
+
+💡 `hannah.children` 是对 `babies` 的**引用**，因此以下代码会直接修改 `babies` 数组。
+```javascript
+> hannah.children.push({ name: '周杰棍' })
+→ 2
+
+> babies
+→ [{ name: "Hathaway"}, { name: "周杰棍"}]
+```
+以上 `hannah.children.push()` 操作其实在 `hannan.birth()` 已经实现了，因此可以写成
+```javascript
+> hannah.birth('周杰棍')
+→ undefined
 ```
 
 ## this
