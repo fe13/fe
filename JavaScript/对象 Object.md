@@ -100,7 +100,7 @@ let hannah = {
 → "周杰伦"
 ```
 
-⚠️ `hannah.children` 是对 `babies` 的**引用**，因此以下代码会直接修改 `babies` 数组。
+⚠️ `hannah.children` 是对 `babies` 数组的**引用**，因此以下代码会直接修改 `babies`。
 ```javascript
 > hannah.children.push({ name: '周小伦', gender: '男' })
 → 2
