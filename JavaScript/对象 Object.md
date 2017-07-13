@@ -80,7 +80,10 @@ let hannah = {
 ## 修改对象
 使用 `=` 修改对象。
 ```javascript
-> jay.height = 175
+> jay.height = 177     // 新增 height 属性
+→ 177
+
+> jay.height = 175     // 修改 heighit 属性
 → 175
 
 > jay.wife = hannah;
