@@ -13,7 +13,8 @@ let babies = [
 
 let jay = {
   name: '周杰伦',
-  children: babies,
+  height: 175,
+  children: babies,
   songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   company: { name: '杰威尔音乐有限公司', location: '台北' },
   aiyo() {
@@ -83,11 +84,8 @@ let hannah = {
 ## 修改对象
 使用 `=` 修改对象。
 ```javascript
-> jay.height = 177     // 新增 height 属性
+> jay.height = 177
 → 177
-
-> jay.height = 175     // 修改 heighit 属性
-→ 175
 
 > jay.wife = hannah;
 → Object {name: "昆凌", height: 165, children: Array(1), catwalk: function, intro: function…}
@@ -119,6 +117,7 @@ hannah.birth('周杰棍', '男');
 ```
 
 ### delete
+
 
 ## this
 `this` 指当前对象，在以下例子中 `this` 就是 `jay`。
