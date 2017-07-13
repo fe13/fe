@@ -18,10 +18,10 @@ let jay = {
   songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   company: { name: '杰威尔音乐有限公司', location: '台北' },
   aiyo() {  // ES6
-    console.log('哎哟，不错哦！');
+    return '哎哟，不错哦！';
   },
   intro: function() {
-    console.log(`大家好，我是${this.name}。`);
+    return `大家好，我是${this.name}。`;
   }
 };
 
@@ -30,10 +30,10 @@ let hannah = {
   height: 165,
   children: babies,
   catwalk() {
-    console.log('👠👠👠👠👠👠👠👠👠');
+    return '👠👠👠👠👠👠👠👠👠';
   },
   intro: function() {
-    console.log(`大家好，我是${this.name}。`);
+    return `大家好，我是${this.name}。`;
   },
   birth: function(name, gender) {
     if (this.children.find(child => child.name === name)) return;
@@ -55,8 +55,7 @@ let hannah = {
 → ["星晴", "双节棍", "七里香", "简单爱", "青花瓷", "告白气球"]
 
 > jay.aiyo()
-  哎哟，不错哦！
-→ undefined
+→ 哎哟，不错哦！
 
 > hannah.height
 → 165
@@ -65,8 +64,7 @@ let hannah = {
 → [{ name: "Hathaway", gender: "女" }]
 
 > hannah.catwalk()
-  👠👠👠👠👠👠👠👠👠
-→ undefined
+→ 👠👠👠👠👠👠👠👠👠
 ```
 
 通过 `[]` 访问
@@ -78,8 +76,7 @@ let hannah = {
 → "台北"
 
 > jay['intro']()
-  大家好，我是周杰伦。
-→ undefined
+→ 大家好，我是周杰伦。
 ```
 
 ## 修改对象
@@ -141,7 +138,7 @@ let jay = {
   name: '周杰伦',
   // ...
   intro: function() {
-    console.log(`大家好，我是${this.name}。`);
+    return `大家好，我是${this.name}。`;
   }
 };  
 ```
@@ -151,7 +148,7 @@ let hannah = {
   name: '昆凌',
   // ...
   intro: function() {
-    console.log(`大家好，我是${this.name}。`);
+    return `大家好，我是${this.name}。`;
   }
 };
 ```
