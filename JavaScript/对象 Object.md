@@ -63,6 +63,9 @@ let hannah = {
 > hannah.height
 → 165
 
+> hannah.children
+→ [{ name: "Hathaway", gender: "女" }]
+
 > hannah.catwalk()
   👠👠👠👠👠👠👠👠👠
 → undefined
