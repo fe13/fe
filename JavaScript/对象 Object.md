@@ -168,7 +168,9 @@ let hannah = {
 
 
 ## 参考链接
+* http://www.objectplayground.com
 * http://2ality.com/2015/08/object-literals-es5.html
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
+* https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md
 
