@@ -77,8 +77,12 @@ let hannah = {
 > jay['name']
 → "周杰伦"
 
+> jay['company']['location']
+→ "台北"
+
 > jay['intro']()
-  大家好，我是周杰伦。
+  大家好，我是周杰伦。
+→ undefined
 ```
 
 ## 修改对象
