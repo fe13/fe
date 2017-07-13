@@ -125,4 +125,6 @@ let hannah = {
 
 
 ## 参考链接
+* http://2ality.com/2015/08/object-literals-es5.html
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+
