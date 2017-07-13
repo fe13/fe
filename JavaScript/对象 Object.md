@@ -118,6 +118,8 @@ let hannah = {
 hannah.birth('周杰棍', '男');
 ```
 
+### delete
+
 ## this
 `this` 指当前对象，在以下例子中 `this` 就是 `jay`。
 ```javascript
@@ -147,8 +149,6 @@ let hannah = {
 > hannah.intro()
 → 大家好，我是昆凌。
 ```
-
-### delete
 
 ## 遍历对象
 `for...in`
