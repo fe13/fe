@@ -109,6 +109,9 @@ let hannah = {
 
 > babies
 → [{ name: "Hathaway", gender: "女" }, { name: "周杰棍", gender: "男" }]
+
+> jay.children.length
+→ 2
 ```
 以上 `hannah.children.push()` 操作其实在 `hannan.birth()` 已经实现了，因此可以写成
 ```javascript
