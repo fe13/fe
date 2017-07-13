@@ -8,7 +8,7 @@
 最常见的声明对象的方式是对象字面量，即使用 `{}` 声明。
 ```javascript
 let babies = [
-  { name: 'Mei Mei', birthday: new Date('2015-07-10') }
+  { name: 'Hathaway' }
 ];
 
 let jay = {
@@ -36,6 +36,9 @@ let hannah = {
   },
   intro: function() {
     console.log(`大家好，我是${this.name}。`);
+  },
+  birth: function(name) {
+    this.children.push({ name: name });
   }
 };
 ```
