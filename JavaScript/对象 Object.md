@@ -83,17 +83,16 @@ let hannah = {
 → 175
 
 > jay.wife = hannah;
-→ Object {name: "昆凌", birthday: Thu Aug 12 1993 ... (CST), catwalk: ... }
+→ Object {name: "昆凌", height: 165, children: Array(1), catwalk: function, intro: function…}
 
 > jay.wife.name
 → "昆凌"
 
 > hannah['husband'] = jay;
-→ Object {name: "周杰伦", birthday: Thu Jan 18 1979 ... (CST), songs: ... aiyo: ...}
+→ Object {name: "周杰伦", children: Array(1), songs: Array(6), company: Object, aiyo: function…}
 
 > hannah.husband.name
 → "周杰伦"
-
 ```
 
 ## this
