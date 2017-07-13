@@ -118,6 +118,14 @@ hannah.birth('周杰棍', '男');
 ```
 
 ### delete
+`delete` 可用于删除对象的属性和方法。
+```javascript
+> delete jay.songs
+→ true
+
+> jay.songs
+→ undefined
+```
 
 
 ## this
