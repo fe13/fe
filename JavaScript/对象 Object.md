@@ -17,8 +17,8 @@ let jay = {
   children: babies,
   songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   company: { name: '杰威尔音乐有限公司', location: '台北' },
-  aiyo() {
-    console.log('哎哟，不错哦！');
+  aiyo() {  // ES6
+    console.log('哎哟，不错哦！');
   },
   intro: function() {
     console.log(`大家好，我是${this.name}。`);
@@ -29,7 +29,7 @@ let hannah = {
   name: '昆凌',
   height: 165,
   children: babies,
-  catwalk: function() {
+  catwalk() {
     console.log('👠👠👠👠👠👠👠👠👠');
   },
   intro: function() {
@@ -157,4 +157,5 @@ let hannah = {
 ## 参考链接
 * http://2ality.com/2015/08/object-literals-es5.html
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
 
