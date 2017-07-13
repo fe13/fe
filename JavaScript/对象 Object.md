@@ -81,8 +81,11 @@ let hannah = {
 
 ## 修改对象
 ```javascript
-> jay.height = 177
-→ 177
+> jay.height = 198   // 修改身高 height 为 198
+→ 198
+
+> jay.height -= 23   // 修改身高 height 回 175
+→ 175
 
 > jay.wife = hannah;
 → Object {name: "昆凌", height: 165, children: Array(1), catwalk: function, intro: function…}
