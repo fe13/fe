@@ -108,14 +108,14 @@ let hannah = {
 > hannah.children[0].name = 'Hathaway'
 → "Hathaway"
 
-> hannah.children[0]
+> babies[0]
 → Object { name: "Hathaway", gender: "女" }
 
 > hannah.children.push({ name: '周小伦', gender: '男' })
 → 2
 
 > babies
-→ [{ name: "周小凌", gender: "女" }, { name: "周小伦", gender: "男" }]
+→ [{ name: "Hathaway", gender: "女" }, { name: "周小伦", gender: "男" }]
 
 > jay.children.length
 → 2
