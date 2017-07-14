@@ -278,9 +278,12 @@ new Object({ name: '吴亦凡', gender: '男' })
 * http://www.objectplayground.com
 * https://www.douban.com/doulist/234050
 * http://2ality.com/2015/08/object-literals-es5.html
+* https://mathiasbynens.be/notes/javascript-identifiers
+* https://mathiasbynens.be/notes/javascript-identifiers-es6
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
 * https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md
+
