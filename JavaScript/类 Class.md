@@ -4,9 +4,11 @@
 面向对象编程(Object-oriented programming)，简称 OOP。OOP 简单来说就是用对象对现实世界进行建模进而解决问题。
 
 ## 构造函数
+JavaScrip 提供了构造函数用于构造对象。💡 构造函数名一般以大写开头(通常是名词)，方便与普通函数区分。
 ```javascript
-function Person(name) {
+function Person(name, gender) {
   this.name = name;
+  this.gender = gender;
   this.intro = function() {
     return `大家好，我是${this.name}。`;
   };
