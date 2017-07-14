@@ -103,7 +103,7 @@ let hannah = {
 → "周杰伦"
 ```
 
-⚠️ `hannah.children` 是对 `babies` 数组的**引用**，因此以下代码会直接修改 `babies`。
+⚠️ `hannah.children` 是对 `babies` 数组的**引用**(Reference)，因此以下代码会直接修改 `babies`。
 ```javascript
 > hannah.children[0].name = 'Hathaway'
 → "Hathaway"
@@ -174,7 +174,59 @@ let hannah = {
 
 ## 遍历对象
 `for...in`
-
+```javascript
+let 专辑列表 = {
+  周杰伦: {
+    year: 2000,
+    songs: [
+      '可爱女人', '完美主义', '星晴', '娘子', '斗牛', '黑色幽默', 
+      '伊斯坦堡', '印地安老斑鸠', '龙卷风', '反方向的钟'
+    ],
+  },
+  范特西: {
+    year: 2001,
+    songs: [
+      '爱在西元前', '爸我回来了', '简单爱', '忍者', '开不了口', 
+      '上海一九四三', '对不起', '威廉古堡', '双截棍', '安静'
+    ]
+  },
+  八度空间: {
+    year: 2002,
+    songs: [
+      '半兽人', '半岛铁盒', '暗号', '龙拳', '火车叨位去',
+      '分裂', '爷爷泡的茶', '回到过去', '米兰的小铁匠', '最后的战役'
+    ]
+  },
+  叶惠美: {
+    year: 2003,
+    songs: [
+      '以父之名', '儒夫', '晴天', '三年二班', '东风破', '你听得到',
+      '同一种调调', '她的睫毛', '爱情悬崖', '梯田', '双刀'
+    ]
+  },
+  七里香: {
+    year: 2004,
+    songs: [
+      '我的地盘', '七里香', '借口', '外婆', '将军',
+      '搁浅', '乱舞春秋', '困兽之斗', '园游会', '止战之殇'
+    ]
+  },
+  十一月的萧邦: {
+    year: 2005,
+    songs: [
+      '夜曲', '蓝色风暴', '发如雪', '黑色毛衣', '四面楚歌', '枫', 
+      '浪漫手机', '逆鳞', '麦芽糖', '珊瑚海', '漂移', '一路向北'
+    ]
+  },
+  依然范特西: {
+    year: 2006,
+    songs: [
+      '夜的第七章', '听妈妈的话', '千里之外', '本草纲目', '退后',
+      '红模仿', '心雨', '白色风车', '迷迭香', '菊花台'
+    ]
+  }
+};
+```
 
 ## new Object()
 ```javascript
@@ -193,6 +245,7 @@ new Object({ name: '吴亦凡', gender: '男' })
 
 ## 参考链接
 * http://www.objectplayground.com
+* https://www.douban.com/doulist/234050
 * http://2ality.com/2015/08/object-literals-es5.html
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
