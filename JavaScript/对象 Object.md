@@ -177,6 +177,16 @@ let hannah = {
 
 
 ## new Object()
+```javascript
+var wyf = new Object();
+wyf.name = '吴亦凡';
+wyf.gender = '男';
+wyf.intro = function() {
+  return `大家好，我是${this.name}。`
+};
+
+new Object({ name: '吴亦凡', gender: '男' })
+```
 
 ## 参考链接
 * http://www.objectplayground.com
