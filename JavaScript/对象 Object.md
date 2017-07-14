@@ -99,7 +99,7 @@ let hannah = {
 > hannah['husband'] = jay;
 → Object {name: "周杰伦", children: Array(1), songs: Array(6), company: Object, aiyo: function…}
 
-> hannah.husband.name
+> hannah['husband'].name
 → "周杰伦"
 ```
 
