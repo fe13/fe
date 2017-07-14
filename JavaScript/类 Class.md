@@ -1,5 +1,8 @@
 # 类 Class
 
+## 面向对象编程
+面向对象编程(Object-oriented programming)，简称 OOP。OOP 简单来说就是用对象对现实世界进行建模进而解决问题。
+
 ## 构造函数
 
 ## 参考链接
