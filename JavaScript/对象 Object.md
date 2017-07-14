@@ -105,6 +105,12 @@ let hannah = {
 
 ⚠️ `hannah.children` 是对 `babies` 数组的**引用**，因此以下代码会直接修改 `babies`。
 ```javascript
+> hannah.children[0].name = 'Hathaway'
+→ "Hathaway"
+
+> hannah.children[0]
+→ Object { name: "Hathaway", gender: "女" }
+
 > hannah.children.push({ name: '周小伦', gender: '男' })
 → 2
 
