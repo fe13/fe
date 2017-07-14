@@ -21,5 +21,9 @@ Person.prototype.intro = function() {
 };
 ```
 
+## 继承
+
 ## 参考链接
+* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target
+
