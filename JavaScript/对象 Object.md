@@ -63,6 +63,9 @@ let hannah = {
 > hannah.children
 → [{ name: "周小凌", gender: "女" }]
 
+> hannah.children[0].name
+→ "周小凌"
+
 > hannah.catwalk()
 → 👠👠👠👠👠👠👠👠👠
 ```
