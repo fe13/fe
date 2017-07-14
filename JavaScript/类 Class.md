@@ -15,5 +15,11 @@ function Person(name, gender) {
 }
 ```
 
+```javascript
+Person.prototype.intro = function() {
+  return `大家好，我是${this.name}。`;
+};
+```
+
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target
