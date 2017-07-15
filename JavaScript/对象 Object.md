@@ -372,7 +372,7 @@ const 吴亦凡 = new Object();
   return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
 };
 ```
-* 将以上对象改成用对象字面量来声明，变量名和属性名使用英文(具体名字自定)。
+* 将以上对象改成用对象字面量来声明，变量名使用英文，属性名使用中/英文(具体名字自定)。
 
 ## 参考链接
 * http://www.objectplayground.com
