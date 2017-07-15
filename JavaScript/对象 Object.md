@@ -73,7 +73,7 @@ hannah.birth = function(gender, name) {
   // this.children.push({ gender: gender, name: name });
 };
 
-let 昆凌 = Object({
+const 昆凌 = Object({
   名字: { 中文: '昆凌', 英文: 'Hannah' },
   身高: 165,
   子女: 宝贝,
