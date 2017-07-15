@@ -65,7 +65,7 @@ const 周杰伦 = {
   }
 };
 ```
-使用 `new Object()` 方式声明对象`不常用`，`new` 可选。
+使用 `new Object()` 方式声明对象(不常用)，`new` 可选。
 ```javascript
 let hannah = new Object();
 hannah.name = { zh: '昆凌', en: 'Hannah' };
