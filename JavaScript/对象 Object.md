@@ -148,6 +148,8 @@ const 昆凌 = Object({
 
 > ['name', 'height'].map(function(property) { return jay[property] });
 → [{ zh: '周杰伦', en: 'Jay' }, 175]
+
+> jay[prompt('查看 jay 的哪个属性？', 'songs')]
 ```
 `ES6` 提供了对象解构(Object Destructuring)的方式简化访问对象的多个属性。
 ```javascript
