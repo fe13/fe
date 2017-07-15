@@ -207,14 +207,14 @@ let height = jay.height;
 > 宝贝[0]
 → { 名字: { 中文: '小周周', 英文: 'Hathaway' }, 性别: '女' }
 
-> hannah.children.push({ name: { zh: '周小伦', en: 'Jason' }, gender: '男' })
+> hannah.children.push({ name: { zh: '周小伦', en: 'Jason' }, gender: '男' })   // hannah 生二胎
 → 2
 
 > babies
 → [{ name: { zh: '小周周', en: 'Hathaway' }, gender: '女' }
    { name: { zh: '周小伦', en: 'Jason'    }, gender: '男' }]
 
-> 昆凌.子女.push({ 名字: { 中文: '周小伦', 英文: 'Jason' }, 性别: '男' })
+> 昆凌.子女.push({ 名字: { 中文: '周小伦', 英文: 'Jason' }, 性别: '男' })  // 昆凌生二胎
 → 2
 
 > 宝贝
@@ -294,6 +294,17 @@ for (let key in jay) {
 for (let 属性 in 周杰伦) {
   console.log(属性, 周杰伦[属性])
 }
+```
+
+## 引用类型
+对象(还有数组，函数等)属于**引用类型**，因此，`jay.children` `hannah.children` `babies` 都是引用着同一个数组。
+```javascript
+> hannah.children.push({ name: { zh: '周小伦', en: 'Jason' }, gender: '男' })   // hannah 生二胎
+→ 2
+
+> jay.children
+→ [{ name: { zh: '小周周', en: 'Hathaway' }, gender: '女' }
+   { name: { zh: '周小伦', en: 'Jason'    }, gender: '男' }]
 ```
 
 ```javascript
@@ -441,6 +452,7 @@ function createUser(firstName, lastName) {
 ```
 
 ## 参考链接
+* https://javascript.info/object
 * http://www.objectplayground.com
 * https://www.douban.com/doulist/234050
 * http://2ality.com/2015/08/object-literals-es5.html
