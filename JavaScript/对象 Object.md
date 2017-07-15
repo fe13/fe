@@ -331,7 +331,13 @@ const 昆凌 = Object({
 };
 ```
 
-## new Object()
+## 常用方法
+`Object.keys()` `ES5`
+
+`Object.create()` `ES5`
+
+## 本节练习
+* 将以下对象改成用对象字面量来声明，尝试访问和修改对象，调用其方法。
 ```javascript
 const 吴亦凡 = new Object();
 
@@ -347,21 +353,8 @@ const 吴亦凡 = new Object();
 吴亦凡['有 freestyle 吗？'] = function() {
   return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
 };
-
-new Object({ name: '吴亦凡', gender: '男' })
 ```
-```javascript
-> 吴亦凡.自我介绍()
-→ "歌手吴亦凡。其实我是一个演员。"
-
-> 吴亦凡['有 freestyle 吗？']()
-→ "有没有 freestyle？"      // 随机结果
-```
-
-## 常用方法
-`Object.keys()` `ES5`
-
-`Object.create()` `ES5`
+* 将以上对象改成用对象字面量来声明，变量名和属性名使用英文(具体名字自定)。
 
 ## 参考链接
 * http://www.objectplayground.com
