@@ -59,7 +59,7 @@ const 周杰伦 = {
   }
 };
 ```
-使用 `new Object()` 方式声明对象，`new` 可选。
+使用 `new Object()` 方式声明对象`不常用`，`new` 可选。
 ```javascript
 let hannah = new Object();
 hannah.name = { zh: '昆凌', en: 'Hannah' };
@@ -148,6 +148,16 @@ const 昆凌 = Object({
 
 > ['name', 'height'].map(function(property) { return jay[property] });
 → [{ zh: '周杰伦', en: 'Jay' }, 175]
+```
+`ES6` 提供了对象解构(Object Destructuring)的方式简化访问对象的多个属性。
+```javascript
+let { name, songs, height } = jay;
+```
+等价于
+```javascript
+let name = jay.name;
+let songs = jay.songs;
+let height = jay.height;
 ```
 
 ## 修改对象
