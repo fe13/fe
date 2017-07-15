@@ -276,7 +276,7 @@ const 吴亦凡 = new Object();
 
 new Object({ name: '吴亦凡', gender: '男' })
 ```
-```javacript
+```javascript
 > 吴亦凡.自我介绍()
 → "歌手吴亦凡。其实我是一个演员。"
 
