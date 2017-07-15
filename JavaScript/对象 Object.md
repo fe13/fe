@@ -43,7 +43,7 @@ let jay = {
   children: babies,
   songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   company: { name: '杰威尔音乐有限公司', location: '台北', year: { founded: 2007 } },
-  like() { // ES6 方法定义
+  like() {
     return '哎哟，不错哦！';
   },
   intro: function(lang = 'zh') {
@@ -57,7 +57,7 @@ const 周杰伦 = {
   子女: 宝贝,
   作品: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   公司: { 名字: '杰威尔音乐有限公司', 所在地: '台北', 创办年份: 2007 },
-  点赞() { // ES6 方法定义
+  点赞() {
     return '哎哟，不错哦！';
   },
   自我介绍: function(语言 = '中文') {
@@ -75,8 +75,7 @@ hannah.catwalk = function() {
   return '🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈';
 };
 hannah.birth = function(gender, name) {
-  this.children.push({ gender, name });  // ES6 对象缩写
-  // this.children.push({ gender: gender, name: name });
+  this.children.push({ gender, name });
 };
 
 const 昆凌 = Object({
@@ -93,6 +92,13 @@ const 昆凌 = Object({
     return 语言 === '中文' ? `大家好，我是${this.名字.中文}。` : `Hi, I'm ${this.名字.英文}.`;
   }
 });
+```
+`ES6` 提供了更简洁的声明对象的方式。
+```javascript
+let name = '桂纶镁';
+let gender = '女';
+let height = 164;
+let glm = { name, gender, height };  //  let glm = { name: name, gender: gender, height: height };
 ```
 
 ## 访问对象
@@ -237,7 +243,6 @@ hannah.birth('男', { zh: '周小伦', en: 'Jason' });
 
 昆凌.星座 = '狮子座';
 ```
-
 
 ### delete
 `delete` 可用于删除对象的属性或方法。
