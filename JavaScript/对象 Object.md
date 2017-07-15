@@ -1,6 +1,12 @@
 # 对象 Object
 
 对象是一些相互关联的数据和功能(通常由若干变量和函数组成，被称为对象的属性和方法)的集合。
+```javascript
+{
+  属性名: 属性值
+  方法名: 函数
+}
+```
 
 💡 在某些场合特指恋爱的对方。
 
@@ -119,14 +125,8 @@ const 昆凌 = Object({
 > hannah.catwalk()    // 昆凌.猫步()
 → "🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈"
 
-> hannah.children
-→ [{ name: { zh: '周小凌', en: 'Hathaway' }, gender: '女' }]
-
 > hannah.children[0].name.zh
 → "周小凌"
-
-> 昆凌.子女
-→ [{ 名字: { 中文: '周小凌', 英文: 'Hathaway' }, 性别: '女' }]
 
 > 昆凌.子女[0].名字.英文
 → "Hathaway"
