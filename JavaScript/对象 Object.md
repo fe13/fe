@@ -383,6 +383,20 @@ const 吴亦凡 = new Object();
 };
 ```
 * 将以上对象改成用对象字面量来声明，变量名使用英文，属性名使用中/英文(具体名字自定)。
+* 使用 `ES6` 提供的特性重写以下函数，使之更简短。
+```javascript
+function createUser(firstName, lastName) {
+  let fullName = firstName + ' ' + lastName;
+  return {
+    firstName: firstName,
+    lastName: lastName,
+    fullName: fullName,
+    intro: function() {
+      return "Hi, I'm " + this.fullName + '.';
+    }
+  };
+}
+```
 
 ## 参考链接
 * http://www.objectplayground.com
