@@ -261,8 +261,28 @@ hannah.birth('男', { zh: '周小伦', en: 'Jason' });
 ```
 
 ## in
-`in` 用于检查对象是否具有某个属性或方法。
+`in` 用于检查对象是否具有某个属性或方法。💡 以下代码假设你已经运行 `修改对象` 部分的代码。
+```javascript
+> 'wife' in jay
+→ true
 
+> '妻子' in jay
+→ false
+
+> '妻子' in 周杰伦
+→ true
+```
+💡 以上代码中的引号**不能**省略，如果省略 JavaScript 会认为那是一个变量。
+```javascript
+> let wife = '妻子'
+→ undefined;
+
+> wife in jay
+→ false
+
+> wife in 周杰伦
+→ true
+```
 
 ## 遍历对象
 通过 `for...in` 可以遍历对象的属性和方法。
