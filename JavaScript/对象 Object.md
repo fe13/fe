@@ -29,7 +29,7 @@ let babies = [{ name: { zh: '周小凌', en: 'Hathaway' }, gender: '女' }];
 
 let 宝贝 = [{ 名字: { 中文: '周小凌', 英文: 'Hathaway' }, 性别: '女' }];
 ```
-声明一个包含属性和方法的对象
+声明包含属性和方法的对象
 ```javascript
 let jay = {
   name: { zh: '周杰伦', en: 'Jay' },
@@ -37,8 +37,8 @@ let jay = {
   children: babies,
   songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   company: { name: '杰威尔音乐有限公司', location: '台北', year: { founded: 2007 } },
-  like() { // ES6
-    return '哎哟，不错哦！';
+  like() { // ES6 方法定义
+    return '哎哟，不错哦！';
   },
   intro: function(lang = 'zh') {
     return lang === 'zh' ? `大家好，我是${this.name.zh}。` : `Hi, I'm ${this.name.en}.`;
@@ -51,15 +51,29 @@ const 周杰伦 = {
   子女: 宝贝,
   作品: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
   公司: { 名字: '杰威尔音乐有限公司', 所在地: '台北', 创办年份: 2007 },
-  点赞() {
+  点赞() { // ES6 方法定义
     return '哎哟，不错哦！';
   },
   自我介绍: function(语言 = '中文') {
     return 语言 === '中文' ? `大家好，我是${this.名字.中文}。` : `Hi, I'm ${this.名字.英文}.`;
   }
 };
+```
+使用 `new Object()` 方式声明对象，`new` 可选。
+```javascript
+let hannah = new Object();
+hannah.name = { zh: '昆凌', en: 'Hannah' };
+hannah.height = 165;
+hannah.children = babies;
+hannah.catwalk = function() {
+  return '🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈';
+};
+hannah.birth = function(gender, name) {
+  this.children.push({ gender, name });  // ES6 对象缩写
+  // this.children.push({ gender: gender, name: name });
+};
 
-let 昆凌 = {
+let 昆凌 = Object({
   名字: { 中文: '昆凌', 英文: 'Hannah' },
   身高: 165,
   子女: 宝贝,
@@ -72,7 +86,7 @@ let 昆凌 = {
   自我介绍: function(语言 = '中文') {
     return 语言 === '中文' ? `大家好，我是${this.名字.中文}。` : `Hi, I'm ${this.名字.英文}.`;
   }
-};
+});
 ```
 
 ## 访问对象
@@ -102,29 +116,41 @@ let 昆凌 = {
 > jay.like()   // 周杰伦.点赞()
 → 哎哟，不错哦！
 
-> 昆凌.身高
+> hannah.height    // 昆凌.身高
 → 165
+
+> hannah.catwalk()    // 昆凌.猫步()
+→ "🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈"
+
+> hannah.children
+→ [{ name: { zh: '周小凌', en: 'Hathaway' }, gender: '女' }]
+
+> hannah.children[0].name.zh
+→ "周小凌"
 
 > 昆凌.子女
 → [{ 名字: { 中文: '周小凌', 英文: 'Hathaway' }, 性别: '女' }]
 
 > 昆凌.子女[0].名字.英文
 → "Hathaway"
-
-> 昆凌.猫步()
-→ "🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈"
 ```
 
-通过 `[]` 访问
+通过 `[]` 也可以访问对象的属性和方法，当属性名包含空格或特殊字符，或属性名是变量时，一般使用 `[]`。
 ```javascript
-> 周杰伦['名字']['英文']
-→ "Jay"
+> jay['height']
+→ 175
 
-> 周杰伦['公司']['所在地']
+> jay['company']['location']    // 周杰伦['公司']['所在地']
 → "台北"
 
-> 周杰伦['自我介绍']()
+> jay['intro']()    // 周杰伦['自我介绍']()
 → "大家好，我是周杰伦。"
+
+> 阿星['如 来 神 掌']
+→ "🖐🖐🖐🖐🖐"
+
+> ['name', 'height'].map(function(property) { return jay[property] });
+→ [{ zh: '周杰伦', en: 'Jay' }, 175]
 ```
 
 ## 修改对象
@@ -348,5 +374,7 @@ new Object({ name: '吴亦凡', gender: '男' })
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
 * https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md
+
 
