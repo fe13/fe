@@ -6,12 +6,46 @@
 
 ## 声明对象
 最常见的声明对象的方式是对象字面量，即使用 `{}` 声明。
+
+⚠️ 中文变量名仅在现代浏览器如 Chrome 上得到良好支持，大部分情况下建议使用英文变量名，但中文其实很酷 😎。
+
+声明一个空对象
 ```javascript
-let babies = [{ name: { cn: '周小凌', en: 'Hathaway' }, gender: '女' }];
+let empty = {};
+
+let 空对象 = {};    // 现代浏览器对中文变量名支持良好
+```
+声明一个具有属性的对象
+```javascript
+let stephen = { name: "周星驰", height: 174, '生肖': '虎' };   // 在旧式浏览器上使用中文属性名需要引号
+
+const 周星驰 = { 名字: "周星驰", 身高: 174, 生肖: '虎' };        // 在现代浏览器上使用中文属性名引号可选
+
+let 阿星 = { 职业: '小混混', '如 来 神 掌': '🖐🖐🖐🖐🖐' };       // 包含空格或特殊字符的属性名需要引号
+```
+声明一个对象数组(暂时只有一个对象)
+```javascript
+let babies = [{ name: { zh: '周小凌', en: 'Hathaway' }, gender: '女' }];
 
 let 宝贝 = [{ 名字: { 中文: '周小凌', 英文: 'Hathaway' }, 性别: '女' }];
+```
+声明一个包含属性和方法的对象
+```javascript
+let jay = {
+  name: { zh: '周杰伦', en: 'Jay' },
+  height: 175,
+  children: babies,
+  songs: ['星晴', '双节棍', '七里香', '简单爱', '青花瓷', '告白气球'],
+  company: { name: '杰威尔音乐有限公司', location: '台北', year: { founded: 2007 } },
+  like() { // ES6
+    return '哎哟，不错哦！';
+  },
+  intro: function(lang = 'zh') {
+    return lang === 'zh' ? `大家好，我是${this.name.zh}。` : `Hi, I'm ${this.name.en}.`;
+  }
+};
 
-let 周杰伦 = {
+const 周杰伦 = {
   名字: { 中文: '周杰伦', 英文: 'Jay' },
   身高: 175,
   子女: 宝贝,
@@ -49,6 +83,12 @@ let 昆凌 = {
 
 > 周杰伦.公司.名字
 → "杰威尔音乐有限公司"
+
+> jay.company.location
+→ "台北"
+
+> jay.company.year.founded
+→ 2007
 
 > 周杰伦.作品
 → ["星晴", "双节棍", "七里香", "简单爱", "青花瓷", "告白气球"]
