@@ -476,6 +476,7 @@ function createUser(firstName, lastName) {
 ## 参考链接
 * https://javascript.info/object
 * http://www.objectplayground.com
+* https://lodash.com/docs#cloneDeep
 * https://www.douban.com/doulist/234050
 * http://2ality.com/2015/08/object-literals-es5.html
 * https://mathiasbynens.be/notes/javascript-identifiers
