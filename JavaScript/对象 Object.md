@@ -76,24 +76,30 @@ let 昆凌 = {
 ```
 
 ## 访问对象
-通过 `.` 访问
+通过 `.` 访问对象的属性和方法。
 ```javascript
+> jay.height   // 周杰伦.身高
+→ 175
+
+> jay.name.zh
+→ "周杰伦"
+
 > 周杰伦.名字.英文
 → "Jay"
 
-> 周杰伦.公司.名字
+> jay.company.name    // 周杰伦.公司.名字
 → "杰威尔音乐有限公司"
 
-> jay.company.location
+> jay.company.location    // 周杰伦.公司.所在地
 → "台北"
 
-> jay.company.year.founded
+> jay.company.year.founded    // 周杰伦.公司.创办年份
 → 2007
 
-> 周杰伦.作品
+> jay.songs    // 周杰伦.作品
 → ["星晴", "双节棍", "七里香", "简单爱", "青花瓷", "告白气球"]
 
-> 周杰伦.点赞()
+> jay.like()   // 周杰伦.点赞()
 → 哎哟，不错哦！
 
 > 昆凌.身高
