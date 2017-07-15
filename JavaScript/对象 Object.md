@@ -306,6 +306,20 @@ for (let 属性 in 周杰伦) {
 → [{ name: { zh: '小周周', en: 'Hathaway' }, gender: '女' }
    { name: { zh: '周小伦', en: 'Jason'    }, gender: '男' }]
 ```
+当 `==` 或 `===` 作用于对象的时候，实际是在问：这两个变量引用的是用一个对象吗？
+```javascript
+> jay.children === hannah.children    // 周杰伦.子女 === 昆凌.子女
+→ true
+
+> jay.children === babies
+→ true
+
+> hannah.children === babies
+→ true
+
+> empty === 空对象
+→ false
+```
 
 ```javascript
 周杰伦.专辑 = {
