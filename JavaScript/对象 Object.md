@@ -287,6 +287,16 @@ hannah.birth('男', { zh: '周小伦', en: 'Jason' });
 ## 遍历对象
 通过 `for...in` 可以遍历对象的属性和方法。
 ```javascript
+for (let key in jay) {
+  console.log(key, jay[key])
+}
+
+for (let 属性 in 周杰伦) {
+  console.log(属性, 周杰伦[属性])
+}
+```
+
+```javascript
 周杰伦.专辑 = {
   周杰伦: {
     发行年份: 2000,
