@@ -259,14 +259,29 @@ const 专辑列表 = {
 
 ## new Object()
 ```javascript
-var wyf = new Object();
-wyf.name = '吴亦凡';
-wyf.gender = '男';
-wyf.intro = function() {
-  return `大家好，我是${this.name}。`
+const 吴亦凡 = new Object();
+
+吴亦凡.名字 = {
+  中文: '吴亦凡',
+  英文: 'Kris'
+};
+
+吴亦凡.自我介绍 = function() {
+  return `歌手${this.名字.中文}。其实我是一个演员。`;
+};
+
+吴亦凡['有 freestyle 吗？'] = function() {
+  return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
 };
 
 new Object({ name: '吴亦凡', gender: '男' })
+```
+```javacript
+> 吴亦凡.自我介绍()
+→ "歌手吴亦凡。其实我是一个演员。"
+
+> 吴亦凡['有 freestyle 吗？']()
+→ "有没有 freestyle？"      // 随机结果
 ```
 
 ## 常用方法
