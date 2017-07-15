@@ -150,8 +150,10 @@ const 昆凌 = Object({
 → [{ zh: '周杰伦', en: 'Jay' }, 175]
 
 > jay[prompt('查看 jay 的哪个属性？', 'songs')]
+→ 
 
 > 周杰伦[prompt('周杰伦的(?)是1979年1月18日。')] = '1979年1月18日'
+→ "1979年1月18日"
 ```
 `ES6` 提供了对象解构(Object Destructuring)的方式简化访问对象的多个属性。
 ```javascript
@@ -377,6 +379,8 @@ const 吴亦凡 = new Object();
   中文: '吴亦凡',
   英文: 'Kris'
 };
+
+吴亦凡.身高 = 187;
 
 吴亦凡.自我介绍 = function() {
   return `歌手${this.名字.中文}。其实我是一个演员。`;
