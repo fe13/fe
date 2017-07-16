@@ -64,6 +64,7 @@ fan.height = 162;
 fan.gender = '女';
 fan.travel = function() { return '环游世界 🌏🌎🌍'; }
 ```
+显然，以下表达式都会返回 `true`。
 ```javascript
 > fan.__proto__ === personProto
 → true
