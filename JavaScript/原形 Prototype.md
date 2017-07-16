@@ -75,6 +75,27 @@ fan.travel = function() { return '环游世界 🌏🌎🌍'; }
 > personProto === Object.getPrototypeOf(fan)
 → true 
 ```
+通过 `Object.keys()` 获取 `fan` 的所有属性名。
+```javascript
+> Object.keys(fan)
+→ ["name", "height", "gender", "travel"]
+```
+
+## Object.prototype.hasOwnProperty()
+`Object.prototype.hasOwnProperty()` 方法用于判定某个指定的属性是否对象的自身(非继承)属性。
+```javascript
+> for (let key in fan) console.log(key)
+  name
+  height
+  gender
+  travel
+  eat
+  sleep
+  sing
+  intro
+→ undefined
+```
+由于 `for...in` 会把继承的属性/方法都进行遍历
 
 ```javascript
 let jay = {
@@ -100,11 +121,6 @@ let kris = {
 }
 ```
 
-
-`Object.getPrototypeOf()`
-
-`constructor` 属性
-`[].constructor.name`
-
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
