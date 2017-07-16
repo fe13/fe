@@ -172,6 +172,15 @@ let songs = jay.songs;
 let height = jay.height;
 ```
 
+`ES5` 新增了 `Object.keys()` 方法用于获取对象的所有属性名字
+```javascript
+> Object.keys(jay)
+→ ["name", "height", "children", "songs", "company", "like", "intro"]
+
+> Object.keys(周杰伦)
+→  ["名字", "身高", "子女", "作品", "公司", "点赞", "自我介绍"]
+```
+
 ## 修改对象
 ```javascript
 > jay.age = 38     // 周杰伦.年龄 = 38
@@ -309,7 +318,6 @@ for (let 属性 in 周杰伦) {
 }
 ```
 
-
 ## 引用类型
 对象(还有数组，函数等)属于**引用类型**，因此，`jay.children` `hannah.children` `babies` 都是引用着同一个数组。
 ```javascript
@@ -338,9 +346,7 @@ for (let 属性 in 周杰伦) {
 → false
 ```
 
-## 常用方法
-`Object.keys()` `ES5`
-
+## Object.create()
 `Object.create()` `ES5`
 
 ## 本节练习
