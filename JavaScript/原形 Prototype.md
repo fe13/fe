@@ -54,7 +54,7 @@ const personProto = {
   eat() { return '吃饭 🍚'; },
   sleep() { return '睡觉 😴'; },
   sing() { return '唱歌 🎤'; },
-  intro() { return `大家好！我是${this.name}。`; },
+  intro() { return `大家好！我是${this.name}。`; }
 };
 
 // 让 personProto 作为 fan 的原形
@@ -129,6 +129,14 @@ kris.intro = function() { return `歌手${this.name}。其实我是一个演员�
 kris['有 freestyle 吗？'] = function() {
   return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
 };
+```
+🤔 以下代码中 `jay.intro()` 和 `kris.intro()` 的 `intro()` 方法分别来自哪里？
+```javascript
+> jay.intro()
+→ "大家好！我是周杰伦。"
+
+> kris.intro()
+→ "歌手吴亦凡。其实我是一个演员。"
 ```
 
 ## 参考链接
