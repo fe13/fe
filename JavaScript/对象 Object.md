@@ -172,7 +172,7 @@ let songs = jay.songs;
 let height = jay.height;
 ```
 
-`ES5` 新增了 `Object.keys()` 方法用于获取对象的所有属性名字
+通过 `Object.keys()` `ES5` 方法可以获取对象的所有属性名。
 ```javascript
 > Object.keys(jay)
 → ["name", "height", "children", "songs", "company", "like", "intro"]
