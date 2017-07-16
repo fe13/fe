@@ -48,7 +48,7 @@ let fan = {
 ## Object.create()
 `Object.create()` `ES5` 方法允许使用指定的原型对象和属性创建了一个新对象。
 ```javascript
-// 常人的属性和方法
+// 常人的属性和方法/常人原形
 const personProto = {
   name: '',
   eat() { return '吃饭 🍚'; },
@@ -105,28 +105,28 @@ fan.travel = function() { return '环游世界 🌏🌎🌍'; }
 → false
 ```
 
+## 原型链 Prototype Chain
 ```javascript
-let jay = {
-  name: '周杰伦',
-  height: 175,
-  gender: '男',
-  eat() { return '吃饭 🍚'; },
-  sleep() { return '睡觉 😴'; },
-  sing() { return '唱歌 🎤🎧🎸'; },
-  aiyo() { return '哎哟，不错哦！'; }
-}
+// 创建艺人的原形
+const artistProto = Object.create(personProto);
+artistProto.sing = function() { return '唱歌 🎤🎧🎸'; };
+artistProto.film = function() { return '拍戏 🎬🎬🎬'; };
 
-let kris = {
-  name: '吴亦凡',
-  height: 187,
-  eat() { return '吃饭 🍚'; },
-  sleep() { return '睡觉 😴'; },
-  sing() { return '唱歌 🎤🎧🎸'; },
-  intro() { return `歌手${this.name}。其实我是一个演员。`; },
-  ['有 freestyle 吗？']() {
-    return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
-  }
-}
+// 让 artistProto 作为 jay 的原形
+let jay = Object.create(artistProto);
+jay.name = '周杰伦';
+jay.height = 175;
+jay.gender = '男';
+jay.aiyo = function() { return '哎哟，不错哦！'; }
+
+// 让 artistProto 作为 kris 的原形
+let kris = Object.create(artistProto);
+kris.name = '吴亦凡';
+kris.height = 187;
+kris.intro = function() { return `歌手${this.name}。其实我是一个演员。`; };
+kris['有 freestyle 吗？'] = function() {
+  return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
+};
 ```
 
 ## 参考链接
