@@ -84,18 +84,26 @@ fan.travel = function() { return '环游世界 🌏🌎🌍'; }
 ## Object.prototype.hasOwnProperty()
 `Object.prototype.hasOwnProperty()` 方法用于判定某个指定的属性是否对象的自身(非继承)属性。
 ```javascript
-> for (let key in fan) console.log(key)
-  name
-  height
-  gender
-  travel
-  eat
-  sleep
-  sing
-  intro
+> for (let key in fan) console.log(key, fan[key])
+  name 吕粉丝
+  height 162
+  gender 女
+  travel function () { return '环游世界 🌏🌎🌍'; }
+  eat function eat() { return '吃饭 🍚'; }
+  sleep function sleep() { return '睡觉 😴'; }
+  sing function sing() { return '唱歌 🎤'; }
+  intro function intro() { return `大家好！我是${this.name}。`; }
 → undefined
 ```
-由于 `for...in` 会把继承的属性/方法都进行遍历
+由于 `for...in` 会把继承的属性和方法都进行遍历，因此需要 `Object.prototype.hasOwnProperty()`。
+```javascript
+> for (let key in fan) fan.hasOwnProperty(key) && console.log(key, fan[key])
+  吕粉丝
+  height 162
+  gender 女
+  travel function () { return '环游世界 🌏🌎🌍'; }
+→ false
+```
 
 ```javascript
 let jay = {
