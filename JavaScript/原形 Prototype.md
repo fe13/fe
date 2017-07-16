@@ -106,6 +106,8 @@ fan.travel = function() { return '环游世界 🌏🌎🌍'; }
 ```
 
 ## 原型链 Prototype Chain
+原形本身是一个对象，因此也有 `__proto__` 属性，即原形的原形，还有原形的原形的原形等。这就是**原型链**。  
+`Object.prototype.__proto__` 的值是 `null`，而 `null` 没有原形，到此就是原型链末端。
 ```javascript
 // 创建艺人的原形
 const artistProto = Object.create(personProto);
