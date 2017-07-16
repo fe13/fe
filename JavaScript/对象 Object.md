@@ -333,6 +333,9 @@ for (let 属性 in 周杰伦) {
 
 > empty === 空对象
 → false
+
+> { name: '韩梅梅' } === { name: '韩梅梅' }
+→ false
 ```
 
 ## 常用方法
