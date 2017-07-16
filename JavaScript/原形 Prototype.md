@@ -45,6 +45,26 @@ let fan = {
 ```
 🤔 那如果 `fan` 是 `String` / `Array` / `Function` 呢？
 
+## Object.create()
+`Object.create()` 方法允许使用指定的原型对象和属性创建了一个新对象。
+```javascript
+// 常人的属性和方法
+const personProto = {
+  name: '',
+  eat() { return '吃饭 🍚'; },
+  sleep() { return '睡觉 😴'; },
+  sing() { return '唱歌 🎤'; },
+  intro() { return `大家好！我是${this.name}。`; },
+};
+
+// 让 personProto 作为 fan 的原形
+let fan = Object.create(personProto);
+fan.name = '吕粉丝';
+fan.height = 162;
+fan.gender = '女';
+fan.travel = function() { return '环游世界 🌏🌎🌍'; }
+```
+
 ```javascript
 let jay = {
   name: '周杰伦',
