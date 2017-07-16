@@ -104,10 +104,10 @@ let glm = { name, gender, height };  //  let glm = { name: name, gender: gender
 ## 访问对象
 通过 `.` 访问对象的属性和方法。
 ```javascript
-> empty.anything    // 访问不存在的属性返回 undefined
+> empty.anything      // 访问不存在的属性返回 undefined
 → undefined
 
-> jay.height   // 周杰伦.身高
+> jay.height          // 周杰伦.身高
 → 175
 
 > jay.name.zh
@@ -116,19 +116,19 @@ let glm = { name, gender, height };  //  let glm = { name: name, gender: gender
 > 周杰伦.名字.英文
 → "Jay"
 
-> jay.company.name    // 周杰伦.公司.名字
+> jay.company.name            // 周杰伦.公司.名字
 → "杰威尔音乐有限公司"
 
 > jay.company.year.founded    // 周杰伦.公司.创办年份
 → 2007
 
-> jay.songs[0]    // 周杰伦.作品[0]
+> jay.songs[0]                // 周杰伦.作品[0]
 → "星晴"
 
-> jay.like()   // 周杰伦.点赞()
+> jay.like()                  // 周杰伦.点赞()
 → 哎哟，不错哦！
 
-> hannah.catwalk()    // 昆凌.猫步()
+> hannah.catwalk()            // 昆凌.猫步()
 → "🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈🐈"
 
 > hannah.children[0].name.zh
@@ -146,7 +146,7 @@ let glm = { name, gender, height };  //  let glm = { name: name, gender: gender
 > jay['company']['location']    // 周杰伦['公司']['所在地']
 → "台北"
 
-> jay['intro']()    // 周杰伦['自我介绍']()
+> jay['intro']()                // 周杰伦['自我介绍']()
 → "大家好，我是周杰伦。"
 
 > 阿星['如 来 神 掌']
@@ -174,7 +174,7 @@ let height = jay.height;
 
 ## 修改对象
 ```javascript
-> jay.age = 38    // 周杰伦.年龄 = 38
+> jay.age = 38     // 周杰伦.年龄 = 38
 → 38
 
 > jay.age -= 10    // 周杰伦.年龄 -= 18   
@@ -192,7 +192,7 @@ let height = jay.height;
 > 昆凌.丈夫 = 周杰伦
 → {名字: Object, 身高: 175, 子女: Array(1), 作品: Array(6), 公司: Object}
 
-> jay.wife.name.zh    // 周杰伦.妻子.名字.中文
+> jay.wife.name.zh          // 周杰伦.妻子.名字.中文
 → "昆凌"
 
 > hannah.husband.name.zh    // 昆凌.丈夫.名字.中文
@@ -247,16 +247,16 @@ hannah.birth('男', { zh: '周小伦', en: 'Jason' });
 ### delete
 `delete` 可用于删除对象的属性或方法。
 ```javascript
-> delete jay.songs    // delete 周杰伦.作品
+> delete jay.songs         // delete 周杰伦.作品
 → true
 
-> jay.songs           // 周杰伦.作品
+> jay.songs                // 周杰伦.作品
 → undefined
 
 > delete hannah.catwalk    // delete 昆凌.猫步
 → true
 
-> hannah.catwalk    // 昆凌.猫步
+> hannah.catwalk           // 昆凌.猫步
 → undefined
 ```
 💡 `delete` 操作总是返回 `true`，无论属性或方法是否存在。
@@ -266,7 +266,7 @@ hannah.birth('男', { zh: '周小伦', en: 'Jason' });
 
 让他们分别自我介绍吧。
 ```javascript
-> jay.intro()    // 周杰伦.自我介绍()
+> jay.intro()       // 周杰伦.自我介绍()
 → 大家好，我是周杰伦。
 
 > hannah.intro()    // 昆凌.自我介绍()
