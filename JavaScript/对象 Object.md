@@ -317,6 +317,29 @@ for (let 属性 in 周杰伦) {
   console.log(属性, 周杰伦[属性])
 }
 ```
+结合 `for...in` `in` 和 `this` 实现 `周杰伦.专辑.播放()` 方法。
+```javascript
+// 周杰伦.专辑 的定义在本节最后
+
+周杰伦.专辑.播放 = function(专辑或曲目) {
+  if (专辑或曲目 in this) {
+    let 专辑名称 = 专辑或曲目;
+    console.log(`播放专辑 ${专辑名称} - 发行年份 ${this[专辑名称].发行年份}`);
+    return;
+  }
+  
+  let 曲目名称 = 专辑或曲目;
+  for (let 专辑名称 in this) {
+    let 专辑曲目 = this[专辑名称].专辑曲目;
+    if (Array.isArray(专辑曲目) && 专辑曲目.indexOf(曲目名称) > -1) {
+      console.log(`播放曲目 ${曲目名称} - 来自专辑 ${专辑名称}`);
+      return;
+    }
+  }
+  
+  console.log('对不起，这张专辑或这首歌不是周董的。');
+};
+```
 
 ## 引用类型
 对象(还有数组，函数等)属于**引用类型**，因此，`jay.children` `hannah.children` `babies` 都是引用着同一个数组。
