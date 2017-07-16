@@ -64,6 +64,16 @@ fan.height = 162;
 fan.gender = '女';
 fan.travel = function() { return '环游世界 🌏🌎🌍'; }
 ```
+```javascript
+> fan.__proto__ === personProto
+→ true
+
+> personProto.isPrototypeOf(fan)
+→ true
+
+> personProto === Object.getPrototypeOf(fan)
+→ true 
+```
 
 ```javascript
 let jay = {
