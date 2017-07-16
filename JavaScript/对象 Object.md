@@ -335,6 +335,47 @@ for (let 属性 in 周杰伦) {
 → false
 ```
 
+## 常用方法
+`Object.keys()` `ES5`
+
+`Object.create()` `ES5`
+
+## 本节练习
+* 将以下对象改成用对象字面量来声明，尝试访问和修改对象，调用其方法。
+```javascript
+const 吴亦凡 = new Object();
+
+吴亦凡.名字 = {
+  中文: '吴亦凡',
+  英文: 'Kris'
+};
+
+吴亦凡.身高 = 187;
+
+吴亦凡.自我介绍 = function() {
+  return `歌手${this.名字.中文}。其实我是一个演员。`;
+};
+
+吴亦凡['有 freestyle 吗？'] = function() {
+  return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
+};
+```
+* 将以上对象改成用对象字面量来声明，变量名使用英文，属性名使用中/英文(具体名字自定)。
+* 使用 `ES6` 提供的特性重写以下函数，使之更简短。
+```javascript
+function createUser(firstName, lastName) {
+  let fullName = firstName + ' ' + lastName;
+  return {
+    firstName: firstName,
+    lastName: lastName,
+    fullName: fullName,
+    intro: function() {
+      return "Hi, I'm " + this.fullName + '.';
+    }
+  };
+}
+```
+* 以下代码中 `周杰伦` 是一个对象，`周杰伦.专辑` 定义如下，输出周杰伦的所有专辑名称。
 ```javascript
 周杰伦.专辑 = {
   周杰伦: {
@@ -436,47 +477,6 @@ for (let 属性 in 周杰伦) {
     ]
   }
 };
-```
-
-## 常用方法
-`Object.keys()` `ES5`
-
-`Object.create()` `ES5`
-
-## 本节练习
-* 将以下对象改成用对象字面量来声明，尝试访问和修改对象，调用其方法。
-```javascript
-const 吴亦凡 = new Object();
-
-吴亦凡.名字 = {
-  中文: '吴亦凡',
-  英文: 'Kris'
-};
-
-吴亦凡.身高 = 187;
-
-吴亦凡.自我介绍 = function() {
-  return `歌手${this.名字.中文}。其实我是一个演员。`;
-};
-
-吴亦凡['有 freestyle 吗？'] = function() {
-  return ['有 freestyle 吗？', '还有 freestyle 吗？', '有没有 freestyle？'][Math.floor(Math.random() * 3)];
-};
-```
-* 将以上对象改成用对象字面量来声明，变量名使用英文，属性名使用中/英文(具体名字自定)。
-* 使用 `ES6` 提供的特性重写以下函数，使之更简短。
-```javascript
-function createUser(firstName, lastName) {
-  let fullName = firstName + ' ' + lastName;
-  return {
-    firstName: firstName,
-    lastName: lastName,
-    fullName: fullName,
-    intro: function() {
-      return "Hi, I'm " + this.fullName + '.';
-    }
-  };
-}
 ```
 
 ## 参考链接
