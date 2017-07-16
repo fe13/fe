@@ -11,7 +11,5 @@ a.push.apply(a, b);
 
 ## function.bind()
 
-## 链式调用
-
 ## 参考链接
 * https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions
