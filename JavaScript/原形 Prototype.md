@@ -43,7 +43,7 @@ let fan = {
 > Object.prototype === Object.getPrototypeOf(fan)
 → true
 ```
-
+🤔 那如果 `fan` 是 `String` / `Array` / `Function` 呢？
 
 ```javascript
 let jay = {
