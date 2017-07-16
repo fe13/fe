@@ -4,6 +4,7 @@ JavaScript 是一门基于**原形**的语言，每个对象都有一个原形(�
 
 通过原形这种机制，对象能从其他对象继承功能特性；这种继承机制与经典的面向对象编程语言不同。
 
+## `__proto__`属性
 ```javascript
 let fan = {
   name: '吕粉丝',
@@ -15,6 +16,19 @@ let fan = {
   intro() { return `大家好！我是${this.name}。`; },
   travel() { return '环游世界 🌏🌎🌍'; }
 };
+```
+```javascript
+> fan.name
+→ "吕粉丝"
+
+> fan.travel()
+→ "环游世界 🌏🌎🌍"
+
+> fan.valueOf()
+→ Object {name: "吕粉丝", height: 162, gender: "女", eat: function, sleep: function…}
+```
+
+```javascript
 
 let jay = {
   name: '周杰伦',
@@ -39,8 +53,6 @@ let kris = {
 }
 ```
 
-
-`__proto__` 属性
 
 `Object.getPrototypeOf()`
 
