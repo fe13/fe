@@ -20,7 +20,7 @@ Person.prototype.sing = function(song) {
   return `我要唱 ${song} 🎤`;
 }
 ```
-使用 `new` 创建新对象
+使用 `new` 创建新对象。
 ```javascript
 > let eva = new Person('依嬅', '女', 168)
 → undefined
