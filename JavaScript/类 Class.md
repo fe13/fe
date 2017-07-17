@@ -12,12 +12,22 @@ function Person(name, gender, height) {
   this.height = height;
 }
 
+// 静态方法 static method
+Person.isPerson = function(person) {
+  return !!(person && person.name);
+};
+
+// 实例方法 instance method
 Person.prototype.intro = function() {
   return `大家好，我是${this.name}。`;
 };
 
 Person.prototype.sing = function(song) {
   return `我要唱 ${song} 🎤`;
+};
+
+Person.prototype.isTallerThan = function(person) {
+  return person && person.height < this.height;
 };
 ```
 使用 `new` 创建新对象。
@@ -33,7 +43,7 @@ Person.prototype.sing = function(song) {
 ```
 
 ### class
-`ES6` 提供了 `class` 用于简化类的声明。
+`ES6` 新增了 `class` 用于简化类的声明。`static` 用于声明静态方法。
 ```javascript
 class Person {
   constructor(name, gender, height) {
@@ -42,12 +52,20 @@ class Person {
     this.height = height;
   }
   
+  static isPerson(person) {
+    return !!(person && person.name);
+  }
+  
   intro() {
     return `大家好，我是${this.name}。`;
   }
   
   sing(song) {
     return `我要唱 ${song} 🎤`;
+  }
+  
+  isTallerThan(person) {
+    return person && person.height < this.height;
   }
 }
 ```
@@ -78,12 +96,21 @@ Artist.prototype.sing = function(song) {
 
 > ashin.sing('恋爱ing')
 → "恋爱ing 会唱的一起唱好吗 🎸"
+
+> ashin.isTallerThan(eva)
+→ true
 ```
 
 ### extends
+`ES6` 
+```javascript
+
+```
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target
-
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
