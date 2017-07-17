@@ -54,8 +54,9 @@ class Person {
 
 ## 继承
 ```javascript
-function Artist(name, gender, height) {
+function Artist(name, gender, height, agent) {
   Person.call(this, name, gender, height);
+  this.agent = agent;
 }
 
 Artist.prototype = Object.create(Person.prototype);
@@ -66,8 +67,14 @@ Artist.prototype.sing = function(song) {
 };
 ```
 ```javascript
-> let ashin = new Artist('陈信宏', '男', 180)
+> let ashin = new Artist('陈信宏', '男', 180, '相信音乐')
 → undefined
+
+> ashin.name
+→ "陈信宏"
+
+> ashin.agent
+→ "相信音乐"
 
 > ashin.sing('恋爱ing')
 → "恋爱ing 会唱的一起唱好吗 🎸"
