@@ -125,7 +125,7 @@ class Artist extends Person {
   }
   
   static isArtist(artist) {
-    return super.isPerson(artist) && !!artist.agent;    // super 可
+    return super.isPerson(artist) && !!artist.agent;    // super 调用父类静态方法
   }
   
   sing(song) {
