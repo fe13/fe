@@ -3,8 +3,8 @@
 ## 面向对象编程
 面向对象编程(Object-oriented programming)，简称 OOP。OOP 简单来说就是用对象对现实世界进行建模进而解决问题。
 
-## 构造器函数
-JavaScript 提供了构造器函数用于构造对象。💡 构造函数名一般以大写开头(通常是名词)，方便与普通函数区分。
+## 构造器 Constructor
+JavaScript 提供了构造器(函数)用于构造对象。💡 构造函数名一般以大写开头(通常是名词)，方便与普通函数区分。
 ```javascript
 function Person(name, gender, height) {
   this.name = name;
@@ -75,7 +75,7 @@ class Person {
 }
 ```
 
-## 继承
+## 继承 Inheritance
 ```javascript
 function Artist(name, gender, height, agent) {
   Person.call(this, name, gender, height);
@@ -120,7 +120,7 @@ Artist.call(ashin);
 ```javascript
 class Artist extends Person {
   constructor(name, gender, height, agent) {
-    super(name, gender, height);   // constructor 内使用 super 须放在 this 前
+    super(name, gender, height);    // constructor 内使用 super 须放在 this 前
     this.agent = agent;
   }
   
@@ -134,11 +134,33 @@ class Artist extends Person {
 }
 ```
 
+## instanceof
+`instanceof` 用于判断指定对象是否某个类的实例(包含继承)。
+```javascript
+> eva instanceof Person
+→ true
+
+> eva instanceof Artist
+→ false
+
+> ashin instanceof Person
+→ true
+
+> ashin instanceof Artist
+→ true
+```
+💡 `instanceof` 通过检查指定对象的原型链是否包含构造器的 `prototype` 属性进行判断。
+
+## new.target
+
 ## 参考链接
+* https://javascript.info/instanceof
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
