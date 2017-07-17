@@ -43,8 +43,7 @@ Person.prototype.isTallerThan = function(person) {
 ```
 以上 `let eva = new Person('依嬅', '女', 168)` 实际效果如下。
 ```javascript
-let eva = new Object();
-eva.__proto__ = Person.prototype;
+let eva = Object.create(Person.proto);
 Person.call(eva);
 ```
 
@@ -83,8 +82,12 @@ function Artist(name, gender, height, agent) {
   this.agent = agent;
 }
 
+Artist.isArtist = function(artist) {
+  return this.prototype.__proto__.constructor.isPerson(artist) && !!artist.agent;
+};
+
 Artist.prototype = Object.create(Person.prototype);
-Artist.prototype.constructor = Artist;    // 设置正确的 constructor 值
+Artist.prototype.constructor = Artist;    // 设置正确的 constructor 值
 
 Artist.prototype.sing = function(song) {
   return `${song} 会唱的一起唱好吗 🎸`;
@@ -106,11 +109,29 @@ Artist.prototype.sing = function(song) {
 > ashin.isTallerThan(eva)
 → true
 ```
+以上 `let ashin = new Artist('陈信宏', '男', 180, '相信音乐')` 实际效果如下。
+```javascript
+let ashin = Object.create(Artist.prototype);
+Artist.call(ashin);
+```
 
 ### extends
-`ES6` 
+`ES6` 新增了 `extends` 用于简化继承。`super` 用于调用父类的静态/实例方法。
 ```javascript
-
+class Artist extends Person {
+  constructor(name, gender, height, agent) {
+    super(name, gender, height);   // constructor 内
+    this.agent = agent;
+  }
+  
+  static isArtist(artist) {
+    return super.isPerson(artist) && !!artist.agent;    // super 可
+  }
+  
+  sing(song) {
+    return `${song} 会唱的一起唱好吗 🎸`;
+  }
+}
 ```
 
 ## 参考链接
