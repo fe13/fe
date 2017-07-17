@@ -136,6 +136,7 @@ class Artist extends Person {
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/class
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
