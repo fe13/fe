@@ -46,7 +46,7 @@ class Person {
     return `大家好，我是${this.name}。`;
   }
   
-  sing() {
+  sing(song) {
     return `我要唱 ${song} 🎤`;
   }
 }
