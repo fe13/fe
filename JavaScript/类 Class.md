@@ -4,7 +4,7 @@
 面向对象编程(Object-oriented programming)，简称 OOP。OOP 简单来说就是用对象对现实世界进行建模进而解决问题。
 
 ## 构造器函数
-JavaScrip 提供了构造函数用于构造对象。💡 构造函数名一般以大写开头(通常是名词)，方便与普通函数区分。
+JavaScrip 提供了构造器函数用于构造对象。💡 构造函数名一般以大写开头(通常是名词)，方便与普通函数区分。
 ```javascript
 function Person(name, gender, height) {
   this.name = name;
@@ -17,7 +17,36 @@ Person.prototype.intro = function() {
 };
 
 Person.prototype.sing = function(song) {
-  return `唱一首 ${song} 🎤`;
+  return `我要唱 ${song} 🎤`;
+}
+```
+```javascript
+> let eva = new Person('依嬅', '女', 168)
+→ undefined
+
+> eva.name
+→ "依嬅"
+
+> eva.sing('倔强')
+→ "我要唱 倔强 🎤"
+```
+
+### class
+```javascript
+class Person {
+  constructor(name, gender, height) {
+    this.name = name;
+    this.gender = gender;
+    this.height = height;
+  }
+  
+  intro() {
+    return `大家好，我是${this.name}。`;
+  }
+  
+  sing() {
+    return `唱一首 ${song} 🎤`;
+  }
 }
 ```
 
@@ -34,6 +63,7 @@ Artist.prototype.sing = function() {
   return ``;
 };
 ```
+### extends
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
