@@ -17,11 +17,23 @@ Person.prototype.intro = function() {
 };
 
 Person.prototype.sing = function(song) {
-  return ``;
+  return `唱一首 ${song} 🎤`;
 }
 ```
 
 ## 继承
+```javascript
+function Artist(name, gender, height) {
+  Person.call(this, name, gender, height);
+}
+
+Artist.prototype = Object.create(Person.proto);
+Artist.prototype.constructor = Artist;
+
+Artist.prototype.sing = function() {
+  return ``;
+};
+```
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
