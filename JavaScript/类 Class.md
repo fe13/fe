@@ -27,7 +27,7 @@ function Artist(name, gender, height) {
   Person.call(this, name, gender, height);
 }
 
-Artist.prototype = Object.create(Person.proto);
+Artist.prototype = Object.create(Person.prototype);
 Artist.prototype.constructor = Artist;
 
 Artist.prototype.sing = function() {
