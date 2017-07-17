@@ -59,7 +59,7 @@ function Artist(name, gender, height) {
 }
 
 Artist.prototype = Object.create(Person.prototype);
-Artist.prototype.constructor = Artist;
+Artist.prototype.constructor = Artist;    // 设置正确的 constructor 值
 
 Artist.prototype.sing = function(song) {
   return `${song} 会唱的一起唱好吗 🎸`;
