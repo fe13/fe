@@ -41,6 +41,12 @@ Person.prototype.isTallerThan = function(person) {
 > eva.sing('倔强')
 → "我要唱 倔强 🎤"
 ```
+以上 `let eva = new Person('依嬅', '女', 168)` 实际效果如下。
+```javascript
+let eva = new Object();
+eva.__proto__ = Person.prototype;
+Person.call(eva);
+```
 
 ### class
 `ES6` 新增了 `class` 用于简化类的声明。`static` 用于声明静态方法。
