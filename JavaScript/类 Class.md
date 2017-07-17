@@ -120,7 +120,7 @@ Artist.call(ashin);
 ```javascript
 class Artist extends Person {
   constructor(name, gender, height, agent) {
-    super(name, gender, height);   // constructor 内
+    super(name, gender, height);   // constructor 内使用 super 须放在 this 前
     this.agent = agent;
   }
   
