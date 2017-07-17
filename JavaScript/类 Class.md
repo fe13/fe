@@ -18,7 +18,7 @@ Person.prototype.intro = function() {
 
 Person.prototype.sing = function(song) {
   return `我要唱 ${song} 🎤`;
-}
+};
 ```
 使用 `new` 创建新对象。
 ```javascript
@@ -66,11 +66,11 @@ Artist.prototype.sing = function(song) {
 };
 ```
 ```javascript
-> let ashin = new Artist('阿信', '男', 180)
+> let ashin = new Artist('陈信宏', '男', 180)
 → undefined
 
 > ashin.sing('恋爱ing')
-→ 
+→ "恋爱ing 会唱的一起唱好吗 🎸"
 ```
 
 ### extends
