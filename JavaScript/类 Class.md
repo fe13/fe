@@ -61,10 +61,18 @@ function Artist(name, gender, height) {
 Artist.prototype = Object.create(Person.prototype);
 Artist.prototype.constructor = Artist;
 
-Artist.prototype.sing = function() {
-  return ``;
+Artist.prototype.sing = function(song) {
+  return `${song} 会唱的一起唱好吗 🎸`;
 };
 ```
+```javascript
+> let ashin = new Artist('阿信', '男', 180)
+→ undefined
+
+> ashin.sing('恋爱ing')
+→ 
+```
+
 ### extends
 
 ## 参考链接
