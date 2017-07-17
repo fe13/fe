@@ -20,6 +20,7 @@ Person.prototype.sing = function(song) {
   return `我要唱 ${song} 🎤`;
 }
 ```
+使用 `new` 创建新对象
 ```javascript
 > let eva = new Person('依嬅', '女', 168)
 → undefined
@@ -32,6 +33,7 @@ Person.prototype.sing = function(song) {
 ```
 
 ### class
+`ES6` 提供了 `class` 用于简化类的声明。
 ```javascript
 class Person {
   constructor(name, gender, height) {
@@ -45,7 +47,7 @@ class Person {
   }
   
   sing() {
-    return `唱一首 ${song} 🎤`;
+    return `我要唱 ${song} 🎤`;
   }
 }
 ```
@@ -66,6 +68,7 @@ Artist.prototype.sing = function() {
 ### extends
 
 ## 参考链接
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target
 
