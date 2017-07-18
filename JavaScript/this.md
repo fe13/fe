@@ -208,7 +208,7 @@ let kintro = intro.bind(kris);
 → "歌手吴亦凡。其实我是一个演员。"     // 绑定函数的 this 值总是绑定的值
 ```
 
-## 找回正确的 this
+## 设置正确的 this 值
 ```javascript
 let taylor = {
   schedule(song, time) {
