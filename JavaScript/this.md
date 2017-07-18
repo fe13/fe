@@ -43,6 +43,7 @@ function whatsThis() {
 > whatsThis() === void 0   // void 0 的值是 undefined
 → true
 ```
+以下代码中的 `intro()` 也是直接调用。
 ```javascript
 let product = {
   title: '太阳能电筒 🔦',
