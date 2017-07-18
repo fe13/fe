@@ -49,7 +49,7 @@ let product = {
   intro() {
     return `${this.title} 您值得拥有 😎`;
   }
-}
+};
 
 let intro = product.intro;
 ```
