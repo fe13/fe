@@ -194,21 +194,49 @@ let mayday = {
 
 ### Function.prototype.bind()
 ```javascript
-let taylor = {
-  name: 'Taylor Swift',
+function intro() {
+  
+}
+```
 
+## 找回正确的 this
+```javascript
+let taylor = {
   schedule(song, time) {
     setTimeout(function() {
       this.sing(song);
     }, time * 1000);
   },
-
   sing(song) {
-    return '${song} 🎸 - ${this.name}';
+    return console.log(`${song} 🎸`);
   }
 };
 
-taylor.schedule('You Belong With Me', 3);
+taylor.schedule('You Belong With Me', 3);   // 报错 Uncaught TypeError: this.sing is not a function
+```
+💡 `Function.prototype.bind()`
+```javascript
+let taylor = {
+  schedule(song, time) {
+    setTimeout(this.sing.bind(this, song), time * 1000);
+  },
+  sing(song) {
+    return console.log(`${song} 🎸`);
+  }
+};
+```
+💡 箭头函数
+```javascript
+let taylor = {
+  schedule(song, time) {
+    setTimeout(() => {
+      this.sing(song);
+    }, time * 1000);
+  },
+  sing(song) {
+    return console.log(`${song} 🎸`);
+  }
+};
 ```
 
 ## 本节练习
