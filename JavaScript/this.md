@@ -62,6 +62,30 @@ let intro = product.intro;
 → "太阳能电筒 🔦 您值得拥有 😎"   // 正常方法调用
 ```
 
+### this 的值是动态的
+```javascript
+function intro(face = '😉') {
+  return `大家好！我叫${this.name}，请大家多多指教。${face}`;
+}
+
+let hmm = {
+  name: '韩梅梅',
+  intro
+};
+
+let lll = {
+  name: '李雷雷',
+  intro
+};
+```
+```javascript
+> hmm.intro()
+→ "大家好！我叫韩梅梅，请大家多多指教。😉"
+
+> lll.intro('😜')
+→ "大家好！我叫李雷雷，请大家多多指教。😜"
+```
+
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(**逐个传递**)调用函数。
 
