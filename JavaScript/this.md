@@ -193,6 +193,21 @@ let mayday = {
 ```
 
 ### Function.prototype.bind()
+```javascript
+let taylor = {
+  name: 'Taylor Swift',
+
+  schedule(song, time) {
+    setTimeout(this.song, time * 1000);
+  },
+
+  sing(song) {
+    return '${song} 🎸 - ${this.name}';
+  }
+};
+
+taylor.schedule('You Belong With Me', 3);
+```
 
 ## 本节练习
 * 以下代码会输出什么？
