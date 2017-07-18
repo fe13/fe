@@ -20,6 +20,31 @@
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(逐个传递)调用函数。
 
+使用 `call()` 简化类的定义。
+```javascript
+function Person(name, gender, height) {
+  this.name = name;
+  this.gender = gender;
+  this.height = height;
+}
+
+(function() {
+
+  this.intro = function() {
+    return `大家好，我是${this.name}。`;
+  };
+
+  this.sing = function(song) {
+    return `我要唱 ${song} 🎤`;
+  };
+
+  this.isTallerThan = function(person) {
+    return person && person.height < this.height;
+  };
+
+}).call(Person.prototype);
+```
+
 ### Function.prototype.apply()
 ```javascript
 var a = [1, 2, 3, 4, 5], b = [6, 7, 8, 9, 10];
