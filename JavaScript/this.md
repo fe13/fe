@@ -3,7 +3,7 @@
 大部分情况下，`this` 的值由函数调用的方式决定。`this` 不能被赋值。
 
 ## Function.prototype.call()
-
+`Function.prototype.call()` 方法用指定的 `this` 值和参数(逐个传递)调用函数。
 
 ## Function.prototype.apply()
 ```javascript
@@ -17,3 +17,6 @@ a.push.apply(a, b);
 * http://2ality.com/2014/05/this.html
 * https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply
