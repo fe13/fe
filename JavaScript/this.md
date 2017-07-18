@@ -92,9 +92,25 @@ function Person(name, gender, height) {
 
 ### Function.prototype.apply()
 `Function.prototype.apply()` 方法用指定的 `this` 值和参数(**数组传递**)调用函数。
+
+将一个数组的所有元素添加到指定数组的末尾。
 ```javascript
-> Math.max.apply(null, [6, 3, 5, 7, 8, 4, 1])
+> var a = [1, 2, 3, 4, 5], b = [6, 7, 8, 9, 10];
+→ undefined
+
+> a.push.apply(a, b)
+→ 10
+
+> a 
+→ [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+找出数字数组中的最大值/最小值。
+```javascript
+> Math.max.apply(null, [6, 3, 5, 7, 8, 4, 2])
 → 8
+
+> Math.min.apply(null, [6, 3, 5, 7, 8, 4, 2])
+→ 2
 ```
 
 由于 `typeof []` 返回 `"object"`，因此在没有 `Array.isArray()` 时使用以下代码判断某个值是否数组。
