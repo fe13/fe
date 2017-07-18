@@ -19,11 +19,31 @@
 在函数内部时，`this` 的值取决于函数的调用方式。
 
 ### 直接调用
+在浏览器中以**非严格模式**直接调用函数，`this` 的值是 `window`。
 ```javascript
 function whatsThis() {
-  
+  return this;
 }
 ```
+```javascript
+> whatsThis() === window
+→ true
+```
+在浏览器中以**严格模式**直接调用时，`this` 的值是 `undefined`。
+```javascript
+"use strict";
+function whatsThis() {
+  return this;
+}
+```
+```javascript
+> whatsThis()
+→ undefined
+
+> whatsThis() === void 0   // void 0 的值是 undefined
+→ true
+```
+
 
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(**逐个传递**)调用函数。
