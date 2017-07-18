@@ -26,7 +26,7 @@ function whatsThis() {
 ```
 
 ### Function.prototype.call()
-`Function.prototype.call()` 方法用指定的 `this` 值和参数(逐个传递)调用函数。
+`Function.prototype.call()` 方法用指定的 `this` 值和参数(**逐个传递**)调用函数。
 
 使用 `call()` 简化类的定义。
 ```javascript
@@ -54,6 +54,7 @@ function Person(name, gender, height) {
 ```
 
 ### Function.prototype.apply()
+`Function.prototype.apply()` 方法用指定的 `this` 值和参数(**数组传递**)调用函数。
 ```javascript
 > Math.max.apply(null, [6, 3, 5, 7, 8, 4, 1])
 → 8
