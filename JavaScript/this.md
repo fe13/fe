@@ -13,6 +13,24 @@ a.push.apply(a, b);
 
 ## Function.prototype.bind()
 
+## 本节练习
+* 如何让 `kris.intro()` 返回 "大家好！我是吴亦凡。" ？
+```javascript
+const personProto = {
+  name: '',
+  sing() { return '唱歌 🎤'; },
+  intro() { return `大家好！我是${this.name}。`; }
+};
+
+const artistProto = Object.create(personProto);
+artistProto.sing = function() { return '唱歌 🎤🎧🎸'; };
+
+let kris = Object.create(artistProto);
+kris.name = '吴亦凡';
+kris.intro = function() { return `歌手${this.name}。其实我是一个演员。`; };
+```
+
+
 ## 参考链接
 * http://2ality.com/2014/05/this.html
 * https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions
