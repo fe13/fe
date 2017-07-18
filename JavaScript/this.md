@@ -115,7 +115,7 @@ if (!Array.isArray) {
 let robot = {
   id: 'XD007',
   work() { console.log(`${this.id} 正在运作`) },
-  rest() { cossole.log(`${this.id} 正在休息`) }
+  rest() { console.log(`${this.id} 正在休息`) }
 };
 ```
 ```javascript
