@@ -89,6 +89,13 @@ let lll = {
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(**逐个传递**)调用函数。
 
+
+```javascript
+[].slice.call(document.querySelectorAll('div'))         // 将 NodeList 转成 Array
+
+[].slice.call(document.querySelectorAll('div'), 3, 9)   // 获取 NodeList 中某些元素
+```
+
 使用 `Function.prototype.call()` 简化类的定义。
 ```javascript
 function Person(name, gender, height) {
