@@ -114,6 +114,16 @@ function Person(name, gender, height) {
 }).call(Person.prototype);
 ```
 
+由于 `typeof []` 返回 `"object"`，因此在没有 `Array.isArray()` 时使用以下代码判断某个值是否数组。
+```javascript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
+if (!Array.isArray) {
+  Array.isArray = function(arg) {
+    return Object.prototype.toString.call(arg) === '[object Array]';
+  };
+}
+```
+
 ### Function.prototype.apply()
 `Function.prototype.apply()` 方法用指定的 `this` 值和参数(**数组传递**)调用函数。
 
@@ -135,15 +145,6 @@ function Person(name, gender, height) {
 
 > Math.min.apply(null, [6, 3, 5, 7, 8, 4, 2])
 → 2
-```
-
-由于 `typeof []` 返回 `"object"`，因此在没有 `Array.isArray()` 时使用以下代码判断某个值是否数组。
-```javascript
-if (!Array.isArray) {
-  Array.isArray = function(value) {
-    return Object.prototype.toString.apply(value) === '[object Array]';
-  };
-}
 ```
 
 ### Function.prototype.bind()
