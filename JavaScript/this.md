@@ -2,16 +2,31 @@
 
 大部分情况下，`this` 的值由函数调用的方式决定。`this` 不能被赋值。
 
-## Function.prototype.call()
+## 全局上下文 Global Context
+在浏览器的全局环境中，`this` 的值是 `window`。
+```javascript
+> this === window
+→ true
+
+> this.dog = '🐶';
+→ "🐶"
+
+> window.dog
+→ "🐶"
+```
+
+## 函数上下文 Function Context
+
+### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(逐个传递)调用函数。
 
-## Function.prototype.apply()
+### Function.prototype.apply()
 ```javascript
 var a = [1, 2, 3, 4, 5], b = [6, 7, 8, 9, 10];
 a.push.apply(a, b);
 ```
 
-## Function.prototype.bind()
+### Function.prototype.bind()
 
 ## 本节练习
 * 如何让 `kris.intro()` 返回 "大家好！我是吴亦凡。" ？
