@@ -1,5 +1,7 @@
 # this
 
+大部分情况下，`this` 的值由函数调用的方式决定。`this` 不能被赋值。
+
 ## Function.prototype.call()
 
 
