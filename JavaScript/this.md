@@ -193,10 +193,19 @@ let mayday = {
 ```
 
 ### Function.prototype.bind()
+`Function.prototype.bind()` 返回一个绑定过 `this` 值的新函数，该函数执行时 `this` 的值总是绑定值。
 ```javascript
-function intro() {
-  
-}
+function intro() { return `歌手${this.name}。其实我是一个演员。`; }
+
+let kris = { name: '吴亦凡' };
+let kintro = intro.bind(kris);
+```
+```javascript
+> kintro()
+→ "歌手吴亦凡。其实我是一个演员。"
+
+> kintro.call({ name: '周杰伦'})
+→ "歌手吴亦凡。其实我是一个演员。"     // 绑定函数的 this 值总是绑定的值
 ```
 
 ## 找回正确的 this
