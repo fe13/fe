@@ -89,7 +89,23 @@ let lll = {
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(**逐个传递**)调用函数。
 
+在上述 `韩梅梅` 和 `李雷雷` 的例子中，可以通过 `call()` 调用，不必添加 `intro` 方法。
+```javascript
+function intro(face = '😉') {
+  return `大家好！我叫${this.name}，请大家多多指教。${face}`;
+}
 
+let hmm = { name: '韩梅梅' };
+let lll = { name: '李雷雷' };
+```
+```javascript
+> intro.call(hmm)
+→ "大家好！我叫韩梅梅，请大家多多指教。😉"
+
+> intro.call(lll, '😜')
+→ "大家好！我叫李雷雷，请大家多多指教。😜"
+```
+将数组方法作用在`类似数组`的对象上。
 ```javascript
 [].slice.call(document.querySelectorAll('div'))         // 将 NodeList 转成 Array
 
