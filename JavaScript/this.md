@@ -43,7 +43,23 @@ function whatsThis() {
 > whatsThis() === void 0   // void 0 的值是 undefined
 → true
 ```
+```javascript
+let product = {
+  title: '太阳能电筒 🔦',
+  intro() {
+    return `${this.title} 您值得拥有 😎`;
+  }
+}
 
+let intro = product.intro;
+```
+```javascript
+> intro()
+→ "undefined 您值得拥有 😎"     // 在严格模式下会报错
+
+> product.intro()
+→ "太阳能电筒 🔦 您值得拥有 😎"   // 正常方法调用
+```
 
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(**逐个传递**)调用函数。
