@@ -39,7 +39,7 @@ if (!Array.isArray) {
 ### Function.prototype.bind()
 
 ## 本节练习
-* 如何让 `kris.intro()` 返回 "大家好！我是吴亦凡。" ？
+* 如何让 `kris` 说 "大家好！我是吴亦凡。" ？
 ```javascript
 const personProto = {
   name: '',
