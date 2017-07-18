@@ -169,6 +169,28 @@ if (!Array.isArray) {
 > Math.min.apply(null, [6, 3, 5, 7, 8, 4, 2])
 → 2
 ```
+`Function.prototype.apply()` 结合 `arguments` 一起使用。
+```javascript
+function concert() {
+  console.log(`${this.name}演唱会 正式开始`);
+  console.log([].slice.call(arguments).join(' '));
+  console.log(`${this.name}演唱会 正式结束`);
+}
+
+let mayday = {
+  name: '五月天',
+  sing() {
+    concert.apply(this, arguments);
+  }
+};
+```
+```javascript
+> mayday.sing('Do You Ever Shine?', '三个傻瓜', '你不是真正的快乐', '为爱而生', '知足')
+  五月天演唱会 正式开始
+  Do You Ever Shine? 三个傻瓜 你不是真正的快乐 为爱而生 知足
+  五月天演唱会 正式结束
+→ undefined
+```
 
 ### Function.prototype.bind()
 
