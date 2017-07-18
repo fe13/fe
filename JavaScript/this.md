@@ -65,7 +65,7 @@ let intro = product.intro;
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(**逐个传递**)调用函数。
 
-使用 `call()` 简化类的定义。
+使用 `Function.prototype.call()` 简化类的定义。
 ```javascript
 function Person(name, gender, height) {
   this.name = name;
