@@ -1,15 +1,15 @@
 # this
 
-## function.call()
+## Function.prototype.call()
 
 
-## function.apply()
+## Function.prototype.apply()
 ```javascript
 var a = [1, 2, 3, 4, 5], b = [6, 7, 8, 9, 10];
 a.push.apply(a, b);
 ```
 
-## function.bind()
+## Function.prototype.bind()
 
 ## 参考链接
 * http://2ality.com/2014/05/this.html
