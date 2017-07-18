@@ -198,7 +198,9 @@ let taylor = {
   name: 'Taylor Swift',
 
   schedule(song, time) {
-    setTimeout(this.song, time * 1000);
+    setTimeout(function() {
+      this.sing(song);
+    }, time * 1000);
   },
 
   sing(song) {
