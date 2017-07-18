@@ -109,6 +109,19 @@ if (!Array.isArray) {
 ### Function.prototype.bind()
 
 ## 本节练习
+* 以下代码会输出什么？
+```javascript
+"use strict";
+let robot = {
+  id: 'XD007',
+  work() { console.log(`${this.id} 正在运作`) },
+  rest() { cossole.log(`${this.id} 正在休息`) }
+};
+```
+```javascript
+> (new Date().getHours() >= 20 ? robot.rest : robot.work)()
+→
+```
 * 如何让 `kris` 说 "大家好！我是吴亦凡。" ？
 ```javascript
 function intro() {
