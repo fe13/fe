@@ -16,6 +16,14 @@
 ```
 
 ## 函数上下文 Function Context
+在函数内部时，`this` 的值取决于函数的调用方式。
+
+### 直接调用
+```javascript
+function whatsThis() {
+  
+}
+```
 
 ### Function.prototype.call()
 `Function.prototype.call()` 方法用指定的 `this` 值和参数(逐个传递)调用函数。
@@ -47,16 +55,15 @@ function Person(name, gender, height) {
 
 ### Function.prototype.apply()
 ```javascript
-var a = [1, 2, 3, 4, 5], b = [6, 7, 8, 9, 10];
-a.push.apply(a, b);
+> Math.max.apply(null, [6, 3, 5, 7, 8, 4, 1])
+→ 8
 ```
 
 由于 `typeof []` 返回 `"object"`，因此在没有 `Array.isArray()` 时使用以下代码判断某个值是否数组。
 ```javascript
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
 if (!Array.isArray) {
-  Array.isArray = function(arg) {
-    return Object.prototype.toString.call(arg) === '[object Array]';
+  Array.isArray = function(value) {
+    return Object.prototype.toString.apply(value) === '[object Array]';
   };
 }
 ```
