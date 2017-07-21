@@ -7,9 +7,9 @@
 
 ## document.readyState
 
-## event.target
-
-## event.currentTarget
+## event 对象
+### event.target
+### event.currentTarget
 
 ```javascript
 window.onload = function() {
