@@ -16,6 +16,9 @@ window.onload = function() {
   
 };
 ```
+```javascript
+<button onclick="alert('清除成功!')">清除缓存</button>
+```
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Web/Events
