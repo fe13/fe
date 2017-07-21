@@ -13,6 +13,7 @@
 ### event.preventDefault()
 ### event.stopPropagation()
 
+## 事件委托 Event Delegation
 
 ```javascript
 window.onload = function() {
@@ -24,6 +25,7 @@ window.onload = function() {
 ```
 
 ## 参考链接
+* https://davidwalsh.name/event-delegate
 * https://developer.mozilla.org/en-US/docs/Web/Events
 * https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState
 * https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
