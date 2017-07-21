@@ -10,6 +10,7 @@
 ## event 对象
 ### event.target
 ### event.currentTarget
+### event.preventDefault()
 
 ```javascript
 window.onload = function() {
