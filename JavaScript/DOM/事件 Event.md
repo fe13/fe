@@ -11,6 +11,8 @@
 ### event.target
 ### event.currentTarget
 ### event.preventDefault()
+### event.stopPropagation()
+
 
 ```javascript
 window.onload = function() {
