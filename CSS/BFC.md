@@ -1,13 +1,12 @@
 # BFC
 
-## 什么是 BFC ?
 BFC 全称 Block Formatting Context。
 
 一个 BFC 是网页中某个独立的 CSS 渲染区域。    
 
 类似集团下一个独立运营的子公司；类似 JavaScript 的函数，拥有自己的作用域。
 
-## BFC 何时产生 ？
+## BFC 的产生
 * 根元素或包含它的其他元素
 * 浮动元素
 * `position: absolute` 和 `position: fixed` 的元素
@@ -29,7 +28,8 @@ BFC 全称 Block Formatting Context。
 * https://www.w3.org/TR/CSS2/visuren.html#block-formatting
 * http://lucybain.com/blog/2015/css-block-formatting-context
 * http://tech.vg.no/2013/09/26/css-block-formatting-context
+* http://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html
 * https://yuiblog.com/blog/2010/05/19/css-101-block-formatting-contexts
-* http://maxdesign.com.au/jobs/sample-block-formatting-context/index.htm (包含很多例子)
+* http://maxdesign.com.au/jobs/sample-block-formatting-context/index.htm
 * https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
