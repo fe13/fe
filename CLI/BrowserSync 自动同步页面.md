@@ -1,6 +1,6 @@
-# BrowserSync 自动同步刷新页面
+# BrowserSync 自动同步页面
 
-[BrowserSync](https://www.browsersync.io/) 可以在多个设备的浏览器上实现同步刷新页面，可以显著地提高页面开发效率。
+使用 [BrowserSync](https://www.browsersync.io/) 可在多个设备的浏览器上实现页面同步，显著地提高页面开发效率。
 
 ## 前置条件
 * 命令行工具
@@ -40,9 +40,9 @@ $ browser-sync start --server --files .
 [BS] Watching files...
 ```
 运行命令后，BrowserSync 会自动打开一个浏览器页面访问 http://localhost:3000 。  
-移动设备（在同一网络下，如家里 WIFI）, 可以访问 `External: http://192.......:3000` 处提供的具体地址访问页面。
+移动设备(在同一网络下，如家中 WIFI), 可以访问 `External: http://192.......:3000` 处提供的具体地址访问页面。
 
-## 关闭 BrowserSync
+## 关闭
 使用完毕后，在命令行界面按 Control + C 关闭 BrowserSync。
 
 ## 参考链接
