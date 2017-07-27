@@ -3,5 +3,16 @@
     "zh": "周杰伦",
     "en": "Jay"
   },
-  "height": 175
+  "wife": {
+    "name": {
+      "zh": "昆凌",
+      "en": "Hannah"
+    },
+    "height": 165
+  },
+  "height": 175,
+  "company": {
+    "name": "杰威尔音乐有限公司",
+    "location": "台北"
+  }
 }
