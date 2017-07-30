@@ -16,7 +16,7 @@ NBA 篮球运动员身高体重与场上位置的关系
 | 凯文·杜兰特   | 211 | 107  | 前锋 Forward |
 | 勒布朗·詹姆斯 | 203 | 113  | 前锋 Forward |
 
-通过 `scikit-learn` 提供的分类器(Classifier)根据球员的身高和体重判断其场上位置
+通过 `scikit-learn` 提供的决策树分类器(DecisionTreeClassifier)根据球员的身高和体重判断其场上位置
 
 ```python
 from sklearn import tree
