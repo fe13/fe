@@ -1,16 +1,21 @@
 # 机器学习 Machine Learning
 
+## Hello World
+
 安装 `scikit-learn`
 ```bash
 $ pip install --upgrade scikit-learn
 ```
 
-| 球员         | 身高 | 体重 | 位置         |
+NBA 篮球运动员身高体重与场上位置的关系
+
+| 球员         | 身高 | 体重 | 位置         |
 |-------------|-----|------|-------------|
 | 斯蒂芬·库里   | 191 |  84  | 后卫 Guard   |
 | 克莱·汤普森   | 201 |  93  | 后卫 Guard   |
 | 凯文·杜兰特   | 211 | 107  | 前锋 Forward |
 | 勒布朗·詹姆斯 | 203 | 113  | 前锋 Forward |
+
 
 ```python
 from sklearn import tree
