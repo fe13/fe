@@ -47,6 +47,40 @@ var intervalId = setInterval(function() {
 clearInterval(intervalId);       // 齐天大圣 🙉 表示很不耐烦
 ```
 
+### 充电动画
+结合 `setTimeout()` `setInterval()` 和 FontAwesome 实现充电动画。
+```html
+<i id="battery" class="fa fa-battery-0"></i>
+```
+```javascript
+let $battery = document.querySelector('#battery');
+
+function charge() {
+  setTimeout(function() {
+    $battery.classList.remove('fa-battery-0', 'fa-battery-4');
+    $battery.classList.add('fa-battery-1');
+  }, 1000);
+  
+  setTimeout(function() {
+    $battery.classList.remove('fa-battery-1');
+    $battery.classList.add('fa-battery-2');
+  }, 2000);
+  
+  setTimeout(function() {
+    $battery.classList.remove('fa-battery-2');
+    $battery.classList.add('fa-battery-3');
+  }, 3000);
+  
+  setTimeout(function() {
+    $battery.classList.remove('fa-battery-3');
+    $battery.classList.add('fa-battery-4');
+  }, 4000);
+}
+
+setInterval(charge, 4000);
+```
+🚀 https://codepen.io/twhy/pen/mMPjMB
+
 ## 参考链接
 * [setTimeout(fn, 0) 的作用](http://pandacafe.net/post/337)
 * https://javascript.info/settimeout-setinterval
@@ -55,4 +89,6 @@ clearInterval(intervalId);       // 齐天大圣 🙉 表示很不耐烦
 * https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout
 * https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval
 * https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval
+* https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate
+* https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate
 * https://stackoverflow.com/questions/779379/why-is-settimeoutfn-0-sometimes-useful
