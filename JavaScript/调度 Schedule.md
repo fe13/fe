@@ -141,4 +141,5 @@ console.log('起床');                         // 马上起床
 * https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval
 * https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate
 * https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate
+* https://nodejs.org/api/process.html#process_process_nexttick_callback_args
 * https://stackoverflow.com/questions/779379/why-is-settimeoutfn-0-sometimes-useful
