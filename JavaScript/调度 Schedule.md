@@ -6,11 +6,18 @@
 * `setInterval()` 方法以指定的时间间隔重复执行某个函数。
 
 ### setTimeout()
-### setTimeout(fn, 0)
+```javascript
+setTimeout(function() {
+  console.log('GO! 🚀');
+}, 3 * 1000);
+```
 
 ### clearTimeout()
 
 ### setInterval()
+
+
+
 ### clearInterval()
 
 ## 参考链接
