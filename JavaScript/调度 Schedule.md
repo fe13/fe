@@ -126,9 +126,11 @@ setInterval(function() {
 ## 尽快执行
 `setTimeout(fn, 0)` 可以设置一个**尽快执行**的定时器。既然是**尽快**，那么肯定**不是最快**。
 ```javascript
-setTimeout(() => console.log('刷牙'), 0);    // 尽快刷牙
+setTimeout(() => console.log('出门'), 0);    // 尽快出门
 
 console.log('起床');                         // 马上起床
+console.log('刷牙');                         // 接着刷牙
+console.log('洗脸');                         // 接着洗脸
 ```
 
 ## 参考链接
