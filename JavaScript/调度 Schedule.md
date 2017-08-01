@@ -86,9 +86,9 @@ setInterval(charge, 4000);
 ```javascript
 let sheep = {
   name: '绵羊',
-  icon: '🐑'
-  count: 0,
-}
+  icon: '🐑',
+  count: 0
+};
 
 function count(animal) {
   animal.count += 1;
