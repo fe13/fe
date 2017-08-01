@@ -8,7 +8,7 @@
 ### setTimeout()
 ```javascript
 setTimeout(function() {
-  console.log('GO! 🚀');
+  console.log('GO! 🏎');
 }, 3 * 1000);
 ```
 IE9+ 的 `setTimeout()` 支持给函数传递参数。
