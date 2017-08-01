@@ -27,7 +27,7 @@ setTimeout(launch, 5000, '卫星', '🛰');
 ```javascript
 var timerId = setTimeout(function() {
   console.log('⏰⏰⏰');
-}, 60 * 60 * 1000);     // 再睡一个小时
+}, 60 * 60 * 1000);     // 再睡一个小时 😴
 
 setTimeout(function() {
   clearTimeout(timerId);
@@ -100,8 +100,13 @@ setTimeout(function run() {
   setTimeout(run, 1000);
 }, 1000);
 ```
-💡 这种方式能保证每次调用 `sheep()` 之间有固定间隔(本例中是 1s)。
+💡 这种方式能保证每次调用 `count(sheep)` 之间有固定间隔(本例中是 1s)。
+```javascript
+|count(sheep)|          |count(sheep)|          |count(sheep)|          |count(sheep)|
+             |<-  1s  ->|            |<-  1s  ->|            |<-  1s  ->|            |
+```
 
+用 `setInterval()` 实现类似功能，每次调用 `count(tiger)` 的间隔小于 1s。
 ```javascript
 let tiger = {
   name: '老虎',
@@ -113,6 +118,11 @@ setInterval(function() {
   count(tiger);
 }, 1000);
 ```
+```javascript
+|count(tiger)        |count(tiger)        |count(tiger)        |count(tiger)        |count(tiger)
+1                    2                    3                    4                    5
+```
+
 
 ## 参考链接
 * [setTimeout(fn, 0) 的作用](http://pandacafe.net/post/337)
