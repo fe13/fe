@@ -1,9 +1,9 @@
 # 调度 Schedule
 
 有时我们不希望马上执行函数，而且等待一段时间再执行。一般有以下两种方式：
-* 延时执行 `setTimeout()` 方法在在指定时间后执行某个函数。
+* 延时执行 - `setTimeout()` 方法在在指定时间后执行某个函数。
 
-* 重复执行 `setInterval()` 方法以指定的时间间隔重复执行某个函数。
+* 重复执行 - `setInterval()` 方法以指定的时间间隔重复执行某个函数。
 
 ## 延时执行
 ### setTimeout()
@@ -123,6 +123,13 @@ setInterval(function() {
 1                    2                    3                    4                    5
 ```
 
+## 尽快执行
+`setTimeout(fn, 0)` 可以设置一个**尽快执行**的定时器。既然是**尽快**，那么肯定**不是最快**。
+```javascript
+setTimeout(() => console.log('刷牙'), 0);    // 尽快刷牙
+
+console.log('起床');                         // 马上起床
+```
 
 ## 参考链接
 * [setTimeout(fn, 0) 的作用](http://pandacafe.net/post/337)
