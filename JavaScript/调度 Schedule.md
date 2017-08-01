@@ -11,6 +11,15 @@ setTimeout(function() {
   console.log('GO! 🚀');
 }, 3 * 1000);
 ```
+IE9+ 的 `setTimeout()` 支持给函数传递参数。
+```javascript
+function launch(target, icon) {
+  console.log(`发射${target} ${icon}`);
+}
+
+setTimeout(launch, 3000, '火箭', '🚀');
+setTimeout(launch, 5000, '卫星', '🛰');
+```
 
 ### clearTimeout()
 
