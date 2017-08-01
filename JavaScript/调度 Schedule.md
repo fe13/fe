@@ -44,7 +44,7 @@ var intervalId = setInterval(function() {
 
 ### clearInterval()
 ```javascript
-clearInterval(intervalId);       // 🐒 表示很不耐烦
+clearInterval(intervalId);       // 齐天大圣 🙉 表示很不耐烦
 ```
 
 ## 参考链接
