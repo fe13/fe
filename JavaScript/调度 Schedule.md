@@ -1,10 +1,11 @@
 # 调度 Schedule
 
 有时我们不希望马上执行函数，而且等待一段时间再执行。一般有以下两种方式：
-* `setTimeout()` 方法在在指定时间后执行某个函数。
+* 延时执行 `setTimeout()` 方法在在指定时间后执行某个函数。
 
-* `setInterval()` 方法以指定的时间间隔重复执行某个函数。
+* 重复执行 `setInterval()` 方法以指定的时间间隔重复执行某个函数。
 
+## 延时执行
 ### setTimeout()
 ```javascript
 setTimeout(function() {
@@ -22,12 +23,29 @@ setTimeout(launch, 5000, '卫星', '🛰');
 ```
 
 ### clearTimeout()
+`clearTimeout()` 方法用于清除 `setTimetout()` 设置的定时器。
+```javascript
+var timerId = setTimeout(function() {
+  console.log('⏰⏰⏰');
+}, 60 * 60 * 1000);     // 再睡一个小时
 
+setTimeout(function() {
+  clearTimeout(timerId);
+}, 5 * 1000);           // 5 秒之后取消闹钟 ⏰
+```
+
+## 重复执行
 ### setInterval()
-
-
+```javascript
+var intervalId = setInterval(function() {
+  console.log('喃唔呃尼陀佛', new Date());
+}, 1000);
+```
 
 ### clearInterval()
+```javascript
+clearInterval(intervalId);       // 🐒 表示很不耐烦
+```
 
 ## 参考链接
 * [setTimeout(fn, 0) 的作用](http://pandacafe.net/post/337)
