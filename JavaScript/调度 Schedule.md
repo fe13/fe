@@ -81,6 +81,22 @@ setInterval(charge, 4000);
 ```
 🚀 https://codepen.io/twhy/pen/mMPjMB
 
+### 递归 setTimeout()
+递归地调用 `setTimeout()` 也可以实现重复执行。
+```javascript
+let count = 0;
+
+function sheep() {
+  count += 1;
+  console.log(`${count} 只绵羊 ${'🐑'.repeat(count)}`);
+}
+
+setTimeout(function run() {
+  sheep();
+  setTimeout(run, 100);
+}, 1000);
+```
+
 ## 参考链接
 * [setTimeout(fn, 0) 的作用](http://pandacafe.net/post/337)
 * https://javascript.info/settimeout-setinterval
