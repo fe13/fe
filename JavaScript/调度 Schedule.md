@@ -84,16 +84,33 @@ setInterval(charge, 4000);
 ### 递归 setTimeout()
 递归地调用 `setTimeout()` 也可以实现重复执行。
 ```javascript
-let count = 0;
+let sheep = {
+  name: '绵羊',
+  icon: '🐑'
+  count: 0,
+}
 
-function sheep() {
-  count += 1;
-  console.log(`${count} 只绵羊 ${'🐑'.repeat(count)}`);
+function count(animal) {
+  animal.count += 1;
+  console.log(`${animal.count} 只${animal.name} ${animal.icon.repeat(animal.count)}`);
 }
 
 setTimeout(function run() {
-  sheep();
-  setTimeout(run, 100);
+  count(sheep);
+  setTimeout(run, 1000);
+}, 1000);
+```
+💡 这种方式能保证每次调用 `sheep()` 之间有固定间隔(本例中是 1s)。
+
+```javascript
+let tiger = {
+  name: '老虎',
+  icon: '🐯',
+  count: 0
+};
+
+setInterval(function() {
+  count(tiger);
 }, 1000);
 ```
 
