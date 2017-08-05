@@ -33,3 +33,6 @@ print clf.predict([[191, 88], [208, 114]])   # ['Guard' 'Forward']
 ## Youtube 视频教程
 * [Hello World - Machine Learning Recipes #1](https://www.youtube.com/watch?v=cKxRvEZd3Mw&t=312s)
 * [Visualizing a Decision Tree - Machine Learning Recipes #2](https://www.youtube.com/watch?v=tNa99PG8hR8)
+
+## 参考链接
+* https://sourcedexter.com/amazing-tensorflow-github-projects
