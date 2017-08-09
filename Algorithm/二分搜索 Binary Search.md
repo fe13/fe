@@ -36,6 +36,7 @@ function binarySearch(numbers, target) {
 
 > binarySearch([6], 7)
 → -1
+```
 
 ## 视频教程
 * https://www.youtube.com/watch?v=P3YID7liBug
