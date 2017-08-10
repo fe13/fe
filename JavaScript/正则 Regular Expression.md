@@ -1,6 +1,6 @@
 # 正则 Regular Expression
 
-正则(表达式)用于匹配字符串中字符组合。
+正则(表达式)是查找特定模式字符串的强大工具，JavaScript 通过内置的 `RegExp` 提供正则支持。
 
 ## 参考链接
 * [正则表达式30分钟入门教程](https://deerchao.net/tutorials/regex/regex.htm)
