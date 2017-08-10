@@ -1,4 +1,4 @@
-# 正则表达式 Regular Expression
+# 正则 Regular Expression
 
 正则表达式用于匹配字符串中字符组合。
 
