@@ -2,6 +2,7 @@
 
 二分搜索是常用的搜索算法，适用于在**已排序**的元素序列中查找元素。
 
+## 参考实现
 ```javascript
 function binarySearch(numbers, target) {
   if (!numbers || numbers.length === 0) return -1;
