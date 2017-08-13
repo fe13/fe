@@ -30,7 +30,8 @@ clf = clf.fit(features, labels)
 print clf.predict([[191, 88], [208, 114]])   # ['Guard' 'Forward']
 ```
 
-## Youtube 视频教程
+## 视频教程
+* [斯坦福大学 CS231n: Convolutional Neural Networks for Visual Recognition](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk) [课件地址](http://cs231n.stanford.edu/slides/2017/)
 * [Hello World - Machine Learning Recipes #1](https://www.youtube.com/watch?v=cKxRvEZd3Mw&t=312s)
 * [Visualizing a Decision Tree - Machine Learning Recipes #2](https://www.youtube.com/watch?v=tNa99PG8hR8)
 
