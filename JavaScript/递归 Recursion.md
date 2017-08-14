@@ -3,10 +3,10 @@
 > 为了理解递归，首先你要理解递归。 -- CS106B
 
 ```javascript
-function appearance(content, search) {
+function appearances(content, search) {
   let index = content.indexOf(search);
   if (index === -1) return 0;
-  return 1 + appearance(content.slice(index + 1), search);
+  return 1 + appearances(content.slice(index + 1), search);
 }
 ```
 
