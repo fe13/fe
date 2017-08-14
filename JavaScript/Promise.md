@@ -75,10 +75,30 @@ let au = hk.then(place => {
   })
   .then(places => {
     console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬 -> 新西兰 🇳🇿 -> 澳洲 🇦🇺
+    return places;
   });
 ```
 
 ## 如果不行 catch()
+```javascript
+let play = new Promise(function(resolve, reject) { 
+  setTimeout(() => reject(new Error('不好意思😅，今晚要上课')), 1000);     // 通常用 Error 表示拒绝原因
+});
+
+play.catch(function(error) {
+  console.log(error.message);
+});
+```
+事实上，`catch()` 是 `then(null, onReject)` 的缩写。
+```javascript
+let home = au.then(() => {
+  return Promise.reject(new Error('钱💰花🌺光了，肥家！'));
+}).then(null, error => {
+  console.log(error.message);
+  return '家🏡';
+});
+```
+
 
 ## Promise API
 ### Promise.resolve()
