@@ -10,7 +10,7 @@ Promise 有三种可能的状态
 |`resolved` | 兑现         |
 | `rejected`| 拒绝         |
 
-## 许诺 Promise
+## 许下诺言 new Promise(executor)
 许下一个诺言
 ```javascript
 > let promise = new Promise(function(resolve, reject) {})
