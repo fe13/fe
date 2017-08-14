@@ -2,7 +2,13 @@
 
 Promise 代表一个异步操作的最终完成(或失败)及其结果值。
 
-## 回调函数 Callback
+Promise 有三种可能的状态 
+
+| 状态       | 说明         |
+|-----------|-------------|
+| `Pending` | 未定 `初始值` | 
+|`Fulfilled`| 兑现         |
+| `Rejected`| 拒绝         |
 
 ## Promise API
 
