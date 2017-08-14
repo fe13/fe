@@ -7,12 +7,21 @@ Promise 有三种可能的状态
 | 状态       | 说明         |
 |-----------|-------------|
 | `pending` | 未定 `初始值` | 
-|`fulfilled`| 兑现         |
+|`resolved` | 兑现         |
 | `rejected`| 拒绝         |
 
 ```javascript
-> new Promise((resolve, reject) => {})
+> new Promise(function(resolve, reject) {})
 → Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
+```
+
+许下一个诺言并马上兑现
+```javascript
+> let 明晚一起看电影 = new Promise(function(resolve, reject) { resolve('战狼2') })
+→ undefined
+
+> 明晚一起看电影
+→ Promise {[[PromiseStatus]]: "resolved", [[PromiseValue]]: "战狼2"}
 ```
 
 ## Promise API
