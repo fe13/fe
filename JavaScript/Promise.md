@@ -77,6 +77,13 @@ let 一起去旅行 = new Promise((resolve, reject) => {
 ## 如果不行 catch()
 
 ## Promise API
+### Promise.resolve()
+
+### Promise.reject()
+
+### Promise.all()
+
+### Promise.race()
 
 ## 视频教程
 * https://www.youtube.com/watch?v=vQ3MoXnKfuQ
