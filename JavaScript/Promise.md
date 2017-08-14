@@ -51,11 +51,11 @@ let trip = new Promise((resolve, reject) => {
 });
 
 let hk = trip.then(function(place) {
-  console.log(`先去 ${place}`);
+  console.log(`${place}`);
   return place;
 });
 
-hk.then(place => {
+let au = hk.then(place => {
     console.log(place);                 // 香港 🇭🇰
     return `${place} -> 泰国 🇹🇭`;
   })
@@ -71,6 +71,12 @@ hk.then(place => {
   })
   .then(places => {
     console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬 -> 新西兰 🇳🇿
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve(`${places} -> 澳洲 🇦🇺`), 1000);
+    });
+  })
+  .then(places => {
+    console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬 -> 新西兰 🇳🇿 -> 澳洲 🇦🇺
   });
 ```
 
