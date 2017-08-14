@@ -43,6 +43,20 @@ Promise 有三种可能的状态
 
 💡 `new Promise(executor)` 中的 `executor` 函数在 Promise 初始化的时候立即执行。
 
+## 然后怎样 then()
+Promise 的值无法直接获取，需要调用 `then()` 方法。
+```javascript
+let 一起去旅行 = new Promise((resolve, reject) => {
+  setTimeout(() => resolve('新西兰 🇳🇿'), 1000);
+});
+
+一起去旅行.then(function(destination) {
+  console.log(`去了${destination}`);
+});
+```
+
+## 如果不行 catch()
+
 ## Promise API
 
 ## 视频教程
