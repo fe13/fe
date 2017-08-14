@@ -47,32 +47,30 @@ Promise 有三种可能的状态
 Promise 的值无法直接获取，需要调用 `then()` 方法。
 ```javascript
 let trip = new Promise((resolve, reject) => {
-  setTimeout(() => resolve('香港 🇭🇰'), 1000);
+  setTimeout(() => resolve('香港 🇭🇰'), 1000);
 });
 
 let hk = trip.then(function(place) {
-  console.log(`${place}`);
-  return place;
+  return place;
 });
 
 let au = hk.then(place => {
-    console.log(place);                 // 香港 🇭🇰
-    return `${place} -> 泰国 🇹🇭`;
+    return `${place} -> 泰国 🇹🇭`;        // 香港 🇭🇰
   })
   .then(places => {
-    console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭
-    return `${places} -> 新加坡 🇸🇬`;
-  })
+    console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭
+    return `${places} -> 新加坡 🇸🇬`;
+  })
   .then(places => {
     console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬
     return new Promise((resolve, reject) => {
-      setTimeout(() => resolve(`${places} -> 新西兰 🇳🇿`), 3000);
+      setTimeout(() => resolve(`${places} -> 新西兰 🇳🇿`), 3000);
     });
   })
   .then(places => {
     console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬 -> 新西兰 🇳🇿
     return new Promise((resolve, reject) => {
-      setTimeout(() => resolve(`${places} -> 澳洲 🇦🇺`), 1000);
+      setTimeout(() => resolve(`${places} -> 澳洲 🇦🇺`), 1500);
     });
   })
   .then(places => {
