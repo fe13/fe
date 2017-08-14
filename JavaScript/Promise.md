@@ -50,13 +50,28 @@ let 一起去旅行 = new Promise((resolve, reject) => {
   setTimeout(() => resolve('香港 🇭🇰'), 1000);
 });
 
-一起去旅行.then(function(destination) {
-  console.log(`先去${destination}`);
+一起去旅行.then(function(place) {
+  console.log(`先去 ${place}`);
 });
 
-一起去旅行.then(function(destination /* 香港 🇭🇰 */) {
-  return '泰国 🇹🇭';
-});
+一起去旅行
+  .then(place => {
+    console.log(place);                 // 香港 🇭🇰
+    return `${place} -> 泰国 🇹🇭`;
+  })
+  .then(places => {
+    console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭
+    return `${places} -> 新加坡 🇸🇬`;
+  })
+  .then(places => {
+    console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬
+    return new Promise((resolve, reject) => {
+      setTimeout(() => resolve(`${places} -> 新西兰 🇳🇿`));
+    }, 3000);
+  })
+  .then(places => {
+    console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬 -> 新西兰 🇳🇿
+  });
 ```
 
 ## 如果不行 catch()
@@ -73,6 +88,7 @@ let 一起去旅行 = new Promise((resolve, reject) => {
 * https://github.com/mzabriskie/axios
 * http://javascript.info/promise-basics
 * http://javascript.info/promise-api
+* http://javascript.info/promise-chaining
 * https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
