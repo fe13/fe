@@ -8,6 +8,7 @@ Promise 代表一个异步操作的最终完成(或失败)及其结果值。
 
 ## 参考链接
 * http://callbackhell.com
+* https://davidwalsh.name/promises
 * https://github.com/mzabriskie/axios
 * http://javascript.info/promise-basics
 * http://javascript.info/promise-api
