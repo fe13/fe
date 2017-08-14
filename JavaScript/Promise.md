@@ -15,3 +15,4 @@ Promise 代表一个异步操作的最终完成(或失败)及其结果值。
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+* https://developers.google.com/web/fundamentals/getting-started/primers/promises
