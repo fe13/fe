@@ -10,19 +10,35 @@ Promise 有三种可能的状态
 |`resolved` | 兑现         |
 | `rejected`| 拒绝         |
 
+许下一个诺言
 ```javascript
-> new Promise(function(resolve, reject) {})
+> let promise = new Promise(function(resolve, reject) {})
+→ undefined
+
+> promise
 → Promise {[[PromiseStatus]]: "pending", [[PromiseValue]]: undefined}
 ```
 
 许下一个诺言并马上兑现
 ```javascript
-> let 明晚一起看电影 = new Promise(function(resolve, reject) { resolve('战狼2') })
+> let 一起看电影 = new Promise(function(resolve, reject) { resolve('战狼2'); })
 → undefined
 
-> 明晚一起看电影
+> 一起看电影
 → Promise {[[PromiseStatus]]: "resolved", [[PromiseValue]]: "战狼2"}
 ```
+
+许下一个诺言，想了一秒钟，拒绝(原因：今晚要上课)。
+```javascript
+> let 一起打篮球 = new Promise(function(resolve, reject) { setTimeout(() => reject('今晚要上课'), 1000); })
+→ undefined
+
+× Uncaught (in promise) 今晚要上课
+
+> 一起打篮球
+→ Promise {[[PromiseStatus]]: "rejected", [[PromiseValue]]: "今晚要上课"}
+```
+
 
 ## Promise API
 
