@@ -46,16 +46,16 @@ Promise 有三种可能的状态
 ## 然后怎样 then()
 Promise 的值无法直接获取，需要调用 `then()` 方法。
 ```javascript
-let 一起去旅行 = new Promise((resolve, reject) => {
+let trip = new Promise((resolve, reject) => {
   setTimeout(() => resolve('香港 🇭🇰'), 1000);
 });
 
-一起去旅行.then(function(place) {
+let hk = trip.then(function(place) {
   console.log(`先去 ${place}`);
+  return place;
 });
 
-一起去旅行
-  .then(place => {
+hk.then(place => {
     console.log(place);                 // 香港 🇭🇰
     return `${place} -> 泰国 🇹🇭`;
   })
