@@ -39,6 +39,9 @@ Promise 有三种可能的状态
 > 一起打篮球
 → Promise {[[PromiseStatus]]: "rejected", [[PromiseValue]]: "今晚要上课"}
 ```
+💡 `resolve` 和 `reject` 是 Promise 提供的函数。
+
+💡 `new Promise(executor)` 中的 `executor` 函数在 Promise 初始化的时候立即执行。
 
 ## Promise API
 
