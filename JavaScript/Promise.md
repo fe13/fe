@@ -2,6 +2,8 @@
 
 Promise 代表一个异步操作的最终完成(或失败)及其结果值。
 
+## 回调函数 Callback
+
 ## Promise API
 
 ## 参考链接
