@@ -7,6 +7,7 @@ Promise 代表一个异步操作的最终完成(或失败)及其结果值。
 ## Promise API
 
 ## 参考链接
+* [Promise A+ 规范](https://promisesaplus.com)
 * http://callbackhell.com
 * https://davidwalsh.name/promises
 * https://github.com/mzabriskie/axios
