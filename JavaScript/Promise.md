@@ -40,8 +40,10 @@ Promise 有三种可能的状态
 → Promise {[[PromiseStatus]]: "rejected", [[PromiseValue]]: "今晚要上课"}
 ```
 
-
 ## Promise API
+
+## 视频教程
+* https://www.youtube.com/watch?v=vQ3MoXnKfuQ
 
 ## 参考链接
 * [Promise A+ 规范](https://promisesaplus.com)
