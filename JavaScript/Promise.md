@@ -66,8 +66,8 @@ let 一起去旅行 = new Promise((resolve, reject) => {
   .then(places => {
     console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬
     return new Promise((resolve, reject) => {
-      setTimeout(() => resolve(`${places} -> 新西兰 🇳🇿`));
-    }, 3000);
+      setTimeout(() => resolve(`${places} -> 新西兰 🇳🇿`), 3000);
+    });
   })
   .then(places => {
     console.log(places);                // 香港 🇭🇰 -> 泰国 🇹🇭 -> 新加坡 🇸🇬 -> 新西兰 🇳🇿
