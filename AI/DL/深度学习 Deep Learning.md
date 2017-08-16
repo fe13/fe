@@ -17,6 +17,8 @@
 ## 在线课程
 * [人工神经网络 - 百度百科](https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460?fr=aladdin)
 * [Supervised Learning - Wikipedia](https://en.wikipedia.org/wiki/Supervised_learning)
+* [斯坦福大学 CS 20SI: Tensorflow for Deep Learning Research](https://web.stanford.edu/class/cs20si)
 * http://www.fast.ai
 * https://www.coursera.org/specializations/deep-learning
+
 
