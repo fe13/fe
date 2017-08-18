@@ -86,7 +86,11 @@ print(sigmoid_derivative(np.array([1, 2, 3])))
 def image2vector(image):
   return image.reshape(image.shape[0] * image.shape[1] * image.shape[2], 1)
 ```
-
+实现 `normalizeRows(x)`
+```python
+def normalizeRows(x):
+  return x / np.linalg.norm(x, ord = 2, axis = 1, keepdims = True)
+```
 
 ## 在线课程
 * [人工神经网络 - 百度百科](https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460?fr=aladdin)
