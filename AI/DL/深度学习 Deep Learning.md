@@ -39,6 +39,30 @@ print('result: ' + str(d))
 print('time:   ' + str((end - beg) * 1000))
 ```
 
+计算每样成分的百分比
+
+| 含量/100克 | 宫保鸡丁 | 红烧牛肉面 | 广州文昌鸡 | 红烧猪蹄筋 |
+|:---------:|--------:|---------:|---------:|----------:|
+| 碳水化合物  | 12.70   |     62.60|      2.04|       2.20|
+| 脂肪       | 15.00   |     17.90|      9.08|       2.83|
+| 蛋白质     |  14.24  |     10.20|     15.11|      18.63|
+| 纤维素     |   1.95  |      1.40|      0.35|       0.44|
+
+```python
+import numpy as np
+
+data = np.array([
+  [12.70, 62.60,  2.04,  2.20],
+  [15.00, 17.90,  9.08,  2.83],
+  [14.24, 10.20, 15.11, 18.63],
+  [ 1.95,  1.40,  0.35,  0.44]
+])
+
+sumv = data.sum(axis = 0)
+
+print(data / sumv * 100)
+```
+
 ## 在线课程
 * [人工神经网络 - 百度百科](https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460?fr=aladdin)
 * [监督学习 Supervised Learning - Wikipedia](https://en.wikipedia.org/wiki/Supervised_learning)
