@@ -81,6 +81,11 @@ def sigmoid_derivative(x):
   
 print(sigmoid_derivative(np.array([1, 2, 3])))
 ```
+实现 `image2vector(image)`
+```python
+def image2vector(image):
+  return image.reshape(image.shape[0] * image.shape[1] * image.shape[2], 1)
+```
 
 
 ## 在线课程
