@@ -63,7 +63,16 @@ sumv = data.sum(axis = 0)
 print(data / sumv * 100)
 ```
 
-### Numpy 入门
+## Numpy 入门
+实现 `sigmoid(x)` 函数
+```javascript
+import numpy as np
+
+def sigmoid(x):
+  return 1 / (1 + np.exp(-x))
+
+print(sigmoid(np.array([1, 2, 5])))
+```
 
 
 ## 在线课程
