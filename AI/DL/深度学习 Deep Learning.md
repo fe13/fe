@@ -64,7 +64,7 @@ print(data / sumv * 100)
 ```
 
 ## Numpy 入门
-实现 `sigmoid(x)` 函数
+`sigmoid(x)`
 ```python
 import numpy as np
 
@@ -73,7 +73,7 @@ def sigmoid(x):
 
 print(sigmoid(np.array([1, 2, 5])))
 ```
-实现 `sigmoid(x)` 的导数函数
+`sigmoid_derivative(x)`
 ```python
 def sigmoid_derivative(x):
   s = sigmoid(x)
@@ -81,15 +81,21 @@ def sigmoid_derivative(x):
   
 print(sigmoid_derivative(np.array([1, 2, 3])))
 ```
-实现 `image2vector(image)`
+`image2vector(image)`
 ```python
 def image2vector(image):
   return image.reshape(image.shape[0] * image.shape[1] * image.shape[2], 1)
 ```
-实现 `normalizeRows(x)`
+`normalizeRows(x)`
 ```python
 def normalizeRows(x):
   return x / np.linalg.norm(x, ord = 2, axis = 1, keepdims = True)
+```
+`softmax(x)`
+```python
+def softmax(x):
+  x_exp = np.exp(x)
+  return x_exp / np.sum(x_exp, axis = 1, keepdims = True)
 ```
 
 ## 在线课程
