@@ -65,13 +65,21 @@ print(data / sumv * 100)
 
 ## Numpy 入门
 实现 `sigmoid(x)` 函数
-```javascript
+```python
 import numpy as np
 
 def sigmoid(x):
   return 1 / (1 + np.exp(-x))
 
 print(sigmoid(np.array([1, 2, 5])))
+```
+实现 `sigmoid(x)` 的导数函数
+```python
+def sigmoid_derivative(x):
+  s = sigmoid(x)
+  return s * (1 - s)
+  
+print(sigmoid_derivative(np.array([1, 2, 3])))
 ```
 
 
