@@ -4,7 +4,8 @@
 
 安装 `scikit-learn`
 ```bash
-$ pip install --upgrade scikit-learn
+$ pip3 install --upgrade scipy
+$ pip3 install --upgrade scikit-learn
 ```
 
 NBA 篮球运动员身高体重与场上位置的关系
@@ -27,7 +28,7 @@ labels = ['Guard', 'Guard', 'Forward', 'Forward']
 clf = tree.DecisionTreeClassifier()
 clf = clf.fit(features, labels)
 
-print clf.predict([[191, 88], [208, 114]])   # ['Guard' 'Forward']
+print(clf.predict([[191, 88], [208, 114]]))   # ['Guard' 'Forward']
 ```
 
 ## 视频教程
