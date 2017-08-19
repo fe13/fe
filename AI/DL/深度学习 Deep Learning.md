@@ -98,6 +98,8 @@ def softmax(x):
   return x_exp / np.sum(x_exp, axis = 1, keepdims = True)
 ```
 
+## 浅层神经网络 Shallow Neural Network
+
 ## 在线课程
 * [人工神经网络 - 百度百科](https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/382460?fr=aladdin)
 * [监督学习 Supervised Learning - Wikipedia](https://en.wikipedia.org/wiki/Supervised_learning)
