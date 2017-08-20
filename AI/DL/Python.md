@@ -18,11 +18,12 @@ print('time:   ' + str((end - beg) * 1000))
 d = 0
 beg = time.time()
 for i in range(10000000):
-  d += a[i] * b[i]
+    d += a[i] * b[i]
 end = time.time()
 
 print('result: ' + str(d))
 print('time:   ' + str((end - beg) * 1000))
+
 ```
 
 计算每样成分的百分比
