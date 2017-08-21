@@ -2,6 +2,9 @@
 
 正则(表达式)是查找特定模式字符串的强大工具，JavaScript 通过内置的 `RegExp` 提供正则支持。
 
+## 在线工具
+* http://regexr.com
+
 ## 演讲视频
 * [Best of Fluent 2012: /Reg(exp){2}lained/: Demystifying Regular Expressions](https://www.youtube.com/watch?v=EkluES9Rvak)
 
