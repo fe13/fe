@@ -56,31 +56,31 @@ print(data / sumv * 100)
 import numpy as np
 
 def sigmoid(x):
-  return 1 / (1 + np.exp(-x))
+    return 1 / (1 + np.exp(-x))
 
 print(sigmoid(np.array([1, 2, 5])))
 ```
 `sigmoid_derivative(x)`
 ```python
 def sigmoid_derivative(x):
-  s = sigmoid(x)
-  return s * (1 - s)
-  
+    s = sigmoid(x)
+    return s * (1 - s)
+
 print(sigmoid_derivative(np.array([1, 2, 3])))
 ```
 `image2vector(image)`
 ```python
 def image2vector(image):
-  return image.reshape(image.shape[0] * image.shape[1] * image.shape[2], 1)
+    return image.reshape(image.shape[0] * image.shape[1] * image.shape[2], 1)
 ```
 `normalizeRows(x)`
 ```python
 def normalizeRows(x):
-  return x / np.linalg.norm(x, ord = 2, axis = 1, keepdims = True)
+    return x / np.linalg.norm(x, ord=2, axis=1, keepdims=True)
 ```
 `softmax(x)`
 ```python
 def softmax(x):
-  x_exp = np.exp(x)
-  return x_exp / np.sum(x_exp, axis = 1, keepdims = True)
+    x_exp = np.exp(x)
+    return x_exp / np.sum(x_exp, axis=1, keepdims=True)
 ```
