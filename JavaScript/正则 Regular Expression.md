@@ -32,6 +32,13 @@
 > /\d/.test('2017 NBA Finals')
 → true
 ```
+```javascript
+> /[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]/.test('Tiger')
+→ true
+
+> /[a-zA-Z]/.test('Monkey')
+→ true
+```
 
 ## 在线工具
 * http://regexr.com
