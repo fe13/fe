@@ -2,6 +2,16 @@
 
 正则(表达式)是查找特定模式字符串的强大工具，JavaScript 通过内置的 `RegExp` 提供正则支持。
 
+## 创建正则
+正则有如下两种创建方式
+```javascript
+> new RegExp('JavaScript')
+→ /JavaScript/
+
+> /JavaScript/
+→ /JavaScript/
+```
+
 ## 在线工具
 * http://regexr.com
 
