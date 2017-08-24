@@ -12,6 +12,15 @@
 → /JavaScript/
 ```
 
+## 匹配测试
+```javascript
+> /JavaScript/.test('JavaScript')
+→ true
+
+> /JavaScript/.test('javascript')
+→ false
+```
+
 ## 在线工具
 * http://regexr.com
 
