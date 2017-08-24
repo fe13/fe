@@ -6,12 +6,12 @@
 | 数字 | 0 | 1 | 1 | 2 | 3 | 5 | 8 | 13 | 21 | 34 | 55 | ... | 
 ```javascript
 function fibonacci(n) {
-  let numbers = [0, 1];
-  return fib(n);
+  let numbers = [0, 1]
+  return fib(n)
 
   function fib(x) {
-    if (numbers[x] === void 0) numbers[x] = fib(x - 1) + fib(x - 2);
-    return numbers[x];
+    if (numbers[x] === void 0) numbers[x] = fib(x - 1) + fib(x - 2)
+    return numbers[x]
   }
 }
 ```
@@ -33,7 +33,7 @@ function fibonacci(n) {
 ```
 
 
-## Youtube 视频
+## 视频教程
 * [Dynamic Programming 播放列表 - CSBreakdown](https://www.youtube.com/playlist?list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN)
 
 ## 参考链接
