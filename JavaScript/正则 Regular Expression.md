@@ -20,6 +20,18 @@
 > /JavaScript/.test('javascript')
 → false
 ```
+## 匹配集合
+匹配中括号 `[]` 里的任意一个字符
+```javascript
+> /[0123456789]/.test('2017 NBA Finals')
+→ true
+
+> /[0-9]/.test('2017 NBA Finals')
+→ true
+
+> /\d/.test('2017 NBA Finals')
+→ true
+```
 
 ## 在线工具
 * http://regexr.com
