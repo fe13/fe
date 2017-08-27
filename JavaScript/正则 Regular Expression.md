@@ -10,6 +10,12 @@
 
 > /JavaScript/
 → /JavaScript/
+
+> new RegExp('javascript', 'i')
+→ /javascript/i
+
+> /javascript/i
+→ /javascript/i
 ```
 
 ## 匹配测试
@@ -19,7 +25,16 @@
 
 > /JavaScript/.test('javascript')
 → false
+
+> new RegExp('javascript', 'i').test('JavaScript')
+→ true
+
+> /javascript/i.test('jAVAsCRIPT')
+→ true
 ```
+💡 `i` 表示对大小写不敏感(case-**i**nsensitive)
+
+
 ## 匹配集合
 匹配中括号 `[]` 里的任意一个字符
 ```javascript
