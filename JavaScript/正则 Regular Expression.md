@@ -88,7 +88,14 @@
 ```javascript
 > 'View twhy on GitHub'.match(/View (\w+) on GitHub/)
 → ["View twhy on GitHub", "twhy", index: 0, input: "View twhy on GitHub"]
+
+> 'From 2016-02-23 to 2017-10-01'.match(/\d{4}-\d2{2}-\d{2}/g)   // 注意 g 
+→ ["2016-02-23", "2017-10-01"]
+
+> 'chicken'.match(/duck/)
+→ null
 ```
+💡 `g` 表示全局匹配，而不仅仅是匹配第一个
 
 ## 在线工具
 * http://regexr.com
