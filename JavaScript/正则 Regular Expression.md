@@ -84,6 +84,12 @@
 | `{n,}`  | 重复 n+ 次     |
 | `{n,m}` | 重复 n 到 m 次 |
 
+`String.prototype.match()`
+```javascript
+> 
+→ 
+```
+
 ## 在线工具
 * http://regexr.com
 
@@ -94,8 +100,11 @@
 * [正则表达式30分钟入门教程](https://deerchao.net/tutorials/regex/regex.htm)
 * [常用正则表达式](http://laifh.com/blog/post/123)
 * http://eloquentjavascript.net/09_regexp.html
+* http://javascript.info/regexp-introduction
+* http://javascript.info/regexp-methods
 * http://www.regular-expressions.info/tutorial.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search
 * https://stackoverflow.com/questions/3075130/what-is-the-difference-between-and-regular-expressions
 
