@@ -55,7 +55,12 @@
 > /\d/.test('2017 NBA Finals')
 → true
 ```
+`[0123456789]` `[0-9]` `\d` 是等价的
+
 ```javascript
+> /打[篮排网]球/.test('打排球🏐')
+→ true
+
 > /[abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]/.test('Tiger')
 → true
 
