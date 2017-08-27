@@ -20,16 +20,16 @@
 
 ## 匹配测试
 ```javascript
-> /JavaScript/.test('JavaScript')
+> /JavaScript/.test('The JavaScript Programming Language')
 → true
 
-> /JavaScript/.test('javascript')
+> /JavaScript/.test('the javascript programming language')
 → false
 
-> new RegExp('javascript', 'i').test('JavaScript')
+> new RegExp('javascript', 'i').test('The JavaScript Programming Language')
 → true
 
-> /javascript/i.test('jAVAsCRIPT')
+> /javascript/i.test('tTE jAVAsCRIPT pROGRAMMING lANGUAGE')
 → true
 ```
 💡 `i` 表示对大小写不敏感(case-**i**nsensitive)
