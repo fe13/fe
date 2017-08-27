@@ -86,8 +86,8 @@
 
 `String.prototype.match()`
 ```javascript
-> 
-→ 
+> 'View twhy on GitHub'.match(/View (\w+) on GitHub/)
+→ ["View twhy on GitHub", "twhy", index: 0, input: "View twhy on GitHub"]
 ```
 
 ## 在线工具
