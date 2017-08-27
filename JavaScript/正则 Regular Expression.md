@@ -34,6 +34,14 @@
 ```
 💡 `i` 表示对大小写不敏感(case-**i**nsensitive)
 
+`String.prototype.search()` 方法接受一个正则表达式用于搜索字符串，并返回首个匹配项的下标。
+```javascript
+> 'The JavaScript Programming Language'.search(/JavaScript/)
+→ 4
+
+> 'The JavaScript Programming Language'.search(/javascript/)
+→ -1
+```
 
 ## 匹配集合
 匹配中括号 `[]` 里的任意一个字符
