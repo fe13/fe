@@ -135,6 +135,7 @@
 * http://eloquentjavascript.net/09_regexp.html
 * http://javascript.info/regexp-introduction
 * http://javascript.info/regexp-methods
+* http://javascript.info/regexp-escaping
 * http://javascript.info/regexp-character-classes
 * http://www.regular-expressions.info/tutorial.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
