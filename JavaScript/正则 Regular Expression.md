@@ -108,6 +108,12 @@
 > 'From 2016-02-23 to 2017-10-01'.match(/\d{4}-\d{2}-\d{2}/g)   // 注意 g 
 → ["2016-02-23", "2017-10-01"]
 
+> '1 comment'.match(/^([\d,]+) comments?/)
+→ ["1 comment", "1", index: 0, input: "1 comment"]
+
+> '12 comments'.match(/^([\d,]+) comments?/)
+→ ["12 comments", "12", index: 0, input: "12 comments"]
+
 > 'chicken'.match(/duck/)
 → null
 ```
