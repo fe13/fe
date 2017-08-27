@@ -73,6 +73,16 @@
 | `\W` | `[^a-zA-Z_]`      |
 | `\S` | 非空白字符          |
 
+### 单词边界
+`\b` 用于匹配单词的边界
+```javascript
+> 'I use Git'.match(/\bGit\b/)
+→ ["Git", index: 6, input: "I use Git"]
+
+> 'I use GitHub'.match(/\bGit\b/)
+→ null
+```
+
 ## 匹配重复
 
 | 符号     | 说明          |
@@ -109,6 +119,7 @@
 * http://eloquentjavascript.net/09_regexp.html
 * http://javascript.info/regexp-introduction
 * http://javascript.info/regexp-methods
+* http://javascript.info/regexp-character-classes
 * http://www.regular-expressions.info/tutorial.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
