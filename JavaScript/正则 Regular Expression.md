@@ -167,6 +167,9 @@
 ```javascript
 > 'View FE13 on GitHub'.replace(/View ([\w-]+) on GitHub/, '查看 $1 的 GitHub 主页')
 → "查看 FE13 的 GitHub 主页"
+
+> '8 23, 2017'.replace(/(\d{1,2}) (\d{1,2}), (\d{4})/, '$3 年 $1 月 $2 日')
+→ "2017 年 8 月 23 日"
 ```
 
 ## unicode
