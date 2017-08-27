@@ -134,6 +134,28 @@
 → ["(", "+", ")", "*"]
 ```
 
+## unicode
+正常字符都是 2 字节，但也有 4 个字节的字符，如 `𝒳` 或 `😎`。
+```
+> 'x'.length
+→ 1
+
+> `𝒳`.length
+→ 2
+
+> '😎'.length
+→ 2
+```
+如果需要匹配这些字符，需要给正则加 `u` 标记。
+```javascript
+> '𝒴'.match(/[𝒳-𝒵]/u)
+→ ["𝒴", index: 0, input: "𝒴"]
+
+> '🤡'.match(/😎😉😡/u)
+→ null
+```
+
+
 ## 在线工具
 * http://regexr.com
 
@@ -147,6 +169,7 @@
 * http://javascript.info/regexp-introduction
 * http://javascript.info/regexp-methods
 * http://javascript.info/regexp-escaping
+* http://javascript.info/regexp-unicode
 * http://javascript.info/regexp-character-classes
 * http://www.regular-expressions.info/tutorial.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
