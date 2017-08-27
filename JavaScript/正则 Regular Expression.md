@@ -170,6 +170,7 @@
 * http://javascript.info/regexp-methods
 * http://javascript.info/regexp-escaping
 * http://javascript.info/regexp-unicode
+* http://javascript.info/regexp-quantifiers
 * http://javascript.info/regexp-character-classes
 * http://www.regular-expressions.info/tutorial.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
