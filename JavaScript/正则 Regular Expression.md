@@ -94,7 +94,6 @@
 | `{n,}`  | 重复 n+ 次     |
 | `{n,m}` | 重复 n 到 m 次 |
 
-`String.prototype.match()`
 ```javascript
 > 'View twhy on GitHub'.match(/View (\w+) on GitHub/)
 → ["View twhy on GitHub", "twhy", index: 0, input: "View twhy on GitHub"]
