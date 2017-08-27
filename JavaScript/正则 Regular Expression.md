@@ -89,7 +89,7 @@
 > 'View twhy on GitHub'.match(/View (\w+) on GitHub/)
 → ["View twhy on GitHub", "twhy", index: 0, input: "View twhy on GitHub"]
 
-> 'From 2016-02-23 to 2017-10-01'.match(/\d{4}-\d2{2}-\d{2}/g)   // 注意 g 
+> 'From 2016-02-23 to 2017-10-01'.match(/\d{4}-\d{2}-\d{2}/g)   // 注意 g 
 → ["2016-02-23", "2017-10-01"]
 
 > 'chicken'.match(/duck/)
