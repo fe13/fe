@@ -163,6 +163,11 @@
 > 'IP1:192.168.1.12 IP2:139.162.1.108'.match(/(\d{1,3}\.){3}\d{1,3}/g)
 → ["192.168.1.12", "139.162.1.108"]
 ```
+分组结合 `String.prototype.replace()` 使用，`$1` 代表第一个分组捕获的内容。
+```javascript
+> 'View FE13 on GitHub'.replace(/View ([\w-]+) on GitHub/, '查看 $1 的 GitHub 主页')
+→ "查看 FE13 的 GitHub 主页"
+```
 
 ## unicode
 正常字符都是 2 字节，但也有 4 个字节的字符，如 `𝒳` 或 `😎`。
