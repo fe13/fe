@@ -130,6 +130,11 @@
 > "We are both 'Greedy' and 'Lazy' 😆".match(/'.+?'/g)
 → ["'Greedy'", "'Lazy'"]
 ```
+以下正则同样可行
+```javascript
+> "We are both 'Greedy' and 'Lazy' 😆".match(/'[^']+'/g)
+→ ["'Greedy'", "'Lazy'"]
+```
 
 ## 特殊字符
 `[ ] \ ^ $ . | ? * + ( )` 这些字符在正则中有特殊意义，因此需要转义。
