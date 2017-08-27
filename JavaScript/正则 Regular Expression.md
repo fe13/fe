@@ -119,11 +119,16 @@
 ```
 💡 `g` 表示全局匹配，而不仅仅是匹配第一个
 
-### 贪婪与懒
-`/'.*'/` 中 `.*`是贪婪的，因此
+### 贪婪与懒惰
+`/'.*'/g` 中 `.*` 是贪婪的，因此
 ```javascript
-> "We are both 'Greedy' and 'Lazy' 😆".match(/'.+'/)
-→ ["'Greedy' and 'Lazy'", index: 12, input: "We are both 'Greedy' and 'Lazy'."]
+> "We are both 'Greedy' and 'Lazy' 😆".match(/'.+'/g)
+→ ["'Greedy' and 'Lazy'"]
+```
+我们其实想匹配 `'Greedy'` 和 `'Lazy'`，因此需要给 `.+` 设置懒惰模式成 `.+?`
+```javascript
+> "We are both 'Greedy' and 'Lazy' 😆".match(/'.+?'/g)
+→ ["'Greedy'", "'Lazy'"]
 ```
 
 ## 特殊字符
