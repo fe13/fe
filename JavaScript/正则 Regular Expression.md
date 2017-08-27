@@ -88,4 +88,6 @@
 * http://eloquentjavascript.net/09_regexp.html
 * http://www.regular-expressions.info/tutorial.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search
 * https://stackoverflow.com/questions/3075130/what-is-the-difference-between-and-regular-expressions
+
