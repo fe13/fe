@@ -185,6 +185,17 @@
 → ["on May 25", "May", index: 0, input: "on May 25"]
 ```
 
+## 开始结束
+正则中 `^` 匹配字符串**开始**，`$` 匹配**结束**。
+```javascript
+> /^$/.test('')
+→ true
+
+> 'Delete Project X'.replace(/Delete (.*)$/, '删除 $1')
+→ "删除 Project X"
+```
+💡 `^` `$` 都只是匹配位置。
+
 
 ## unicode
 正常字符都是 2 字节，但也有 4 个字节的字符，如 `𝒳` 或 `😎`。
@@ -222,6 +233,7 @@
 * http://javascript.info/regexp-groups
 * http://javascript.info/regexp-methods
 * http://javascript.info/regexp-escaping
+* http://javascript.info/regexp-anchors
 * http://javascript.info/regexp-unicode
 * http://javascript.info/regexp-quantifiers
 * http://javascript.info/regexp-character-classes
