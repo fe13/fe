@@ -197,8 +197,8 @@
 > /^$/.test('')
 → true
 
-> 'Delete Project X'.replace(/Delete (.*)$/, '删除 $1')
-→ "删除 Project X"
+> 'Delete demo'.replace(/Delete (\w+)$/, '删除 $1')
+→ "删除 demo"
 ```
 💡 `^` `$` 都只是匹配位置。
 
