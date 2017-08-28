@@ -236,6 +236,24 @@ let wish = `
   乐 锦`
 ```
 
+## 先行断言 Lookahead
+正向先行断言(Positive Lookahead) `?=` 🌰 `/N(?=B)/` 匹配其后紧随 `B` 的 `N`
+```javascript
+> 'NAT NBC NCAA NFC NBA'.match(/N(?=B)/g)
+→ ["N", "N"]
+
+> '138-2340-6789 189-5782-6439'.match(/\d{3}(?=(-\d{4}){2})/g)
+→ ["138", "189"]
+```
+负向先行断言(Negative Lookahead) `?!`
+```javascript
+> 'NAT NBC NCAA NFC NBA'.match(/N(?!B)/g)
+→ ["N", "N", "N"]
+
+> 'Monday Sunday Monkey Mayday'.match(/([A-Z][a-z]{2})(?!key)/g)
+→ ["Mon", "Sun", "May"]
+```
+
 ## source
 正则的 `source` 属性可用于复用常用正则。
 ```javascript
@@ -289,6 +307,7 @@ let wish = `
 * http://javascript.info/regexp-infinite-backtracking-problem
 * http://javascript.info/regexp-character-classes
 * http://www.regular-expressions.info/tutorial.html
+* http://staynoob.cn/post/2017/01/regular-expression-lookahead-lookbehind
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search
