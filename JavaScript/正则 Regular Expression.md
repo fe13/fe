@@ -180,6 +180,9 @@
 
 > '18 repositories'.replace(/^([\d,]+) repositor(?:y|ies)$/, '$1 个仓库')
 → "18 个仓库"
+
+> 'on May 25'.match(/^on (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (?:\d+)$/)
+→ ["on May 25", "May", index: 0, input: "on May 25"]
 ```
 
 
