@@ -230,6 +230,18 @@ let wish = `
   乐 锦`
 ```
 
+## source
+正则的 `source` 属性可用于复用常用正则。
+```javascript
+> const MONTH_REGEXP = /(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)/
+
+> new RegExp('on ' + MONTH_REGEXP.source + ' \\d+').test('on Aug 23')
+→ true
+
+> new RegExp(`Joined on ${MONTH_REGEXP.source} \\d+, \\d{4}`).test('Joined on Aug 23, 2016')
+→ true
+```
+
 ## unicode
 正常字符都是 2 字节，但也有 4 个字节的字符，如 `𝒳` 或 `😎`。
 ```javascript
@@ -251,8 +263,6 @@ let wish = `
 → null
 ```
 
-
-
 ## 在线工具
 * http://regexr.com
 
@@ -270,6 +280,7 @@ let wish = `
 * http://javascript.info/regexp-anchors
 * http://javascript.info/regexp-unicode
 * http://javascript.info/regexp-quantifiers
+* http://javascript.info/regexp-infinite-backtracking-problem
 * http://javascript.info/regexp-character-classes
 * http://www.regular-expressions.info/tutorial.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
