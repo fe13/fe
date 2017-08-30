@@ -3,6 +3,7 @@
 💡 如果觉得这里的内容对你有帮助，请点击页面右上角 ★ Star 按钮点赞。
 
 ## 安装 Chrome 浏览器
+百度搜索 Chrome 并下载安装。
 
 ## 安装 GitHub 中文化插件
 * [下载地址](https://github.com/twhy/polyocat/raw/master/polyocat.crx) 下载完成后，在 Chrome 地址栏输入 chrome://extensions 并进入该页面，将插件拖入页面进行安装。
