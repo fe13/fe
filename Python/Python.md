@@ -6,6 +6,10 @@ Python 是一门动态的编程语言，在 Web 开发和人工智能领域被�
 ```python
 >>> print('Hello, Python!')
 Hello, Python!
+
+>>> name = 'Tom'
+>>> print('Hello, ' + name + '!')
+Hello, Tom!
 ```
 
 ## 参考链接
