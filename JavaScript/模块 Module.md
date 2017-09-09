@@ -5,7 +5,7 @@
 ## export
 `export` 语句用于**导出**模块内的类，函数，对象，数值等。
 
-`music_player.js`
+`slider.js`
 ```javascript
 export class Slider {
   // ...
@@ -35,6 +35,25 @@ import { lazyload } from './lazyload'
 import { TOPLIST_URL } from './constants'
 
 export class TopList {
+  // ...
+}
+```
+`helpers.js`
+```javascript
+import { LYRICS_URL } from './constants'
+
+export function lyricsUrl(songid) {
+  return `${LYRICS_URL}?id=${songid}`
+}
+
+// ...
+```
+
+`music_players.js`
+```javascript
+import { songUrl, lyricsUrl, albumCoverUrl } from './helpers'
+
+export class MusicPlayer {
   // ...
 }
 ```
