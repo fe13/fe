@@ -1,5 +1,7 @@
 # 模块 Module
 
+`ES6`(ES2015) 为 JavaScript 带来了语言层面的模块特性。
+
 ## export
 
 ## import
