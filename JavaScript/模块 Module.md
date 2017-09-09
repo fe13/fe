@@ -58,7 +58,15 @@ export class MusicPlayer {
 }
 ```
 
+## 浏览器支持
+目前各个浏览器尚未完全支持模块特性，最新版的 Chrome 可以通过 `<script type="module">` 方式使用模块。
+
+## Webpack
+Webpack 是一个打包工具，支持 ES6 模块。
+
+
 ## 参考链接
+* https://webpack.js.org
 * https://ponyfoo.com/articles/es6-modules-in-depth
 * https://jakearchibald.com/2017/es-modules-in-browsers
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
