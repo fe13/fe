@@ -7,7 +7,7 @@
 
 `music_player.js`
 ```javascript
-export class MusicPlayer {
+export class Slider {
   // ...
 }
 ```
