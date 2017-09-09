@@ -17,6 +17,11 @@ export function lazyload(images) {
   // ...
 }
 ```
+```javascript
+/* scripts/const.js */
+export const TOPLIST_URL = 'https://qq-music-api.now.sh/top'
+// ...
+```
 
 ## import
 `import` 语句用于**导入**模块内的类，函数，对象，数值等。
