@@ -1,6 +1,7 @@
 # Electron 简介
 
-## 全局安装
+## 安装
+### 全局安装
 `Win`
 ```bash
 $ set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
@@ -10,8 +11,7 @@ $ npm install -g electron
 ```bash
 $ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm install electron -g
 ```
-
-## 普通安装
+### 普通安装
 `Win`
 ```bash
 $ set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
