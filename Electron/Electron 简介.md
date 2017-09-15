@@ -1,8 +1,26 @@
 # Electron 简介
 
-## 安装
+## 全局安装
+`Win`
 ```bash
-$ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm install electron --save --disturl=https://npm.taobao.org/dist
+$ set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+$ npm install -g electron
+```
+`Mac`
+```bash
+$ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm install electron -g
+```
+
+## 普通安装
+`Win`
+```bash
+$ set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+$ npm install electron --save
+```
+
+`Mac`
+```bash
+$ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm install electron --save
 ```
 
 ## 开源项目
