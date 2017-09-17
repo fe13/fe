@@ -30,4 +30,5 @@ $ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm install electron 
 
 ## 参考链接
 * https://electron.atom.io
+* https://electron.atom.io/docs/api
 * https://www.christianengvall.se/electron-packager-tutorial
