@@ -22,6 +22,9 @@ function assignTask(name) {
 }
 ```
 
+## Currying
+
 ## 参考链接
 * https://javascript.info/closure
+* https://en.wikipedia.org/wiki/Haskell_Curry
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
