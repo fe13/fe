@@ -26,6 +26,9 @@ function assignTask(name) {
 
 ## Currying
 
+## Coursera 课程
+* [华盛顿大学 Programming Languages, Part A](https://www.coursera.org/learn/programming-languages)
+
 ## 参考链接
 * https://javascript.info/closure
 * https://en.wikipedia.org/wiki/Haskell_Curry
