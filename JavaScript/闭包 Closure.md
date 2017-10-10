@@ -22,6 +22,8 @@ function assignTask(name) {
 }
 ```
 
+## 词法作用域 Lexical Scope
+
 ## Currying
 
 ## 参考链接
