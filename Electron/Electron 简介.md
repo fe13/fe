@@ -32,3 +32,4 @@ $ ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/ npm install electron 
 * https://electron.atom.io
 * https://electron.atom.io/docs/api
 * https://www.christianengvall.se/electron-packager-tutorial
+* https://www.christianengvall.se/electron-white-screen-app-startup
