@@ -2,11 +2,10 @@
 
 > 为了理解递归，首先你要理解递归。 -- CS106B
 
+计算 `n` 的阶乘 `n!` 💡 `5! = 5 * 4 * 3 * 2 * 1 = 120`
 ```javascript
-function appearances(content, search) {
-  let index = content.indexOf(search);
-  if (index === -1) return 0;
-  return 1 + appearances(content.slice(index + 1), search);
+function factorial(x) {
+  return n > 1 ? n * factorial(n - 1) : 1
 }
 ```
 
