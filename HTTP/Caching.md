@@ -1,5 +1,6 @@
 # Caching
 
+HTTP 缓存能显著提升网站与应用的性能。
 
 ## 参考链接
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
