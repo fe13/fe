@@ -10,6 +10,7 @@ ETag 响应头是某个资源的特定版本的标识符。
 ## 参考链接
 * [HTTP 缓存控制小结](http://imweb.io/topic/5795dcb6fb312541492eda8c)
 * [使用 HTTP 缓存：Etag, Last-Modified 与 Cache-Control](http://harttle.com/2017/04/04/using-http-cache.html)
+* https://en.wikipedia.org/wiki/HTTP_ETag
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
 * https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag
 * http://www.cnblogs.com/cocowool/archive/2011/08/22/2149929.html
