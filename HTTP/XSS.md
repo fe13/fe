@@ -5,3 +5,4 @@
 
 ## 参考链接
 * https://en.wikipedia.org/wiki/Cross-site_scripting
+* https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
